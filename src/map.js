@@ -1,4 +1,5 @@
-import some from './some';
+import sequence from './sequence';
+import some     from './some';
 
 export default function* map(f, ...colls) {
   if (colls.length === 1) {
@@ -7,7 +8,7 @@ export default function* map(f, ...colls) {
     }
 
   } else {
-    const iters = colls.map(coll => coll[Symbol.iterator]());
+    const iters = colls.map(sequence);
 
     for (;;) {
       const nexts = iters.map(iter => iter.next());

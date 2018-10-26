@@ -1,3 +1,5 @@
+import {reducedSymbol} from './reduce';
+
 export default function reduced(x) {
-  return {'@@reducedValue': x};
+  return {[reducedSymbol]: x};
 }

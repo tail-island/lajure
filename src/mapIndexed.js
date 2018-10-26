@@ -1,4 +1,4 @@
-import map from './map';
+import map   from './map';
 import range from './range';
 
 export default function mapIndexed(f, coll) {

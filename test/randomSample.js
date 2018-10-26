@@ -8,6 +8,6 @@ describe('test randomSample', () => {
     assert(coll.length >  50);
     assert(coll.length < 150);
 
-    assert.equal(count(filter(([x, y]) => x < y && x >= 0 && x < 1000, map(Array.of, coll, next(coll)))), coll.length - 1);
+    assert.strictEqual(count(filter(([x, y]) => x < y && x >= 0 && x < 1000, map(Array.of, coll, next(coll)))), coll.length - 1);
   });
 });

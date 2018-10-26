@@ -5,9 +5,15 @@ describe('test reverse', () => {
   it('reversing', () => {
     const iter = reverse(range(3));
 
-    assert.equal(iter.next().value, 2);
-    assert.equal(iter.next().value, 1);
-    assert.equal(iter.next().value, 0);
+    assert.strictEqual(iter.next().value, 2);
+    assert.strictEqual(iter.next().value, 1);
+    assert.strictEqual(iter.next().value, 0);
+
+    assert(iter.next().done);
+  });
+
+  it('null', () => {
+    const iter = reverse(null);
 
     assert(iter.next().done);
   });

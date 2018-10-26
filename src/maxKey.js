@@ -1,5 +1,5 @@
-import next from './next';
 import reduce from './reduce';
+import rest   from './rest';
 
 export default function maxKey(k, ...xs) {
   if (xs.length === 0) {
@@ -12,5 +12,5 @@ export default function maxKey(k, ...xs) {
     }
 
     return acc;
-  }, [k(xs[0]), xs[0]], next(xs))[1];
+  }, [k(xs[0]), xs[0]], rest(xs))[1];
 }

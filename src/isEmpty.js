@@ -1,5 +1,7 @@
+import seq from './seq';
+
 export default function isEmpty(coll) {
-  if (coll[Symbol.iterator]().next().done) {
+  if (!seq(coll)) {
     return true;
   }
 

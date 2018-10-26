@@ -1,5 +1,7 @@
+import sequence from './sequence';
+
 export default function* take(n, coll) {
-  const iter = coll[Symbol.iterator]();
+  const iter = sequence(coll);
 
   for (let i = 0; i < n; ++i) {
     const next = iter.next();

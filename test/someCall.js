@@ -3,7 +3,7 @@ import {someCall} from '../src';
 
 describe('test someCall', () => {
   it('early stopping', () => {
-    assert.equal(
+    assert.strictEqual(
       someCall({value: 1},
                x => ++x.value,
                x => null,
@@ -12,7 +12,7 @@ describe('test someCall', () => {
   });
 
   it('early stopping #2', () => {
-    assert.equal(
+    assert.strictEqual(
       someCall({value: 1},
                x => ++x.value,
                x => undefined,
@@ -21,7 +21,7 @@ describe('test someCall', () => {
   });
 
   it('not stop', () => {
-    assert.equal(
+    assert.strictEqual(
       someCall({value: 0},
                x => ++x.value,
                x => ++x.value,

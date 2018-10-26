@@ -1,11 +1,10 @@
-import cons   from './cons';
-import first  from './first';
-import juxt   from './juxt';
-import next   from './next';
-import tee    from './tee';
+import cons from './cons';
+import seq  from './seq';
+
+export const reducedSymbol = Symbol('reduced');
 
 export default function reduce(...args) {
-  const [f, val, coll] = (() => {
+  const [f, coll] = (() => {
     switch (args.length) {
     case 0:
       throw 'Invalid arguments';
@@ -14,20 +13,25 @@ export default function reduce(...args) {
       throw 'Invalid arguments';
 
     case 2:
-      return cons(args[0], juxt(first, next)(args[1]));
+      return args;
 
     default:
-      return args;
+      return [args[0], cons(args[1], args[2])];
     }
   })();
 
-  let acc = val;
+  const iter = seq(coll);
+  if (!iter) {
+    return null;
+  }
 
-  for (const x of coll) {
+  let acc = iter.next().value;
+
+  for (const x of iter) {
     acc = f(acc, x);
 
-    if (acc.hasOwnProperty('@@reducedValue')) {
-      acc = acc['@@reducedValue'];
+    if (acc && acc.hasOwnProperty(reducedSymbol)) {
+      acc = acc[reducedSymbol];
       break;
     }
   }

@@ -3,8 +3,8 @@ import {identity} from '../src';
 
 describe('test identity', () => {
   it('identitying', () => {
-    assert.equal(identity(0), 0);
-    assert.equal(identity(1), 1);
-    assert.equal(identity(2), 2);
+    assert.strictEqual(identity(0), 0);
+    assert.strictEqual(identity(1), 1);
+    assert.strictEqual(identity(2), 2);
   });
 });

@@ -1,11 +1,12 @@
-import count  from './count';
-import filter from './filter';
-import map    from './map';
-import range  from './range';
-import repeat from './repeat';
+import count    from './count';
+import filter   from './filter';
+import map      from './map';
+import range    from './range';
+import repeat   from './repeat';
+import sequence from './sequence';
 
 export default function tee(n, coll) {
-  const iter = coll[Symbol.iterator]();
+  const iter = sequence(coll);
 
   const queue = [];
   const cupPositions = Array.from(repeat(n, 0));

@@ -5,8 +5,8 @@ describe('test take', () => {
   it('taking n', () => {
     const iter = take(2, range(3));
 
-    assert.equal(iter.next().value, 0);
-    assert.equal(iter.next().value, 1);
+    assert.strictEqual(iter.next().value, 0);
+    assert.strictEqual(iter.next().value, 1);
 
     assert(iter.next().done);
   });
@@ -14,8 +14,8 @@ describe('test take', () => {
   it('shorter case', () => {
     const iter = take(3, range(2));
 
-    assert.equal(iter.next().value, 0);
-    assert.equal(iter.next().value, 1);
+    assert.strictEqual(iter.next().value, 0);
+    assert.strictEqual(iter.next().value, 1);
 
     assert(iter.next().done);
   });

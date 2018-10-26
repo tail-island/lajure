@@ -3,7 +3,7 @@ import {range, reduce, reduced} from '../src';
 
 describe('test reduced', () => {
   it('early stopping', () => {
-    assert.equal(
+    assert.strictEqual(
       reduce((acc, x) => {
         if (x > 10) {
           return reduced(acc);

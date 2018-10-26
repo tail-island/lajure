@@ -1,3 +1,6 @@
+import rseq     from './rseq';
+import sequence from './sequence';
+
 export default function reverse(coll) {
-  return Array.from(coll).reverse()[Symbol.iterator]();
+  return rseq(Array.from(sequence(coll)));
 }

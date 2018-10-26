@@ -1,7 +1,10 @@
+import seq      from './seq';
+import sequence from './sequence';
+
 export default function next(coll) {
-  const iter = coll[Symbol.iterator]();
+  const iter = sequence(coll);
 
   iter.next();
 
-  return iter;
+  return seq(iter);
 }

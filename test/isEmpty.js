@@ -11,9 +11,9 @@ describe('test isEmpty', () => {
 
     assert(!isEmpty(iter1));  // ここでイテレーターを消費しちゃうので、teeしないと駄目……。
 
-    assert.equal(iter2.next().value, 0);
-    assert.equal(iter2.next().value, 1);
-    assert.equal(iter2.next().value, 2);
+    assert.strictEqual(iter2.next().value, 0);
+    assert.strictEqual(iter2.next().value, 1);
+    assert.strictEqual(iter2.next().value, 2);
 
     assert(iter2.next().done);
   });

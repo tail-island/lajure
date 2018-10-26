@@ -3,6 +3,6 @@ import {pipe} from '../src';
 
 describe('test pipe', () => {
   it('piping', () => {
-    assert.equal(pipe(x => x + 1, x => x * 2)(1), 4);
+    assert.strictEqual(pipe(x => x + 1, x => x * 2)(1), 4);
   });
 });
