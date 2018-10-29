@@ -15,6 +15,6 @@ describe('test every', () => {
   });
 
   it('null', () => {
-    assert.strictEqual(every(x => x % 2 == 0, null), true);  // falseが正しい気もするけど、Clojureだとtrueになるので。
+    assert.strictEqual(every(x => x % 2 == 0, null), true);
   });
 });
