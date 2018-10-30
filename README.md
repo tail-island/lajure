@@ -282,7 +282,7 @@ function getPrimeFactors(n) {
     return null;  // 空集合。
   }
 
-  const p = (tCall(getPrimeNumbers(),                     // 素数で
+  const p = (tCall(getPrimeNumbers(),                     // 素数の
                    takeWhile(p => p ** 2 <= n),           // 平方根以下で
                    some(p => n % p === 0 ? p : null)) ||  // 割り切れた数。または、
              n);                                          // 素数であるnそのもの
@@ -316,7 +316,7 @@ function getPrimeFactors(n) {
     return null;  // 空集合。
   }
 
-  const p = (tCall(getPrimeNumbers(),                     // 素数で
+  const p = (tCall(getPrimeNumbers(),                     // 素数の
                    takeWhile(p => p ** 2 <= n),           // 平方根以下で
                    some(p => n % p === 0 ? p : null)) ||  // 割り切れた数。または、
              n);                                          // 素数であるnそのもの
