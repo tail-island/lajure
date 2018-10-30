@@ -36,6 +36,7 @@ export {default as juxt}         from './juxt';
 export {default as keepIndexed}  from './keepIndexed';
 export {default as keep}         from './keep';
 export {default as last}         from './last';
+export {default as lazySeqFn}    from './lazySeqFn';
 export {default as mapIndexed}   from './mapIndexed';
 export {default as mapcat}       from './mapcat';
 export {default as map}          from './map';
