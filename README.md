@@ -360,7 +360,7 @@ const array2 = Array.from(xs2);  // [1, 2, 3, 4, 5]
 
 ## juxt
 
-コンス・セルと`iterator`問題は、`juxt`に大きく影響します。`juxt(foo, bar)(iter)`とした場合、`foo(iter)`を実行した段階で`iterator`が消費されるので、続く`bar(iter)`が予想外の動作をしてしまいます。そこで、lajureの`juxt`では、`juxt`で生成した関数の引数が`iterator`一つだけだった場合は、`tee`するようにしています。
+コンス・セルと`iterator`問題は、`juxt`に大きく影響します。`juxt(foo, bar)(iter)`とした場合、`foo(iter)`を実行した段階で`iterator`が消費されるので、続く`bar(iter)`が予想外の動作をしてしまいます。そこで、lajureの`juxt`では、`juxt`で生成した関数の引数が`iterator`一つだけだった場合は、`tee`するようにしました。
 
 ~~~javascript
 import {first, juxt, range, rest} from 'lajure';
