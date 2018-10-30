@@ -336,7 +336,7 @@ Clojure使いの皆様は、以下にご注意ください。
 
 ## tee
 
-Clojureはコンス・セルに基づくリストを使用していて、JavaScriptの`iterator`は反復処理ですので、Clojureとは使い方が異なります。一番の違いは、`iterator`は消費するとなくなってしまうことです。
+Clojureはコンス・セルに基づくリストを使用していて、JavaScriptの`iterator`は反復処理です。よって、Clojureとはいろいろと使い方が異なります。一番の違いは、`iterator`は消費するとなくなってしまうことです。
 
 ~~~javascript
 const xs = take(5, iterate(inc, 1));
