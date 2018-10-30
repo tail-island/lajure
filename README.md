@@ -375,7 +375,7 @@ console.log(Array.from(iter));   // [ 1, 2, 3, 4 ]
 
 Clojureの`lazy-seq`は複数の文を受け取れますが、lajureの`lazySeq`マクロは関数呼び出し一つしか受け取れません。babelはECMAScriptの文法に含まれるコードしかパースできないためです。
 
-この制限は、匿名関数を使用し、`lazySeq`マクロの代わりに`lazySeqFn`関数を使用すれば回避できます（実は、`lazySeq`マクロは引数を匿名関数でくるんで、`lazySeqFn`関数を呼び出しているだけなんです）。
+この制限は、匿名関数を使用し、`lazySeq`マクロの代わりに`lazySeqFn`関数を使用すれば回避できます（実は、`lazySeq`マクロは引数を匿名関数でくるんで、`lazySeqFn`関数を呼び出しているだけなんです。だってbabel難しいんだもん）。
 
 ~~~javascript
 import {cons, lazySeqFn} from 'lajure';
