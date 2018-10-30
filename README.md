@@ -332,6 +332,8 @@ const answer3 = last(getPrimeFactors(600851475143));  // lastは最後の要素�
 
 # For Clojurian
 
+Clojure使いの皆様は、以下にご注意ください。
+
 ## tee
 
 Clojureはコンス・セルに基づくリストを使用していて、JavaScriptの`iterator`は反復処理ですので、Clojureとは使い方が異なります。一番の違いは、`iterator`は消費するとなくなってしまうことです。
