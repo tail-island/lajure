@@ -11,13 +11,13 @@ $ npm install lajure
 $ npm install -D babel-plugin-lajure
 ~~~
 
-また、lajureはbabelによるトランスパイルを前提としています。以下のコマンドで、babelをインストールしておいてください。
+また、lajureはBabelによるトランスパイルを前提としています。以下のコマンドで、Babelをインストールしておいてください。
 
 ~~~shell
 $ npm install -D babel-cli babel-preset-env babel-register
 ~~~
 
-その上で、babelとlajureのbabelプラグインを呼び出すように、package.jsonを編集してください。
+その上で、BabelとlajureのBabelプラグインを呼び出すように、package.jsonを編集してください。
 
 ~~~json
 {
@@ -373,9 +373,9 @@ console.log(Array.from(iter));   // [ 1, 2, 3, 4 ]
 
 ## lazySeq
 
-Clojureの`lazy-seq`は複数の文を受け取れますが、lajureの`lazySeq`マクロは関数呼び出し一つしか受け取れません。babelはECMAScriptの文法に含まれるコードしかパースできないためです。
+Clojureの`lazy-seq`は複数の文を受け取れますが、lajureの`lazySeq`マクロは関数呼び出し一つしか受け取れません。BabelはECMAScriptの文法に含まれるコードしかパースできないためです。
 
-この制限は、匿名関数を使用し、`lazySeq`マクロの代わりに`lazySeqFn`関数を使用すれば回避できます（実は、`lazySeq`マクロは引数を匿名関数でくるんで、`lazySeqFn`関数を呼び出しているだけなんです。だってbabel難しいんだもん）。
+この制限は、匿名関数を使用し、`lazySeq`マクロの代わりに`lazySeqFn`関数を使用すれば回避できます（実は、`lazySeq`マクロは引数を匿名関数でくるんで、`lazySeqFn`関数を呼び出しているだけなんです。Babelが難しくて、その程度しかできませんでした……）。
 
 ~~~javascript
 import {cons, lazySeqFn} from 'lajure';
