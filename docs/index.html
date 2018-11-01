@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | lajure</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="Clojure like Functional Programming library using ES6 iterable/iterator."><meta property="twitter:card" content="summary"><meta property="twitter:title" content="lajure"><meta property="twitter:description" content="Clojure like Functional Programming library using ES6 iterable/iterator."></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-apply">apply</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-butlast">butlast</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-call">call</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-comp">comp</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-complement">complement</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-concat">concat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-condCall">condCall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-conj">conj</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cons">cons</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-constantly">constantly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-count">count</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-cycle">cycle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dec">dec</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dedupe">dedupe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-distinct">distinct</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-drop">drop</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dropLast">dropLast</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-dropWhile">dropWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-every">every</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-everyPred">everyPred</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-ffirst">ffirst</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-filter">filter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-first">first</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-flatten">flatten</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fnext">fnext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-fnil">fnil</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-groupBy">groupBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-identity">identity</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-inc">inc</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-interleave">interleave</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-interpose">interpose</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isEmpty">isEmpty</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-isSequencial">isSequencial</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-iterate">iterate</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-juxt">juxt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-keep">keep</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-keepIndexed">keepIndexed</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-last">last</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-lazySeqFn">lazySeqFn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-map">map</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mapIndexed">mapIndexed</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-mapcat">mapcat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-max">max</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-maxKey">maxKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-memoize">memoize</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-min">min</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-maxKey">maxKey</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-next">next</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nfirst">nfirst</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nnext">nnext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notAny">notAny</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-notEvery">notEvery</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nth">nth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nthnext">nthnext</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-nthrest">nthrest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partial">partial</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partition">partition</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partitionAll">partitionAll</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-partitionBy">partitionBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-pipe">pipe</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-randNth">randNth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-randomSample">randomSample</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-range">range</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduce">reduce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reduced">reduced</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reductions">reductions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-remove">remove</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-repeat">repeat</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-repeatedly">repeatedly</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-replace">replace</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rest">rest</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-reverse">reverse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-rseq">rseq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-second">second</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-seq">seq</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sequence">sequence</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-shuffle">shuffle</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-some">some</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-someCall">someCall</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-someFn">someFn</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sort">sort</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-sortBy">sortBy</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-splitAt">splitAt</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-splitWith">splitWith</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-take">take</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeLast">takeLast</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeNth">takeNth</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-takeWhile">takeWhile</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-tee">tee</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-reducedSymbol">reducedSymbol</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="lajure">lajure</h1><p>ECMAScript&#x306E;<code>iterator</code>&#x3092;&#x6D3B;&#x7528;&#x3057;&#x305F;&#x3001;Clojure&#x306E;&#x6A19;&#x6E96;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x98A8;&#x306E;&#x95A2;&#x6570;&#x578B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x30FB;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x3067;&#x3059;&#x3002;</p>
+<h2 id="usage">Usage</h2><p>lajure&#x306F;&#x3001;Node.js&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;8.0&#x4EE5;&#x964D;&#x3092;&#x30B5;&#x30DD;&#x30FC;&#x30C8;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x7686;&#x69D8;&#x306E;&#x30D1;&#x30C3;&#x30B1;&#x30FC;&#x30B8;&#x306B;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3067;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-shell"><code class="source-code prettyprint">$ npm install lajure
+$ npm install -D babel-plugin-lajure</code>
+</code></pre>
+<p>&#x307E;&#x305F;&#x3001;lajure&#x306F;Babel&#x306B;&#x3088;&#x308B;&#x30C8;&#x30E9;&#x30F3;&#x30B9;&#x30D1;&#x30A4;&#x30EB;&#x3092;&#x524D;&#x63D0;&#x3068;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x3067;&#x3001;Babel&#x3092;&#x30A4;&#x30F3;&#x30B9;&#x30C8;&#x30FC;&#x30EB;&#x3057;&#x3066;&#x304A;&#x3044;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-shell"><code class="source-code prettyprint">$ npm install -D babel-cli babel-preset-env babel-register</code>
+</code></pre>
+<p>&#x305D;&#x306E;&#x4E0A;&#x3067;&#x3001;Babel&#x3068;lajure&#x306E;Babel&#x30D7;&#x30E9;&#x30B0;&#x30A4;&#x30F3;&#x3092;&#x547C;&#x3073;&#x51FA;&#x3059;&#x3088;&#x3046;&#x306B;&#x3001;package.json&#x3092;&#x7DE8;&#x96C6;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+  &quot;name&quot;: &quot;...&quot;,
+  &quot;version&quot;: &quot;...&quot;,
+  &quot;description&quot;: &quot;...&quot;,
+  &quot;author&quot;: &quot;...&quot;,
+  &quot;license&quot;: &quot;...&quot;,
+  &quot;private&quot;: true,
+  &quot;babel&quot;: {
+    &quot;presets&quot;: [
+      [
+        &quot;env&quot;,
+        {
+          &quot;targets&quot;: {
+            &quot;node&quot;: 8
+          }
+        }
+      ]
+    ],
+    &quot;plugins&quot;: [
+      &quot;babel-plugin-lajure&quot;
+    ]
+  },
+  &quot;scripts&quot;: {
+    &quot;start&quot;: &quot;node -r babel-register src/app.js&quot;
+  },
+  &quot;devDependencies&quot;: {
+    &quot;babel-cli&quot;: &quot;...&quot;,
+    &quot;babel-plugin-lajure&quot;: &quot;...&quot;,
+    &quot;babel-preset-env&quot;: &quot;...&quot;,
+    &quot;babel-register&quot;: &quot;...&quot;
+  },
+  &quot;dependencies&quot;: {
+    &quot;lajure&quot;: &quot;...&quot;
+  }
+}</code>
+</code></pre>
+<p>package.json&#x306B;&#x8FFD;&#x52A0;&#x3057;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;&#x306E;&#x306F;&#x3001;<code>&quot;babel&quot;</code>&#x306E;&#x90E8;&#x5206;&#x3068;<code>&quot;scripts&quot;</code>&#x306E;&#x4E2D;&#x306E;<code>&quot;start&quot;</code>&#x306E;&#x90E8;&#x5206;&#x3067;&#x3059;&#xFF08;<code>&quot;start&quot;</code>&#x306E;&#x5185;&#x5BB9;&#x306F;&#x3001;&#x7686;&#x69D8;&#x306E;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30C8;&#x306B;&#x5408;&#x308F;&#x305B;&#x3066;&#x9069;&#x5B9C;&#x5909;&#x66F4;&#x3057;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#xFF09;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;&#x3001;<code>src/app.js</code>&#x306B;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x3051;&#x3070;&#x3001;<code>npm start</code>&#x3067;&#x5B9F;&#x884C;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;</p>
+<h2 id="why-iterator-and-lajure-">Why iterator and lajure?</h2><p>&#x3069;&#x3046;&#x3057;&#x3066;<code>iterator</code>&#x3068;lajure&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x306E;&#x304B;&#x3001;<code>iterator</code>&#x3068;lajure&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x3068;&#x3069;&#x306E;&#x3088;&#x3046;&#x306A;&#x826F;&#x3044;&#x3053;&#x3068;&#x304C;&#x3042;&#x308B;&#x306E;&#x304B;&#x3092;&#x3001;&#x5177;&#x4F53;&#x7684;&#x306B;&#x898B;&#x3066;&#x3044;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x984C;&#x6750;&#x306F;&#x3001;<a href="https://projecteuler.net/">Project Euler</a>&#x3067;&#x3059;&#x3002;</p>
+<h3 id="&#x554F;&#x984C;1&#x300C;3&#x304B;5&#x306E;&#x500D;&#x6570;&#x300D;">&#x554F;&#x984C;1&#x300C;3&#x304B;5&#x306E;&#x500D;&#x6570;&#x300D;</h3><p>Project Euler&#x306E;&#x554F;&#x984C;1&#x306F;&#x3001;&#x300C;10&#x672A;&#x6E80;&#x306E;&#x81EA;&#x7136;&#x6570;&#x3067;&#x3001;3&#x304B;5&#x306E;&#x500D;&#x6570;&#x306F;3&#x3068;5&#x3001;6&#x3001;9&#x3002;&#x305D;&#x306E;&#x5408;&#x8A08;&#x306F;23&#x3002;&#x3067;&#x306F;&#x3001;1,000&#x672A;&#x6E80;&#x306E;&#x5834;&#x5408;&#x306F;&#xFF1F;&#x300D;&#x3067;&#x3059;&#x3002;&#x3044;&#x304D;&#x306A;&#x308A;&#x5168;&#x90E8;&#x306F;&#x96E3;&#x3057;&#x3044;&#x306E;&#x3067;&#x3001;&#x9806;&#x3092;&#x8FFD;&#x3063;&#x3066;&#x5B9F;&#x88C5;&#x3057;&#x3066;&#x3044;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x307E;&#x305A;&#x306F;&#x3001;&#x300C;&#x81EA;&#x7136;&#x6570;&#x300D;&#x3092;&#x3084;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x81EA;&#x7136;&#x6570;&#x306F;&#x3001;1, 2, 3...&#x3068;&#x7121;&#x9650;&#x306B;&#x7D9A;&#x304F;&#x96C6;&#x5408;&#x3067;&#x3059;&#x3002;&#x7121;&#x9650;&#x306E;&#x5927;&#x304D;&#x3055;&#x306A;&#x306E;&#x3067;&#x3001;&#x3082;&#x3061;&#x308D;&#x3093;<code>Array</code>&#x3067;&#x306F;&#x8868;&#x73FE;&#x3067;&#x304D;&#x307E;&#x305B;&#x3093;&#x3002;&#x3060;&#x304B;&#x3089;&#x3001;&#x5225;&#x306E;&#x3084;&#x308A;&#x65B9;&#x3067;&#x8868;&#x73FE;&#x3057;&#x307E;&#x3059;&#x3002;&#x3053;&#x3093;&#x306A;&#x611F;&#x3058;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">function* getNaturalNumbers() {
+  let i = 1;
+
+  for (;;) {
+    yield i;
+
+    i++;
+  }
+}</code>
+</code></pre>
+<p><code>function</code>&#x306E;&#x5F8C;&#x308D;&#x306B;<code>*</code>&#x304C;&#x3064;&#x3044;&#x3066;&#x3044;&#x307E;&#x3059;&#x306E;&#x3067;&#x3001;<code>getNaturalNumbers</code>&#x306F;&#x666E;&#x901A;&#x306E;&#x95A2;&#x6570;&#x3067;&#x306F;&#x306A;&#x304F;&#x3066;&#x3001;&#x30B8;&#x30A7;&#x30CD;&#x30EC;&#x30FC;&#x30BF;&#x30FC;&#x3067;&#x3059;&#x3002;&#x30B8;&#x30A7;&#x30CD;&#x30EC;&#x30FC;&#x30BF;&#x30FC;&#x306F;<code>iterator</code>&#x3092;&#x8FD4;&#x3057;&#x3001;<code>iterator</code>&#x306E;<code>next</code>&#x30E1;&#x30BD;&#x30C3;&#x30C9;&#x304C;&#x547C;&#x3070;&#x308C;&#x308B;&#x305F;&#x3073;&#x306B;<code>yield</code>&#x307E;&#x3067;&#x306E;&#x51E6;&#x7406;&#x3092;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x5236;&#x5FA1;&#x3092;&#x547C;&#x3073;&#x51FA;&#x3057;&#x5074;&#x306B;&#x623B;&#x3057;&#x307E;&#x3059;&#x3002;&#x4E0A;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306B;&#x306F;&#x7121;&#x9650;&#x3092;&#x8868;&#x73FE;&#x3059;&#x308B;&#x305F;&#x3081;&#x306E;&#x7121;&#x9650;&#x30EB;&#x30FC;&#x30D7;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x3051;&#x3069;&#x3001;<code>yield</code>&#x3059;&#x308B;&#x305F;&#x3073;&#x306B;&#x547C;&#x3073;&#x51FA;&#x3057;&#x5074;&#x306B;&#x5236;&#x5FA1;&#x304C;&#x623B;&#x308B;&#x306E;&#x3060;&#x304B;&#x3089;&#x4F55;&#x3082;&#x554F;&#x984C;&#x306F;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;</p>
+<p>&#x8A66;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const naturalNumbers = getNatualNumbaers();
+
+console.log(naturalNumbers.next().value);  // 1
+console.log(naturalNumbers.next().value);  // 2
+console.log(naturalNumbers.next().value);  // 3</code>
+</code></pre>
+<p>&#x307B;&#x3089;&#x3001;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x304C;&#x304D;&#x3061;&#x3093;&#x3068;&#x6B62;&#x307E;&#x308A;&#x307E;&#x3059;&#x3002;&#x305F;&#x3060;&#x3001;<code>iterator</code>&#x3092;&#x88F8;&#x3067;&#x4F7F;&#x3046;&#x306E;&#x306F;&#x5C11;&#x3057;&#x9762;&#x5012;&#x3067;&#x3059;&#x304B;&#x3089;&#x3001;lajure&#x304C;&#x63D0;&#x4F9B;&#x3059;&#x308B;&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x6761;&#x4EF6;&#x3092;&#x6E80;&#x305F;&#x3059;&#x5834;&#x5408;&#x3060;&#x3051;<code>iterator</code>&#x3092;<code>next</code>&#x3059;&#x308B;&#x3001;<code>takeWhile</code>&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x3044;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {takeWhile} from &apos;lajure&apos;;
+
+const targetNaturalNumbers = takeWhile(x =&gt; x &lt; 10, naturalNumbers);
+
+for (const x of targetNaturalNumbers) {  // `for...of`&#xFF08;`in`&#x3067;&#x306F;&#x306A;&#x3044;&#x3053;&#x3068;&#x306B;&#x6CE8;&#x610F;&#xFF09;&#x306F;&#x3001;`iterator`&#x306E;&#x8981;&#x7D20;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x30EB;&#x30FC;&#x30D7;&#x3057;&#x307E;&#x3059;&#x3002;
+  console.log(x);  // 1, 2, 3...9
+}</code>
+</code></pre>
+<p>&#x4E0A;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306E;<code>x &lt; 10</code>&#x3092;<code>x &lt; 1000</code>&#x306B;&#x3059;&#x308C;&#x3070;&#x8981;&#x6C42;&#x3067;&#x3042;&#x308B;&#x300C;1000&#x672A;&#x6E80;&#x306E;&#x81EA;&#x7136;&#x6570;&#x300D;&#x3092;&#x8868;&#x73FE;&#x3067;&#x304D;&#x308B;&#x2026;&#x2026;&#x306E;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;&#x5C11;&#x3057;&#x3060;&#x3051;&#x623B;&#x3063;&#x3066;<code>getNaturalNumbers()</code>&#x3092;&#x4FEE;&#x6B63;&#x3057;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x4ECA;&#x306E;&#x307E;&#x307E;&#x3060;&#x3068;&#x9577;&#x3059;&#x304E;&#x3066;&#x3001;&#x305D;&#x3057;&#x3066;&#x9806;&#x306B;&#x51E6;&#x7406;&#x3092;&#x8FFD;&#x3063;&#x3066;&#x3044;&#x304B;&#x306A;&#x3044;&#x3068;&#x7406;&#x89E3;&#x3067;&#x304D;&#x306A;&#x304F;&#x3066;&#x3001;&#x3064;&#x307E;&#x308A;&#x306F;&#x4FDD;&#x5B88;&#x6027;&#x304C;&#x4F4E;&#x3059;&#x304E;&#x308B;&#x305F;&#x3081;&#x3067;&#x3059;&#x3002;&#x3042;&#x308B;&#x5024;&#x306B;&#x51E6;&#x7406;&#x3092;&#x7E70;&#x308A;&#x8FD4;&#x3057;&#x305F;&#x5024;&#x306E;&#x96C6;&#x5408;&#x3092;&#x8FD4;&#x3059;<code>iterate</code>&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {inc, iterate} from &apos;lajure&apos;;  // inc&#x306F;&#x5F15;&#x6570;&#x306B;1&#x3092;&#x8DB3;&#x3059;&#x95A2;&#x6570;&#x3067;&#x3059;&#x3002;
+
+function getNaturalNumbers() {
+  return iterate(inc, 1);
+}</code>
+</code></pre>
+<p><code>iterate(f, x)</code>&#x3068;&#x3044;&#x3046;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x3001;<code>x, f(x), f(f(x)), f(f(f(x)))...</code>&#x3092;&#x8868;&#x73FE;&#x3059;&#x308B;<code>iterator</code>&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;<code>iterate</code>&#x3092;&#x77E5;&#x3063;&#x3066;&#x3044;&#x308C;&#x3070;&#x3001;&#x3053;&#x306E;&#x77ED;&#x3044;&#x30B3;&#x30FC;&#x30C9;&#x3067;&#x3001;1&#x304B;&#x3089;&#x59CB;&#x307E;&#x308B;1&#x3065;&#x3064;&#x5897;&#x3048;&#x3066;&#x3044;&#x304F;&#x6570;&#x5024;&#x306E;&#x96C6;&#x5408;&#x3060;&#x3068;&#x3044;&#x3046;&#x3053;&#x3068;&#x304C;&#x3059;&#x3050;&#x306B;&#x5206;&#x304B;&#x3063;&#x3066;&#x4FBF;&#x5229;&#x3067;&#x4FDD;&#x5B88;&#x6027;&#x304C;&#x9AD8;&#x304F;&#x3066;&#x7D20;&#x6575;&#x3002;</p>
+<p>&#x3053;&#x308C;&#x3067;&#x30B3;&#x30FC;&#x30C9;&#x304C;&#x304D;&#x308C;&#x3044;&#x306B;&#x306A;&#x308A;&#x307E;&#x3057;&#x305F;&#x304B;&#x3089;&#x3001;&#x7D9A;&#x304D;&#x3092;&#x3084;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x300C;3&#x304B;5&#x306E;&#x500D;&#x6570;&#x300D;&#x306E;&#x90E8;&#x5206;&#x3067;&#x3059;&#x3002;&#x3053;&#x306E;&#x90E8;&#x5206;&#x306F;&#x3001;&#x96C6;&#x5408;&#x306E;&#x4E2D;&#x304B;&#x3089;&#x6307;&#x5B9A;&#x3057;&#x305F;&#x6761;&#x4EF6;&#x3092;&#x6E80;&#x305F;&#x3059;&#x8981;&#x7D20;&#x3092;&#x629C;&#x304D;&#x51FA;&#x3059;<code>filter</code>&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308C;&#x3070;&#x5B9F;&#x88C5;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x3093;&#x306A;&#x611F;&#x3058;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {filter} from &apos;lajure&apos;;
+
+const multiples = filter(x =&gt; x % 3 === 0 || x % 5 === 0, targetNaturalNumbers);</code>
+</code></pre>
+<p>&#x300C;3&#x3067;&#x5272;&#x3063;&#x305F;&#x4F59;&#x308A;&#x304C;0&#x3001;&#x307E;&#x305F;&#x306F;&#x3001;5&#x3067;&#x5272;&#x3063;&#x305F;&#x4F59;&#x308A;&#x304C;0&#x300D;&#x306A;&#x3089;&#x3001;&#x305D;&#x306E;&#x6570;&#x5024;&#x306F;3&#x304B;5&#x306E;&#x500D;&#x6570;&#x3067;&#x3059;&#x3088;&#x306D;&#xFF1F;</p>
+<p>&#x6700;&#x5F8C;&#x3001;&#x300C;&#x5408;&#x8A08;&#x300D;&#x306E;&#x90E8;&#x5206;&#x3067;&#x3059;&#x3002;&#x3053;&#x308C;&#x306F;&#x3001;&#x8981;&#x7D20;&#x3092;&#x7573;&#x307F;&#x8FBC;&#x3080;<code>reduce</code>&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {reduce} from &apos;lajure&apos;;
+
+const anser = reduce((acc, x) =&gt; acc + x, multiples);</code>
+</code></pre>
+<p><code>reduce(f, [1, 2, 3, 4, 5])</code>&#x306F;&#x3001;<code>f(f(f(f(1, 2), 3), 4), 5)</code>&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x3001;&#x96C6;&#x5408;&#x3067;&#x306F;&#x306A;&#x304F;&#x5024;&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;&#x4E00;&#x3064;&#x524D;&#x306E;&#x8981;&#x7D20;&#x306E;&#x51E6;&#x7406;&#x7D50;&#x679C;&#x304C;<code>acc</code>&#x3068;&#x3057;&#x3066;&#x6E21;&#x3063;&#x3066;&#x304F;&#x308B;&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3002;</p>
+<p>&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;&#x3053;&#x308C;&#x3067;&#x5B8C;&#x6210;&#x304B;&#x306A;&#xFF1F;&#x3000;&#x3053;&#x3053;&#x307E;&#x3067;&#x3092;&#x307E;&#x3068;&#x3081;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x4E00;&#x6642;&#x5909;&#x6570;&#x306F;&#x72B6;&#x614B;&#x3092;&#x3082;&#x305F;&#x3089;&#x3057;&#x3066;&#x526F;&#x4F5C;&#x7528;&#x3092;&#x5F15;&#x304D;&#x8D77;&#x3053;&#x3059;&#x5371;&#x967A;&#x6027;&#x304C;&#x3042;&#x308B;&#x306E;&#x3067;&#x524A;&#x9664;&#x3057;&#x307E;&#x3059;&#x3002;&#x305D;&#x306E;&#x7D50;&#x679C;&#x306F;&#x3001;&#x3053;&#x3093;&#x306A;&#x611F;&#x3058;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {filter, inc, iterate, reduce, takeWhile} from &apos;lajure&apos;;
+
+function getNaturalNumbers() {
+  return iterate(inc, 1);
+}
+
+const answer = reduce((acc, x) =&gt; acc + x,
+                      filter(x =&gt; x % 3 === 0 || x % 5 === 0,
+                             takeWhile(x =&gt; x &lt; 1000,
+                                       getNaturalNumbers())));</code>
+</code></pre>
+<p>&#x3042;&#x3089;&#x3089;&#x3001;&#x306A;&#x3093;&#x3060;&#x304B;&#x30AD;&#x30E7;&#x30FC;&#x30EC;&#x30C4;&#x306B;&#x5206;&#x304B;&#x308A;&#x3065;&#x3089;&#x3044;&#x2026;&#x2026;&#x3002;&#x51E6;&#x7406;&#x306E;&#x9806;&#x5E8F;&#x3068;&#x8A18;&#x8FF0;&#x9806;&#x5E8F;&#x304C;&#x9006;&#x306A;&#x4E0A;&#x306B;&#x3001;&#x7121;&#x99C4;&#x306B;&#x30A4;&#x30F3;&#x30C7;&#x30F3;&#x30C8;&#x3057;&#x3061;&#x3083;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x3053;&#x308C;&#x3067;&#x306F;&#x4FDD;&#x5B88;&#x6027;&#x304C;&#x4F4E;&#x3059;&#x304E;&#x307E;&#x3059;&#x304B;&#x3089;&#x3001;lajure&#x304C;&#x63D0;&#x4F9B;&#x3059;&#x308B;<code>tCall</code>&#x30DE;&#x30AF;&#x30ED;&#x3067;&#x5206;&#x304B;&#x308A;&#x3084;&#x3059;&#x304F;&#x66F8;&#x304D;&#x76F4;&#x3057;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const answer1 = tCall(getNaturalNumbers(),
+                      takeWhile(x =&gt; x &lt; 1000),
+                      filter(x =&gt; x % 3 === 0 || x % 5 === 0),
+                      reduce((acc, x) =&gt; acc + x)));</code>
+</code></pre>
+<p><code>tCall</code>&#x30DE;&#x30AF;&#x30ED;&#x306F;&#x3001;&#x95A2;&#x6570;&#x306E;&#x5B9F;&#x884C;&#x7D50;&#x679C;&#x3092;&#x3001;&#x6B21;&#x306E;&#x95A2;&#x6570;&#x306E;&#x6700;&#x5F8C;&#x306E;&#x5F15;&#x6570;&#x306B;&#x8A2D;&#x5B9A;&#x3059;&#x308B;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x751F;&#x6210;&#x3057;&#x307E;&#x3059;&#x3002;<code>tCall(x, foo(1), bar(2))</code>&#x306A;&#x3089;&#x3001;<code>bar(2, foo(1, x))</code>&#x306B;&#x76F8;&#x5F53;&#x3059;&#x308B;&#x30B3;&#x30FC;&#x30C9;&#x304C;&#x751F;&#x6210;&#x3055;&#x308C;&#x308B;&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3002;</p>
+<p>&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;&#x3053;&#x308C;&#x304C;Project Euler&#x306E;&#x554F;&#x984C;1&#x3092;&#x89E3;&#x304F;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x306E;&#x5B8C;&#x6210;&#x5F62;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {filter, inc, iterate, reduce, takeWhile} from &apos;lajure&apos;;
+
+function getNaturalNumbers() {
+  return iterate(inc, 1);
+}
+
+const answer1 = tCall(getNaturalNumbers(),                      // &#x81EA;&#x7136;&#x6570;&#x3067;
+                      takeWhile(x =&gt; x &lt; 1000),                 // 1000&#x672A;&#x6E80;&#x3067;
+                      filter(x =&gt; x % 3 === 0 || x % 5 === 0),  // 3&#x3068;5&#x306E;&#x500D;&#x6570;&#x306E;&#x6570;&#x3092;
+                      reduce((acc, x) =&gt; acc + x));             // &#x5408;&#x8A08;&#x3059;&#x308B;</code>
+</code></pre>
+<p>&#x554F;&#x984C;&#x6587;&#x304C;&#x305D;&#x306E;&#x307E;&#x307E;&#x30B3;&#x30FC;&#x30C9;&#x306B;&#x306A;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x306D;&#x3002;<code>iterator</code>&#x3068;lajure&#x306F;&#x4FBF;&#x5229;&#x306A;&#x611F;&#x3058;&#x304C;&#x3057;&#x3066;&#x304D;&#x307E;&#x305B;&#x3093;&#x304B;&#xFF1F;</p>
+<h2 id="&#x554F;&#x984C;2&#x300C;&#x5076;&#x6570;&#x306E;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x300D;">&#x554F;&#x984C;2&#x300C;&#x5076;&#x6570;&#x306E;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x300D;</h2><p>&#x672C;&#x5F53;&#x306B;&#x4FBF;&#x5229;&#x306A;&#x306E;&#x304B;&#x3092;&#x78BA;&#x8A8D;&#x3059;&#x308B;&#x305F;&#x3081;&#x306B;&#x3001;Project Euler&#x306E;&#x554F;&#x984C;2&#x306E;&#x3001;&#x300C;4&#x767E;&#x4E07;&#x672A;&#x6E80;&#x306E;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x306E;&#x5076;&#x6570;&#x3060;&#x3051;&#x3092;&#x5408;&#x8A08;&#x3057;&#x305F;&#x3089;&#x3044;&#x304F;&#x3064;&#x306B;&#x306A;&#x308B;&#x304B;&#xFF1F;&#x300D;&#x3092;&#x3084;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x3068;&#x3044;&#x3046;&#x306E;&#x306F;&#x3001;1, 2, 3, 5, 8, 13, 21, 34, 55, 89...&#x307F;&#x305F;&#x3044;&#x306B;&#x3001;&#x524D;&#x306E;2&#x3064;&#x8981;&#x7D20;&#x3092;&#x8DB3;&#x3057;&#x5408;&#x308F;&#x305B;&#x305F;&#x5024;&#x304C;&#x6B21;&#x306B;&#x7D9A;&#x304F;&#x6570;&#x5217;&#x3067;&#x3059;&#x3002;1 + 2 = 3&#x3001;2 + 3 = 5&#x3001;3 + 5 = 8&#x3068;&#x7D9A;&#x3044;&#x3066;&#x3044;&#x308B;&#x3067;&#x3057;&#x3087;&#xFF1F;</p>
+<p>&#x3053;&#x306E;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x3092;<code>iterator</code>&#x3068;lajure&#x3067;&#x5B9F;&#x88C5;&#x3057;&#x305F;&#x306E;&#x304C;&#x3001;&#x4EE5;&#x4E0B;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {cons} from &apos;lajure&apos;;
+
+functon getFibonacciNumbers(x, y) {
+  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));
+}</code>
+</code></pre>
+<p><code>cons</code>&#x306F;<code>iterator</code>&#x3092;&#x4F5C;&#x308B;&#x95A2;&#x6570;&#x3067;&#x3059;&#x3002;<code>cons(&#xFF11;&#x3064;&#x3081;&#x306E;&#x8981;&#x7D20;&#x3001;&#x6B8B;&#x308A;&#x306E;&#x8981;&#x7D20;)</code>&#x3068;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;&#x6B8B;&#x308A;&#x306E;&#x8981;&#x7D20;&#x3092;&#x4F5C;&#x308B;&#x306B;&#x306F;&#x518D;&#x5E30;&#x547C;&#x51FA;&#x3057;&#x3057;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;&#x306E;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;&#x666E;&#x901A;&#x306B;&#x518D;&#x5E30;&#x547C;&#x3073;&#x51FA;&#x3057;&#x3059;&#x308B;&#x3068;&#x7121;&#x9650;&#x306B;&#x547C;&#x3073;&#x51FA;&#x3055;&#x308C;&#x3066;&#x30B9;&#x30BF;&#x30C3;&#x30AF;&#x30FB;&#x30AA;&#x30FC;&#x30D0;&#x30FC;&#x30D5;&#x30ED;&#x30FC;&#x3057;&#x3066;&#x3057;&#x307E;&#x3044;&#x307E;&#x3059;&#x304B;&#x3089;&#x3001;<code>lazySeq</code>&#x30DE;&#x30AF;&#x30ED;&#x3092;&#x5165;&#x308C;&#x3066;<code>next()</code>&#x3055;&#x308C;&#x308B;&#x307E;&#x3067;&#x306F;&#x518D;&#x5E30;&#x547C;&#x3073;&#x51FA;&#x3057;&#x304C;&#x5B9F;&#x884C;&#x3055;&#x308C;&#x306A;&#x3044;&#x3088;&#x3046;&#x306A;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x751F;&#x6210;&#x3057;&#x307E;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306F;lajure&#x3092;&#x4F5C;&#x308B;&#x3068;&#x304D;&#x306B;&#x53C2;&#x8003;&#x306B;&#x3057;&#x305F;Clojure&#x3067;&#x306F;&#x983B;&#x51FA;&#x3059;&#x308B;&#x30A4;&#x30C7;&#x30A3;&#x30AA;&#x30E0;&#x306A;&#x306E;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;Clojure&#x306B;&#x99B4;&#x67D3;&#x307F;&#x304C;&#x306A;&#x3044;&#x3068;&#x5206;&#x304B;&#x308A;&#x3065;&#x3089;&#x3044;&#x304B;&#x3082;&#x3057;&#x308C;&#x307E;&#x305B;&#x3093;&#x306D;&#x2026;&#x2026;&#x3002;&#x305D;&#x3093;&#x306A;&#x5834;&#x5408;&#x5411;&#x3051;&#x306B;&#x7D20;&#x306E;JavaScript&#x3067;&#x66F8;&#x3044;&#x305F;&#x30D0;&#x30FC;&#x30B8;&#x30E7;&#x30F3;&#x3082;&#x3042;&#x3052;&#x3066;&#x304A;&#x304D;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">function* getFibonacciNumbers(x, y) {
+  yield  x;
+  yield* getFibonacciNumbers(y, x + y);
+}</code>
+</code></pre>
+<p><code>yield*</code>&#x306F;&#x3001;&#x96C6;&#x5408;&#x306E;&#x6B8B;&#x308A;&#x3092;&#x5225;&#x306E;<code>iterator</code>&#x306B;&#x59D4;&#x4EFB;&#x3059;&#x308B;&#x547D;&#x4EE4;&#x3067;&#x3059;&#x3002;&#x3068;&#x308A;&#x3042;&#x3048;&#x305A;1&#x3064;&#x8FD4;&#x3057;&#x3066;&#x3001;&#x6B8B;&#x308A;&#x306F;&#x518D;&#x5E30;&#x547C;&#x51FA;&#x3057;&#x3057;&#x305F;&#x5148;&#x306B;&#x4EFB;&#x305B;&#x3066;&#x3001;&#x3067;&#x3001;&#x518D;&#x5E30;&#x547C;&#x51FA;&#x3057;&#x3057;&#x305F;&#x5148;&#x3067;&#x3082;&#x540C;&#x69D8;&#x306B;&#x9806;&#x9001;&#x308A;&#x3059;&#x308B;&#x304B;&#x3089;&#x3001;&#x7121;&#x9650;&#x306B;&#x7D9A;&#x304F;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x3092;&#x8868;&#x73FE;&#x3067;&#x304D;&#x308B;&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3002;&#x3068;&#x3082;&#x3042;&#x308C;&#x3001;&#x3053;&#x308C;&#x3067;&#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x306F;&#x3067;&#x304D;&#x307E;&#x3057;&#x305F;&#x304B;&#x3089;&#x3001;&#x3042;&#x3068;&#x306F;&#x554F;&#x984C;&#x3092;&#x89E3;&#x304F;&#x3060;&#x3051;&#x3067;&#x3059;&#x3002;&#x554F;&#x984C;1&#x3068;&#x540C;&#x3058;&#x3084;&#x308A;&#x65B9;&#x3067;&#x3044;&#x3051;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {cons, filter, reduce, takeWhile} from &apos;lajure&apos;;
+
+function getFibonacciNumbers(x, y) {
+  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));
+}
+
+const answer2 = tCall(getFibonacciNumbers(1, 2),     // &#x30D5;&#x30A3;&#x30DC;&#x30CA;&#x30C3;&#x30C1;&#x6570;&#x5217;&#x3067;
+                      takeWhile(x =&gt; x &lt; 4000000),   // 4&#x767E;&#x4E07;&#x672A;&#x6E80;&#x3067;
+                      filter(x =&gt; x % 2 === 0),      // &#x5076;&#x6570;&#x306E;&#x6570;&#x3092;
+                      reduce((acc, x) =&gt; acc + x));  // &#x5408;&#x8A08;&#x3059;&#x308B;</code>
+</code></pre>
+<p>&#x306F;&#x3044;&#x3001;&#x5B8C;&#x4E86;&#x3002;&#x3068;&#x3066;&#x3082;&#x304B;&#x3093;&#x305F;&#x3093;&#x3067;&#x3059;&#x306D;&#x3002;&#x3053;&#x3053;&#x307E;&#x3067;&#x304B;&#x3093;&#x305F;&#x3093;&#x306B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3067;&#x304D;&#x305F;&#x7406;&#x7531;&#x306F;&#x3001;&#x95A2;&#x6570;&#x578B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3092;&#x3057;&#x3066;&#x3044;&#x308B;&#x305F;&#x3081;&#x3067;&#x3059;&#x3002;&#x95A2;&#x6570;&#x578B;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x3067;&#x306F;&#x3001;&#x3069;&#x306E;&#x3088;&#x3046;&#x306B;&#x3084;&#x308B;&#x306E;&#x304B;&#x3067;&#x306F;&#x306A;&#x304F;&#x3001;&#x5B9A;&#x7FA9;&#x305D;&#x306E;&#x3082;&#x306E;&#x3092;&#x66F8;&#x3044;&#x3066;&#x3044;&#x304D;&#x307E;&#x3059;&#x3002;&#x666E;&#x901A;&#x306E;&#x30B3;&#x30F3;&#x30D4;&#x30E5;&#x30FC;&#x30BF;&#x30FC;&#x3067;&#x5B9F;&#x884C;&#x3059;&#x308B;&#x4EE5;&#x4E0A;&#x3001;&#x3069;&#x3053;&#x304B;&#x3067;<code>for</code>&#x6587;&#x3084;<code>if</code>&#x306A;&#x3069;&#x306E;&#x3001;&#x30B3;&#x30F3;&#x30D4;&#x30E5;&#x30FC;&#x30BF;&#x30FC;&#x304C;&#x5B9F;&#x884C;&#x53EF;&#x80FD;&#x306A;&#x7BC4;&#x56F2;&#x3067;&#x3069;&#x306E;&#x3088;&#x3046;&#x306B;&#x3084;&#x308B;&#x304B;&#x3092;&#x66F8;&#x304B;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;&#x306E;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;&#x305D;&#x308C;&#x3089;&#x306E;&#x51E6;&#x7406;&#x306F;&#x30D1;&#x30BF;&#x30FC;&#x30F3;&#x5316;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x3053;&#x306E;&#x30D1;&#x30BF;&#x30FC;&#x30F3;&#x3092;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x5316;&#x3057;&#x3066;&#x3057;&#x307E;&#x3048;&#x3070;&#x3001;&#x307B;&#x3089;&#x3001;&#x4E0A;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306E;&#x3088;&#x3046;&#x306B;&#x5B9A;&#x7FA9;&#x3060;&#x3051;&#x3092;&#x66F8;&#x304F;&#x304B;&#x3093;&#x305F;&#x3093;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30DF;&#x30F3;&#x30B0;&#x304C;&#x3067;&#x304D;&#x308B;&#x306E;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3067;&#x3082;&#x3001;&#x88CF;&#x3092;&#x8FD4;&#x305B;&#x3070;&#x30D1;&#x30BF;&#x30FC;&#x30F3;&#x306E;&#x77E5;&#x8B58;&#x304C;&#x306A;&#x3044;&#x3068;&#x30B3;&#x30FC;&#x30C9;&#x3092;&#x66F8;&#x3051;&#x306A;&#x3044;&#x308F;&#x3051;&#x3067;&#x3001;&#x3082;&#x3057;&#x305D;&#x306E;&#x30D1;&#x30BF;&#x30FC;&#x30F3;&#x3092;&#x899A;&#x3048;&#x308B;&#x306E;&#x304C;&#x5927;&#x5909;&#x3060;&#x3063;&#x305F;&#x3089;&#x5168;&#x7136;&#x304B;&#x3093;&#x305F;&#x3093;&#x3058;&#x3083;&#x3042;&#x306A;&#x3044;&#x3053;&#x3068;&#x306B;&#x3082;&#x306A;&#x308A;&#x307E;&#x3059;&#x3051;&#x3069;&#x3001;&#x3069;&#x3046;&#x304B;&#x3054;&#x5B89;&#x5FC3;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;lajure&#x306F;Clojure&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x3092;&#x53C2;&#x8003;&#x306B;&#x3057;&#x3066;&#x4F5C;&#x3063;&#x3066;&#x3044;&#x3066;&#x3001;&#x305D;&#x306E;Clojure&#x306F;&#x3068;&#x3066;&#x3082;&#x512A;&#x308C;&#x305F;&#x30E9;&#x30A4;&#x30D6;&#x30E9;&#x30EA;&#x3092;&#x6301;&#x3063;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x3069;&#x308C;&#x304F;&#x3089;&#x3044;&#x512A;&#x308C;&#x3066;&#x3044;&#x308B;&#x304B;&#x3068;&#x3044;&#x3046;&#x3068;&#x3001;<a href="https://clojure.org/api/cheatsheet">Clojure - Cheatsheet</a>&#x306B;&#x3042;&#x308B;&#x3068;&#x3066;&#x3082;&#x5C11;&#x6570;&#x306E;&#x95A2;&#x6570;&#x3060;&#x3051;&#x3067;&#x5927;&#x62B5;&#x306E;&#x30D7;&#x30ED;&#x30B0;&#x30E9;&#x30E0;&#x3092;&#x7D44;&#x3081;&#x3061;&#x3083;&#x3046;&#x304F;&#x3089;&#x3044;&#x306B;&#x30B3;&#x30F3;&#x30D1;&#x30AF;&#x30C8;&#x3067;&#x8868;&#x73FE;&#x529B;&#x304C;&#x9AD8;&#x3044;&#x3093;&#x3067;&#x3059;&#x3002;&#x899A;&#x3048;&#x306A;&#x3051;&#x308C;&#x3070;&#x306A;&#x3089;&#x306A;&#x3044;&#x30D1;&#x30BF;&#x30FC;&#x30F3;&#x306F;&#x3068;&#x3066;&#x3082;&#x5C11;&#x306A;&#x3044;&#x306E;&#x3067;&#x3059;&#x304B;&#x3089;&#x3001;&#x3084;&#x306F;&#x308A;&#x3068;&#x3063;&#x3066;&#x3082;&#x304B;&#x3093;&#x305F;&#x3093;&#x3067;&#x3059;&#x3002;</p>
+<h2 id="&#x554F;&#x984C;3&#x300C;&#x6700;&#x5927;&#x306E;&#x7D20;&#x56E0;&#x6570;&#x300D;">&#x554F;&#x984C;3&#x300C;&#x6700;&#x5927;&#x306E;&#x7D20;&#x56E0;&#x6570;&#x300D;</h2><p><code>iterator</code>&#x306B;&#x3064;&#x3044;&#x3066;&#x3082;&#x3084;&#x308A;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x7121;&#x9650;&#x306E;&#x96C6;&#x5408;&#x3092;&#x6271;&#x3048;&#x308B;<code>iterator</code>&#x306E;&#x4FBF;&#x5229;&#x3055;&#x3092;&#x77E5;&#x308B;&#x305F;&#x3081;&#x306B;&#x3001;&#x3082;&#x3046;1&#x554F;&#x3084;&#x308A;&#x307E;&#x3059;&#x3002;&#x554F;&#x984C;3&#x306E;&#x300C;600851475143&#x306E;&#x6700;&#x5927;&#x306E;&#x7D20;&#x56E0;&#x6570;&#x306F;&#xFF1F;&#x300D;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3055;&#x3066;&#x3001;&#x7D20;&#x56E0;&#x6570;&#x5206;&#x89E3;&#x3092;&#x3059;&#x308B;&#x306B;&#x306F;&#x3001;&#x307E;&#x305A;&#x306F;&#x7D20;&#x6570;&#x306E;&#x96C6;&#x5408;&#x304C;&#x6B32;&#x3057;&#x3044;&#x3002;&#x7D20;&#x6570;&#x3063;&#x3066;&#x306E;&#x306F;&#x3001;&#x300C;1&#x3088;&#x308A;&#x5927;&#x304D;&#x304F;&#x3001;1&#x3068;&#x81EA;&#x5206;&#x81EA;&#x8EAB;&#x3067;&#x3057;&#x304B;&#x5272;&#x308A;&#x5207;&#x308C;&#x306A;&#x3044;&#x6570;&#x300D;&#x3067;&#x3059;&#x3002;&#x5358;&#x7D14;&#x306B;&#x5B9F;&#x88C5;&#x3057;&#x3066;&#x307F;&#x308B;&#x3068;&#x3001;&#x4EE5;&#x4E0B;&#x306B;&#x306A;&#x308B;&#x3067;&#x3057;&#x3087;&#x3046;&#x304B;&#xFF1F;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {every, filter, inc, iterate, takeWhile} from &apos;lajure&apos;;
+
+function getPrimeNumbers() {
+  return tCall(iterate(inc, 2),
+               filter(x =&gt; tCall(iterate(inc, 2),
+                                 takeWhile(y =&gt; y &lt; x),
+                                 every(y =&gt; x % y !== 0))));
+}</code>
+</code></pre>
+<p><code>every</code>&#x95A2;&#x6570;&#x306F;&#x3001;&#x96C6;&#x5408;&#x306E;&#x3059;&#x3079;&#x3066;&#x306E;&#x8981;&#x7D20;&#x304C;&#x6761;&#x4EF6;&#x3092;&#x6E80;&#x305F;&#x3059;&#x304B;&#x3092;&#x8ABF;&#x3079;&#x307E;&#x3059;&#x3002;2&#x4EE5;&#x4E0A;&#x306E;&#x6574;&#x6570;&#x3059;&#x3079;&#x3066;&#x3067;&#x5272;&#x3063;&#x305F;&#x4F59;&#x308A;&#x304C;0&#x3067;&#x306F;&#x306A;&#x3044;&#x306A;&#x3089;&#x3001;&#x305D;&#x308C;&#x306F;&#x7D20;&#x6570;&#x3067;&#x3059;&#x3088;&#x306D;&#xFF1F;</p>
+<p>&#x3067;&#x3082;&#x3001;&#x3053;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x3082;&#x3046;&#x5C11;&#x3057;&#x52B9;&#x7387;&#x5316;&#x3067;&#x304D;&#x307E;&#x3059;&#x3002;&#x307E;&#x305A;&#x3001;2&#x4EE5;&#x5916;&#x306E;&#x5076;&#x6570;&#x306F;2&#x3067;&#x5272;&#x308A;&#x5207;&#x308C;&#x308B;&#x306E;&#x3067;&#x7D20;&#x6570;&#x3058;&#x3083;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x3060;&#x304B;&#x3089;&#x3001;&#x5947;&#x6570;&#x3060;&#x3051;&#x3092;&#x8ABF;&#x3079;&#x308C;&#x3070;&#x3088;&#x3044;&#x3002;&#x3042;&#x3068;&#x3001;2&#x4EE5;&#x4E0A;&#x306E;&#x6570;&#x3067;&#x306F;&#x306A;&#x304F;&#x3066;&#x3001;&#x300C;&#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x300D;&#x306E;&#x300C;&#x7D20;&#x6570;&#x300D;&#x3067;&#x5272;&#x308A;&#x5207;&#x308C;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;&#x7D20;&#x6570;&#x306A;&#x3093;&#x3060;&#x305D;&#x3046;&#x3067;&#x3059;&#x3002;&#x3067;&#x3082;&#x3001;&#x300C;&#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x300D;&#x306F;&#x3068;&#x3082;&#x304B;&#x304F;&#x3068;&#x3057;&#x3066;&#x3001;&#x300C;&#x7D20;&#x6570;&#x300D;&#x306E;&#x96C6;&#x5408;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;&#x95A2;&#x6570;&#x306E;&#x4E2D;&#x3067;&#x300C;&#x7D20;&#x6570;&#x300D;&#x306E;&#x96C6;&#x5408;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3082;&#x3088;&#x3044;&#x306E;&#x3067;&#x3057;&#x3087;&#x3046;&#x304B;&#xFF1F;</p>
+<p>&#x7D50;&#x8AD6;&#x304B;&#x3089;&#x8A00;&#x3048;&#x3070;&#x3001;&#x5927;&#x4E08;&#x592B;&#x3067;&#x3059;&#x3002;&#x5FC5;&#x8981;&#x306A;&#x7D20;&#x6570;&#x306F;&#x5BFE;&#x8C61;&#x306E;&#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x3067;&#x3001;&#x305F;&#x3068;&#x3048;&#x3070;25&#x304C;&#x7D20;&#x6570;&#x304B;&#x3069;&#x3046;&#x304B;&#x3092;&#x8ABF;&#x3079;&#x308B;&#x3068;&#x304D;&#x306B;&#x306F;25&#x306E;&#x5E73;&#x65B9;&#x6839;&#x3067;&#x3042;&#x308B;5&#x4EE5;&#x4E0B;&#x306E;&#x7D20;&#x6570;&#x307E;&#x3067;&#x3057;&#x304B;&#x5FC5;&#x8981;&#x3042;&#x308A;&#x307E;&#x305B;&#x3093;&#x3002;&#x554F;&#x984C;&#x306B;&#x306A;&#x308B;&#x306E;&#x306F;&#x6700;&#x521D;&#x306E;1&#x3064;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;&#x3053;&#x308C;&#x306F;2&#x306B;&#x6C7A;&#x307E;&#x3063;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;&#x6C7A;&#x3081;&#x6253;&#x3061;&#x3067;2&#x3092;&#x8FD4;&#x3057;&#x3066;&#x3057;&#x307E;&#x3048;&#x3070;&#x3088;&#x3044;&#x3002;&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x4EE5;&#x4E0B;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x30B3;&#x30FC;&#x30C9;&#x4E2D;&#x306E;<code>dropWhile</code>&#x306F;&#x3001;<code>takeWhile</code>&#x306E;&#x9006;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {dropWhile, every, filter, iterate, takeWhile} from &apos;lajure&apos;;
+
+function getOddNumbers() {
+  return iterate(x =&gt; x + 2, 1);  // &#x5947;&#x6570;
+}
+
+function getPrimeNumbers() {
+  return cons(2,                                                    // 2&#x3068;&#x3001;
+              tCall(getOddNumbers(),                                // &#x5947;&#x6570;&#x3067;
+                    dropWhile(x =&gt; x &lt; 3),                          // 3&#x672A;&#x6E80;&#x3067;&#x306F;&#x306A;&#x304F;&#x3066;&#x3001;
+                    filter(x =&gt; tCall(getPrimeNumbers(),            // &#x7D20;&#x6570;&#x306E;
+                                      takeWhile(p =&gt; p ** 2 &lt;= x),  // &#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x3067;
+                                      every(p =&gt; x % p !== 0)))));  // &#x5272;&#x308A;&#x5207;&#x308C;&#x306A;&#x3044;&#x6570;
+}</code>
+</code></pre>
+<p>&#x8A66;&#x3057;&#x3066;&#x307F;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">console.log(Array.from(drop(990, take(1000, getPrimeNumbers()))));</code>
+</code></pre>
+<p>991&#x756A;&#x76EE;&#x304B;&#x3089;1000&#x756A;&#x76EE;&#x306E;&#x7D20;&#x6570;&#x306F;&#x3001;7841, 7853, 7867, 7873, 7877, 7879, 7883, 7901, 7907, 7919&#x307F;&#x305F;&#x3044;&#x3067;&#x3059;&#x306D;&#x3002;</p>
+<p>&#x3053;&#x3053;&#x307E;&#x3067;&#x3067;&#x304D;&#x308C;&#x3070;&#x3001;&#x7D20;&#x56E0;&#x6570;&#x5206;&#x89E3;&#x306F;&#x5272;&#x308A;&#x5207;&#x308C;&#x308B;&#x7D20;&#x6570;&#x3092;&#x63A2;&#x3057;&#x3066;&#x3044;&#x304F;&#x3060;&#x3051;&#x306A;&#x306E;&#x3067;&#x3001;&#x3068;&#x3066;&#x3082;&#x304B;&#x3093;&#x305F;&#x3093;&#x3002;&#x4EE5;&#x4E0B;&#x306E;&#x3088;&#x3046;&#x306A;&#x30B3;&#x30FC;&#x30C9;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">function getPrimeFactors(n) {
+  if (n === 1) {  // 1&#x306F;&#x7D20;&#x56E0;&#x6570;&#x5206;&#x89E3;&#x3067;&#x304D;&#x306A;&#x3044;&#x306E;&#x3067;&#x3001;
+    return null;  // &#x7A7A;&#x96C6;&#x5408;&#x3002;
+  }
+
+  const p = (tCall(getPrimeNumbers(),                     // &#x7D20;&#x6570;&#x306E;
+                   takeWhile(p =&gt; p ** 2 &lt;= n),           // &#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x3067;
+                   some(p =&gt; n % p === 0 ? p : null)) ||  // &#x5272;&#x308A;&#x5207;&#x308C;&#x305F;&#x6570;&#x3002;&#x307E;&#x305F;&#x306F;&#x3001;
+             n);                                          // &#x7D20;&#x6570;&#x3067;&#x3042;&#x308B;n&#x305D;&#x306E;&#x3082;&#x306E;
+
+  return cons(p, lazySeq(getPrimeFactors(n / p)));
+}</code>
+</code></pre>
+<p>lajure&#x3067;&#x306F;<code>null</code>&#x3092;&#x7A7A;&#x96C6;&#x5408;&#x3068;&#x3057;&#x3066;&#x6271;&#x3046;&#x306E;&#x3067;&#x3001;&#x7D20;&#x56E0;&#x6570;&#x5206;&#x89E3;&#x304C;&#x5B8C;&#x4E86;&#x3057;&#x305F;&#x3089;&#xFF08;<code>n === 1</code>&#x306B;&#x306A;&#x3063;&#x305F;&#x3089;&#xFF09;&#x3001;<code>null</code>&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;&#x4ECA;&#x56DE;&#x306F;&#x7D20;&#x6570;&#x3092;&#x63A2;&#x3059;&#x5834;&#x5408;&#x3068;&#x306F;&#x9055;&#x3063;&#x3066;&#x300C;&#x5272;&#x308A;&#x5207;&#x308C;&#x308B;&#x6570;&#x304C;&#x3042;&#x3063;&#x305F;&#x3089;&#x300D;&#x306A;&#x306E;&#x3067;&#x3001;<code>every</code>&#x3067;&#x306F;&#x306A;&#x304F;<code>some</code>&#x3092;&#x4F7F;&#x7528;&#x3057;&#x307E;&#x3059;&#x3002;<code>every</code>&#x306F;&#x3059;&#x3079;&#x3066;&#x771F;&#x304B;&#x3092;&#x805E;&#x304B;&#x308C;&#x3066;&#x3044;&#x308B;&#x306E;&#x3067;&#x771F;&#x304B;&#x507D;&#x3067;&#x7B54;&#x3048;&#x308B;&#x3057;&#x304B;&#x306A;&#x3044;&#x3067;&#x3059;&#x3051;&#x3069;&#x3001;<code>some</code>&#x306E;&#x5834;&#x5408;&#x306F;&#x4E00;&#x3064;&#x3067;&#x3082;&#x771F;&#x304C;&#x3042;&#x3063;&#x305F;&#x3089;&#x300C;&#x3053;&#x3044;&#x3064;&#x304C;&#x771F;&#x3060;&#x3063;&#x305F;&#x304B;&#x3089;&#x771F;&#x300D;&#x3068;&#x7B54;&#x3048;&#x307E;&#x3059;&#x3002;&#x3060;&#x304B;&#x3089;<code>p =&gt; n % p === 0 ? p : null</code>&#x3068;&#x3057;&#x3066;&#x304A;&#x3051;&#x3070;&#x3001;&#x6700;&#x521D;&#x306B;&#x5272;&#x308A;&#x5207;&#x308C;&#x305F;&#x7D20;&#x6570;&#x305D;&#x306E;&#x3082;&#x306E;&#x3092;&#x53D6;&#x5F97;&#x3067;&#x304D;&#x308B;&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3002;&#x3042;&#x3068;&#x3001;&#x6700;&#x5F8C;&#x307E;&#x3067;&#x771F;&#x304C;&#x898B;&#x3064;&#x304B;&#x3089;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x507D;&#x306E;&#x5024;&#x3067;&#x3042;&#x308B;null&#x304C;&#x8FD4;&#x308A;&#x307E;&#x3059;&#x306E;&#x3067;&#x3001;<code>||</code>&#x3067;&#x7D9A;&#x3051;&#x3066;<code>n</code>&#x305D;&#x306E;&#x3082;&#x306E;&#x3092;&#x8FD4;&#x3057;&#x307E;&#x3059;&#x3002;&#x3042;&#x3068;&#x306F;&#x3044;&#x3064;&#x3082;&#x306E;<code>cons</code>&#x3068;<code>lazySeq</code>&#x3067;&#x7D42;&#x308F;&#x308A;&#x3002;</p>
+<p>&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;&#x554F;&#x984C;3&#x3092;&#x89E3;&#x7B54;&#x3059;&#x308B;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x4EE5;&#x4E0B;&#x306E;&#x901A;&#x308A;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {cons, dropWhile, every, filter, iterate, last, some, takeWhile} from &apos;lajure&apos;;
+
+function getOddNumbers() {
+  return iterate(x =&gt; x + 2, 1);  // &#x5947;&#x6570;
+}
+
+function getPrimeNumbers() {
+  return cons(2,                                                    // 2&#x3068;&#x3001;
+              tCall(getOddNumbers(),                                // &#x5947;&#x6570;&#x3067;
+                    dropWhile(x =&gt; x &lt; 3),                          // 3&#x672A;&#x6E80;&#x3067;&#x306F;&#x306A;&#x304F;&#x3066;&#x3001;
+                    filter(x =&gt; tCall(getPrimeNumbers(),            // &#x7D20;&#x6570;&#x306E;
+                                      takeWhile(p =&gt; p ** 2 &lt;= x),  // &#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x3067;
+                                      every(p =&gt; x % p !== 0)))));  // &#x5272;&#x308A;&#x5207;&#x308C;&#x306A;&#x3044;&#x6570;
+}
+
+function getPrimeFactors(n) {
+  if (n === 1) {  // 1&#x306F;&#x7D20;&#x56E0;&#x6570;&#x5206;&#x89E3;&#x3067;&#x304D;&#x306A;&#x3044;&#x306E;&#x3067;&#x3001;
+    return null;  // &#x7A7A;&#x96C6;&#x5408;&#x3002;
+  }
+
+  const p = (tCall(getPrimeNumbers(),                     // &#x7D20;&#x6570;&#x306E;
+                   takeWhile(p =&gt; p ** 2 &lt;= n),           // &#x5E73;&#x65B9;&#x6839;&#x4EE5;&#x4E0B;&#x3067;
+                   some(p =&gt; n % p === 0 ? p : null)) ||  // &#x5272;&#x308A;&#x5207;&#x308C;&#x305F;&#x6570;&#x3002;&#x307E;&#x305F;&#x306F;&#x3001;
+             n);                                          // &#x7D20;&#x6570;&#x3067;&#x3042;&#x308B;n&#x305D;&#x306E;&#x3082;&#x306E;
+
+  return cons(p, lazySeq(getPrimeFactors(n / p)));
+}
+
+const answer3 = last(getPrimeFactors(600851475143));  // last&#x306F;&#x6700;&#x5F8C;&#x306E;&#x8981;&#x7D20;&#x3092;&#x8FD4;&#x3059;&#x95A2;&#x6570;&#x3067;&#x3059;&#x3002;</code>
+</code></pre>
+<p>&#x307B;&#x3089;&#x3001;<code>iterator</code>&#x4FBF;&#x5229;&#x3067;&#x3057;&#x3087;&#xFF1F;&#x3000;&#x305C;&#x3072;&#x4F7F;&#x3044;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x4ECA;&#x3059;&#x3050;&#x4F7F;&#x3044;&#x307E;&#x3057;&#x3087;&#x3046;&#x3002;&#x305D;&#x306E;&#x969B;&#x306B;&#x3001;&#x3082;&#x3057;&#x3088;&#x308D;&#x3057;&#x3051;&#x308C;&#x3070;&#x3001;lajure&#x3082;&#x3002;</p>
+<h1 id="for-clojurian">For Clojurian</h1><p>Clojure&#x4F7F;&#x3044;&#x306E;&#x7686;&#x69D8;&#x306F;&#x3001;&#x4EE5;&#x4E0B;&#x306B;&#x3054;&#x6CE8;&#x610F;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<h2 id="tee">tee</h2><p>Clojure&#x306F;&#x30B3;&#x30F3;&#x30B9;&#x30FB;&#x30BB;&#x30EB;&#x306B;&#x57FA;&#x3065;&#x304F;&#x30EA;&#x30B9;&#x30C8;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3066;&#x3044;&#x3066;&#x3001;JavaScript&#x306E;<code>iterator</code>&#x306F;&#x53CD;&#x5FA9;&#x51E6;&#x7406;&#x3067;&#x3059;&#x3002;&#x3088;&#x3063;&#x3066;&#x3001;Clojure&#x3068;&#x306F;&#x3044;&#x308D;&#x3044;&#x308D;&#x3068;&#x4F7F;&#x3044;&#x65B9;&#x304C;&#x7570;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;&#x4E00;&#x756A;&#x306E;&#x9055;&#x3044;&#x306F;&#x3001;<code>iterator</code>&#x306F;&#x6D88;&#x8CBB;&#x3059;&#x308B;&#x3068;&#x306A;&#x304F;&#x306A;&#x3063;&#x3066;&#x3057;&#x307E;&#x3046;&#x3053;&#x3068;&#x3067;&#x3059;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const xs = take(5, iterate(inc, 1));
+
+const array1 = Array.from(xs);  // [1, 2, 3, 4, 5]
+const array2 = Array.from(xs);  // []&#x3002;xs&#x306F;&#x4E0A;&#x306E;&#x884C;&#x3067;&#x6D88;&#x8CBB;&#x3055;&#x308C;&#x305F;&#x306E;&#x3067;&#x3001;&#x7A7A;&#x96C6;&#x5408;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#x3002;</code>
+</code></pre>
+<p>&#x3053;&#x306E;&#x5F71;&#x97FF;&#x3067;&#x3001;&#x5148;&#x7A0B;&#x306E;&#x7D20;&#x6570;&#x3092;&#x53D6;&#x5F97;&#x3059;&#x308B;&#x95A2;&#x6570;&#x3067;&#x306F;&#x3001;&#x305D;&#x308C;&#x307E;&#x3067;&#x306E;&#x51E6;&#x7406;&#x3067;&#x898B;&#x3064;&#x3051;&#x305F;&#x7D20;&#x6570;&#x7FA4;&#x3092;&#x5229;&#x7528;&#x3059;&#x308B;&#x306E;&#x3067;&#x306F;&#x306A;&#x304F;&#x3001;&#x518D;&#x5EA6;&#x51E6;&#x7406;&#x3092;&#x5B9F;&#x884C;&#x3057;&#x3066;&#x7D20;&#x6570;&#x3092;&#x898B;&#x3064;&#x3051;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;&#x305D;&#x308C;&#x307E;&#x3067;&#x306E;&#x51E6;&#x7406;&#x3067;&#x898B;&#x3064;&#x3051;&#x305F;&#x7D20;&#x6570;&#x7FA4;&#x3092;&#x5229;&#x7528;&#x3057;&#x3061;&#x3083;&#x3046;&#x3068;&#x3001;&#x305B;&#x3063;&#x304B;&#x304F;&#x898B;&#x3064;&#x3051;&#x305F;&#x7D20;&#x6570;&#x304C;&#x306A;&#x304F;&#x306A;&#x3063;&#x3061;&#x3083;&#x3044;&#x307E;&#x3059;&#x304B;&#x3089;&#x306D;&#xFF08;&#x3060;&#x304B;&#x3089;&#x3001;&#x3054;&#x3081;&#x3093;&#x306A;&#x3055;&#x3044;&#x3002;&#x5B9F;&#x306F;&#x5148;&#x7A0B;&#x306E;&#x30B3;&#x30FC;&#x30C9;&#x306F;&#x305D;&#x3093;&#x306A;&#x306B;&#x901F;&#x304F;&#x306A;&#x3044;&#x3067;&#x3059;&#xFF09;&#x3002;</p>
+<p>JavaScript&#x3068;&#x540C;&#x69D8;&#x306E;<code>iterator</code>&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x8A00;&#x8A9E;&#x3068;&#x3057;&#x3066;&#x306F;Python&#x304C;&#x3042;&#x3063;&#x3066;&#x3001;Python&#x3067;&#x306F;<code>iterator</code>&#x3092;&#x8907;&#x6570;&#x56DE;&#x4F7F;&#x7528;&#x3059;&#x308B;&#x5834;&#x5408;&#x5411;&#x3051;&#x306B;<code>tee</code>&#x3068;&#x3044;&#x3046;&#x95A2;&#x6570;&#x3092;&#x7528;&#x610F;&#x3057;&#x3066;&#x3044;&#x307E;&#x3059;&#x3002;lajure&#x306B;&#x3082;<code>tee</code>&#x95A2;&#x6570;&#x304C;&#x3042;&#x308A;&#x307E;&#x3059;&#x306E;&#x3067;&#x3001;&#x5FC5;&#x8981;&#x306B;&#x5FDC;&#x3058;&#x3066;&#x4F7F;&#x3063;&#x3066;&#x307F;&#x3066;&#x304F;&#x3060;&#x3055;&#x3044;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {inc, iterate, take, tee} from &apos;lajure&apos;;
+
+const [xs1, xs2] = tee(2, take(5, iterate(inc, 1)));
+
+const array1 = Array.from(xs1);  // [1, 2, 3, 4, 5]
+const array2 = Array.from(xs2);  // [1, 2, 3, 4, 5]</code>
+</code></pre>
+<h2 id="juxt">juxt</h2><p>&#x30B3;&#x30F3;&#x30B9;&#x30FB;&#x30BB;&#x30EB;&#x3068;<code>iterator</code>&#x554F;&#x984C;&#x306F;&#x3001;<code>juxt</code>&#x306B;&#x5927;&#x304D;&#x304F;&#x5F71;&#x97FF;&#x3057;&#x307E;&#x3059;&#x3002;<code>juxt(foo, bar)(iter)</code>&#x3068;&#x3057;&#x305F;&#x5834;&#x5408;&#x3001;<code>foo(iter)</code>&#x3092;&#x5B9F;&#x884C;&#x3057;&#x305F;&#x6BB5;&#x968E;&#x3067;<code>iterator</code>&#x304C;&#x6D88;&#x8CBB;&#x3055;&#x308C;&#x308B;&#x306E;&#x3067;&#x3001;&#x7D9A;&#x304F;<code>bar(iter)</code>&#x304C;&#x4E88;&#x60F3;&#x5916;&#x306E;&#x52D5;&#x4F5C;&#x3092;&#x3057;&#x3066;&#x3057;&#x307E;&#x3044;&#x307E;&#x3059;&#x3002;&#x305D;&#x3053;&#x3067;&#x3001;lajure&#x306E;<code>juxt</code>&#x3067;&#x306F;&#x3001;<code>juxt</code>&#x3067;&#x751F;&#x6210;&#x3057;&#x305F;&#x95A2;&#x6570;&#x306E;&#x5F15;&#x6570;&#x304C;<code>iterator</code>&#x4E00;&#x3064;&#x3060;&#x3051;&#x3060;&#x3063;&#x305F;&#x5834;&#x5408;&#x306F;&#x3001;<code>tee</code>&#x3059;&#x308B;&#x3088;&#x3046;&#x306B;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {first, juxt, range, rest} from &apos;lajure&apos;;
+
+const [item, iter] = juxt(first, rest)(range(5));
+
+console.log(item);               // 0
+console.log(Array.from(iter));   // [ 1, 2, 3, 4 ]</code>
+</code></pre>
+<h2 id="lazyseq">lazySeq</h2><p>Clojure&#x306E;<code>lazy-seq</code>&#x306F;&#x8907;&#x6570;&#x306E;&#x6587;&#x3092;&#x53D7;&#x3051;&#x53D6;&#x308C;&#x307E;&#x3059;&#x304C;&#x3001;lajure&#x306E;<code>lazySeq</code>&#x30DE;&#x30AF;&#x30ED;&#x306F;&#x95A2;&#x6570;&#x547C;&#x3073;&#x51FA;&#x3057;&#x4E00;&#x3064;&#x3057;&#x304B;&#x53D7;&#x3051;&#x53D6;&#x308C;&#x307E;&#x305B;&#x3093;&#x3002;Babel&#x306F;ECMAScript&#x306E;&#x6587;&#x6CD5;&#x306B;&#x542B;&#x307E;&#x308C;&#x308B;&#x30B3;&#x30FC;&#x30C9;&#x3057;&#x304B;&#x30D1;&#x30FC;&#x30B9;&#x3067;&#x304D;&#x306A;&#x3044;&#x305F;&#x3081;&#x3067;&#x3059;&#x3002;</p>
+<p>&#x3053;&#x306E;&#x5236;&#x9650;&#x306F;&#x3001;&#x533F;&#x540D;&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3057;&#x3001;<code>lazySeq</code>&#x30DE;&#x30AF;&#x30ED;&#x306E;&#x4EE3;&#x308F;&#x308A;&#x306B;<code>lazySeqFn</code>&#x95A2;&#x6570;&#x3092;&#x4F7F;&#x7528;&#x3059;&#x308C;&#x3070;&#x56DE;&#x907F;&#x3067;&#x304D;&#x307E;&#x3059;&#xFF08;&#x5B9F;&#x306F;&#x3001;<code>lazySeq</code>&#x30DE;&#x30AF;&#x30ED;&#x306F;&#x5F15;&#x6570;&#x3092;&#x533F;&#x540D;&#x95A2;&#x6570;&#x3067;&#x304F;&#x308B;&#x3093;&#x3067;&#x3001;<code>lazySeqFn</code>&#x95A2;&#x6570;&#x3092;&#x547C;&#x3073;&#x51FA;&#x3057;&#x3066;&#x3044;&#x308B;&#x3060;&#x3051;&#x306A;&#x3093;&#x3067;&#x3059;&#x3002;Babel&#x304C;&#x96E3;&#x3057;&#x304F;&#x3066;&#x3001;&#x305D;&#x306E;&#x7A0B;&#x5EA6;&#x3057;&#x304B;&#x3067;&#x304D;&#x307E;&#x305B;&#x3093;&#x3067;&#x3057;&#x305F;&#x2026;&#x2026;&#xFF09;&#x3002;</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">import {cons, lazySeqFn} from &apos;lajure&apos;;
+
+cons(x, lazySeqFn(() =&gt; {
+  ...
+  ...
+  ...
+
+  return ...
+}));</code>
+</code></pre>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

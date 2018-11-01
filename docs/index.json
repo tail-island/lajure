@@ -1,0 +1,5439 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/apply.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の要素を、指定した関数の引数に割り当てて呼び出します。foo(x, y)をargs = [1, 2]で呼び出す場合に、apply(foo, args)としてください。\n *\n * @param {function} f - 関数\n * @param {*[] | iterator | null} args - 関数の引数の集合\n *\n * @return {*} 関数fの戻り値\n *\n * @example\n * apply(foo, args);\n * // = foo(...args);\n *\n * @example\n * filter(partial(apply, foo), [[1, 2], [3, 4]]);\n * // = filter(args => foo(...args), [[1, 2], [3, 4]]);\n */\nexport default function apply(f, args) {\n  return f(...sequence(args));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/apply.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "function",
+    "name": "apply",
+    "memberof": "src/apply.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/apply.js~apply",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/apply.js",
+    "importStyle": "apply",
+    "description": "集合の要素を、指定した関数の引数に割り当てて呼び出します。foo(x, y)をargs = [1, 2]で呼び出す場合に、apply(foo, args)としてください。",
+    "examples": [
+      "apply(foo, args);\n// = foo(...args);",
+      "filter(partial(apply, foo), [[1, 2], [3, 4]]);\n// = filter(args => foo(...args), [[1, 2], [3, 4]]);"
+    ],
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "関数の引数の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "関数fの戻り値"
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "file",
+    "name": "src/butlast.js",
+    "content": "import seq from './seq';\n\n/**\n * 最後の要素を除いた集合のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator | null} 最後の要素を除いた集合のイテレーター\n */\nexport default function butlast(coll) {\n  return seq(function*() {\n    const iter = seq(coll);\n    if (!iter) {\n      return;\n    }\n\n    let prev = iter.next().value;\n\n    for (const x of iter) {\n      yield prev;\n\n      prev = x;\n    }\n  }());\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/butlast.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "butlast",
+    "memberof": "src/butlast.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/butlast.js~butlast",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/butlast.js",
+    "importStyle": "butlast",
+    "description": "最後の要素を除いた集合のイテレーターを返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "最後の要素を除いた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "file",
+    "name": "src/call.js",
+    "content": "import pipe from './pipe';\n\n/**\n * 指定された引数を使用して最初の関数を呼び出し、その結果を引数に次の関数を呼び出します。引数にコードの一部を使用したい場合は、tCallマクロを使用してください。\n *\n * @param {*} x - 最初の関数の引数\n * @param {function[] | iterator} fs - 順番に呼び出す関数の集合\n *\n * @return {*} 最後の関数の戻り値\n *\n * @example\n * call(x, foo, bar);\n * // = bar(foo(x));\n *\n * @example\n * tCall(iterate(inc, 1),\n *       takeWhile(x => x < 10),\n *       filter(x => x % 2));\n *\n * // = call(iterate(inc, 1), xs => takeWhile(x => x < 10, xs), xs => filter(x => x % 2, xs))\n * // = filter(x => x % 2, takeWhile(x => x < 10, iterate(inc, 1)))\n */\nexport default function call(x, ...fs) {\n  return pipe(...fs)(x);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/call.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "call",
+    "memberof": "src/call.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/call.js~call",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/call.js",
+    "importStyle": "call",
+    "description": "指定された引数を使用して最初の関数を呼び出し、その結果を引数に次の関数を呼び出します。引数にコードの一部を使用したい場合は、tCallマクロを使用してください。",
+    "examples": [
+      "call(x, foo, bar);\n// = bar(foo(x));",
+      "tCall(iterate(inc, 1),\n      takeWhile(x => x < 10),\n      filter(x => x % 2));\n\n// = call(iterate(inc, 1), xs => takeWhile(x => x < 10, xs), xs => filter(x => x % 2, xs))\n// = filter(x => x % 2, takeWhile(x => x < 10, iterate(inc, 1)))"
+    ],
+    "lineNumber": 23,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "最初の関数の引数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function[] ",
+          " iterator"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "順番に呼び出す関数の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最後の関数の戻り値"
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "file",
+    "name": "src/comp.js",
+    "content": "import pipe    from './pipe';\nimport reverse from './reverse';\n\n/**\n * 関数を合成します。\n *\n * @param {function[] | iterator} fs - 合成したい関数の集合\n *\n * @return {function} 合成された関数。\n *\n * @example\n * comp(foo, bar);\n * // = x => foo(bar(x));\n */\nexport default function comp(...fs) {\n  return pipe(...reverse(fs));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/comp.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 55,
+    "kind": "function",
+    "name": "comp",
+    "memberof": "src/comp.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/comp.js~comp",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/comp.js",
+    "importStyle": "comp",
+    "description": "関数を合成します。",
+    "examples": [
+      "comp(foo, bar);\n// = x => foo(bar(x));"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function[] ",
+          " iterator"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "合成したい関数の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "合成された関数。"
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "file",
+    "name": "src/complement.js",
+    "content": "/**\n * 引数の関数の戻り値の真偽を逆にした関数を生成します。\n *\n * @param {function} f - 真偽を返す関数\n *\n * @return {function} 戻り値の真偽が逆になった関数。\n *\n * @example\n * complement(isClojurian);\n * // = Clojurianでなければtrue、Clojurianならばfalseを返す関数\n */\nexport default function complement(f) {\n  return (...args) => !f(...args);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/complement.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 57,
+    "kind": "function",
+    "name": "complement",
+    "memberof": "src/complement.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/complement.js~complement",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/complement.js",
+    "importStyle": "complement",
+    "description": "引数の関数の戻り値の真偽を逆にした関数を生成します。",
+    "examples": [
+      "complement(isClojurian);\n// = Clojurianでなければtrue、Clojurianならばfalseを返す関数"
+    ],
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "真偽を返す関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "戻り値の真偽が逆になった関数。"
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "file",
+    "name": "src/concat.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 複数の集合を結合します。\n *\n * @param {*[][] | iterator[]} xss - 結合したい集合の集合\n *\n * @return {iterator} 結合された集合のイテレーター\n *\n * @example\n * concat([1, 2, 3], [4, 5, 6]);  // [1, 2, 3, 4, 5, 6]のイテレーターを返す\n */\nexport default function* concat(...xss) {\n  for (const xs of xss) {\n    for (const x of sequence(xs)) {\n      yield x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/concat.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 59,
+    "kind": "function",
+    "name": "concat",
+    "memberof": "src/concat.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/concat.js~concat",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/concat.js",
+    "importStyle": "concat",
+    "description": "複数の集合を結合します。",
+    "examples": [
+      "concat([1, 2, 3], [4, 5, 6]);  // [1, 2, 3, 4, 5, 6]のイテレーターを返す"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[][] ",
+          " iterator[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xss",
+        "description": "結合したい集合の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "結合された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "file",
+    "name": "src/condCall.js",
+    "content": "import partition from './partition';\nimport reduce    from './reduce';\n\n/**\n * 値と、条件と関数のペアの集合をとり、条件が真の場合は値を引数に関数を実行した戻り値を返します。条件が偽の場合は値をそのまま返します。\n * さらに条件と関数のペアがある場合は、条件が真の場合は一つ前の結果を引数にして関数を実行します。条件が儀の場合は、一つ前の処理の結果をそのまま返します。\n *\n * @param {*} x - 値\n * @param {*[]} clauses - 条件, 関数, 条件, 関数...と続く集合\n *\n * @return {*} 最後の条件が真なら最後の関数の戻り値、そうでなければ一つ前の関数の戻り値。そうでなければ更に一つ前の関数の戻り値。\n *\n * @example\n * return condCall(developer,\n *                 developer.isJavaScripter(), raiseSalary);\n * // = return developer.isJavaScripter() ? raiseSalary(developer) : developer;  // 偽の場合のコードの記述が不要になって、便利なはず。\n */\nexport default function condCall(x, ...clauses) {\n  return reduce((acc, [test, f]) => test ? f(acc) : acc, x, partition(2, clauses));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/condCall.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 61,
+    "kind": "function",
+    "name": "condCall",
+    "memberof": "src/condCall.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/condCall.js~condCall",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/condCall.js",
+    "importStyle": "condCall",
+    "description": "値と、条件と関数のペアの集合をとり、条件が真の場合は値を引数に関数を実行した戻り値を返します。条件が偽の場合は値をそのまま返します。\nさらに条件と関数のペアがある場合は、条件が真の場合は一つ前の結果を引数にして関数を実行します。条件が儀の場合は、一つ前の処理の結果をそのまま返します。",
+    "examples": [
+      "return condCall(developer,\n                developer.isJavaScripter(), raiseSalary);\n// = return developer.isJavaScripter() ? raiseSalary(developer) : developer;  // 偽の場合のコードの記述が不要になって、便利なはず。"
+    ],
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "値"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "clauses",
+        "description": "条件, 関数, 条件, 関数...と続く集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最後の条件が真なら最後の関数の戻り値、そうでなければ一つ前の関数の戻り値。そうでなければ更に一つ前の関数の戻り値。"
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "file",
+    "name": "src/conj.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の最後に要素を追加し、イテレーターを返します。Clojureのconjとは異なり、コレクションではなくイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n * @param {*} x - 追加する要素\n *\n * @return {iterator} 最後に要素が追加された集合のイテレーター\n */\nexport default function* conj(coll, x) {\n  for (const y of sequence(coll)) {\n    yield y;\n  }\n\n  yield x;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/conj.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 63,
+    "kind": "function",
+    "name": "conj",
+    "memberof": "src/conj.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/conj.js~conj",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/conj.js",
+    "importStyle": "conj",
+    "description": "集合の最後に要素を追加し、イテレーターを返します。Clojureのconjとは異なり、コレクションではなくイテレーターを返します。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "追加する要素"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "最後に要素が追加された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "file",
+    "name": "src/cons.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の先頭に要素を追加し、イテレーターを返します。\n *\n * @param {*} x - 追加する要素\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 先頭に要素が追加された集合のイテレーター\n *\n * @example\n * // 無限に続くフィボナッチ数列\n * functon getFibonacciNumbers(x, y) {\n *   return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n * }\n */\nexport default function* cons(x, coll) {\n  yield x;\n\n  for (const y of sequence(coll)) {\n    yield y;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/cons.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 65,
+    "kind": "function",
+    "name": "cons",
+    "memberof": "src/cons.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/cons.js~cons",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/cons.js",
+    "importStyle": "cons",
+    "description": "集合の先頭に要素を追加し、イテレーターを返します。",
+    "examples": [
+      "// 無限に続くフィボナッチ数列\nfuncton getFibonacciNumbers(x, y) {\n  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n}"
+    ],
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "追加する要素"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "先頭に要素が追加された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "file",
+    "name": "src/constantly.js",
+    "content": "/**\n * 指定した引数を返す関数を生成します。\n *\n * @param {*} x - 生成した関数が返す戻り値\n *\n * @return {function} 生成された関数\n */\nexport default function constantly(x) {\n  return () => x;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/constantly.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 67,
+    "kind": "function",
+    "name": "constantly",
+    "memberof": "src/constantly.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/constantly.js~constantly",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/constantly.js",
+    "importStyle": "constantly",
+    "description": "指定した引数を返す関数を生成します。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "生成した関数が返す戻り値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "生成された関数"
+    }
+  },
+  {
+    "__docId__": 68,
+    "kind": "file",
+    "name": "src/count.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合に含まれる要素の数を返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {number} 集合に含まれる要素の数\n */\nexport default function count(coll) {\n  let i = 0;\n\n  for (const _ of sequence(coll)) {\n    i++;\n  }\n\n  return i;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/count.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 69,
+    "kind": "function",
+    "name": "count",
+    "memberof": "src/count.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/count.js~count",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/count.js",
+    "importStyle": "count",
+    "description": "集合に含まれる要素の数を返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "集合に含まれる要素の数"
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/cycle.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合を繰り返した集合のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 集合を繰り返した集合のイテレーター\n *\n * @example\n * cycle([1, 2, 3]);  // [1, 2, 3, 1, 2, 3, ...]のイテレーター\n */\nexport default function* cycle(coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return;\n  }\n\n  const xs = [];\n  for (const x of iter) {\n    xs.push(x);\n\n    yield x;\n  }\n\n  for (;;) {\n    for (const x of xs) {\n      yield x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/cycle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "cycle",
+    "memberof": "src/cycle.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/cycle.js~cycle",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/cycle.js",
+    "importStyle": "cycle",
+    "description": "集合を繰り返した集合のイテレーターを返します。",
+    "examples": [
+      "cycle([1, 2, 3]);  // [1, 2, 3, 1, 2, 3, ...]のイテレーター"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "集合を繰り返した集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/dec.js",
+    "content": "/**\n * 引数から1を引きます。\n *\n * @param {number} n - 数値\n *\n * @return {number} nから1を引いた数値\n */\nexport default function dec(n) {\n  return n - 1;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/dec.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "dec",
+    "memberof": "src/dec.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/dec.js~dec",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/dec.js",
+    "importStyle": "dec",
+    "description": "引数から1を引きます。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "数値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "nから1を引いた数値"
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/dedupe.js",
+    "content": "import seq from './seq';\n\n/**\n * 一つ前の要素と値が異なる要素のみの集合のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 一つ前の要素と値が異なる要素のみの集合のイテレーター\n *\n * @example\n * dedupe([1, 2, 3, 3, 3, 1, 1, 4]);  // [1, 2, 3, 1, 4]のイテレーター\n */\nexport default function* dedupe(coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return;\n  }\n\n  let prev = iter.next().value;\n  yield prev;\n\n  for (const x of iter) {\n    if (x !== prev) {\n      yield x;\n\n      prev = x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/dedupe.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "dedupe",
+    "memberof": "src/dedupe.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/dedupe.js~dedupe",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/dedupe.js",
+    "importStyle": "dedupe",
+    "description": "一つ前の要素と値が異なる要素のみの集合のイテレーターを返します。",
+    "examples": [
+      "dedupe([1, 2, 3, 3, 3, 1, 1, 4]);  // [1, 2, 3, 1, 4]のイテレーター"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "一つ前の要素と値が異なる要素のみの集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/distinct.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合から重複した要素を削除したイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 重複した要素が削除された集合のイテレーター\n *\n * @example\n * distinct([1, 2, 3, 3, 3, 1, 1, 4]);  // [1, 2, 3, 4]のイテレーター\n */\nexport default function* distinct(coll) {\n  const seen = new Set();\n\n  for (const x of sequence(coll)) {\n    if (!seen.has(x)) {\n      seen.add(x);\n\n      yield x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/distinct.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "distinct",
+    "memberof": "src/distinct.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/distinct.js~distinct",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/distinct.js",
+    "importStyle": "distinct",
+    "description": "集合から重複した要素を削除したイテレーターを返します。",
+    "examples": [
+      "distinct([1, 2, 3, 3, 3, 1, 1, 4]);  // [1, 2, 3, 4]のイテレーター"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "重複した要素が削除された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/drop.js",
+    "content": "import nthrest from './nthrest';\n\n/**\n * 集合から先頭n個の要素を削除したイテレーターを返します。\n *\n * @param {number} n - 削除する要素の数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 先頭n個の要素が削除された集合のイテレーター\n *\n * @example\n * drop(2, range());  // [2, 3, 4, ...]のイテレーター\n */\nexport default function drop(n, coll) {\n  return nthrest(coll, n);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/drop.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "function",
+    "name": "drop",
+    "memberof": "src/drop.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/drop.js~drop",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/drop.js",
+    "importStyle": "drop",
+    "description": "集合から先頭n個の要素を削除したイテレーターを返します。",
+    "examples": [
+      "drop(2, range());  // [2, 3, 4, ...]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "削除する要素の数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "先頭n個の要素が削除された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "file",
+    "name": "src/dropLast.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 最後のn個の要素を削除したイテレーターを返します。\n *\n * @param {*[]} args - [n, coll]もしくは[coll]。collのみが指定された場合、nは1になります。\n *\n * @return {iterator} 最後のn個の要素が削除された集合のイテレーター\n *\n * @example\n * dropLast(2, range(5));  // [0, 1, 2]のイテレーター\n * dropLast(   range(5));  // [0, 1, 2, 3]のイテレーター\n */\nexport default function* dropLast(...args) {\n  const [n, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      return [1, args[0]];\n\n    default:\n      return args;\n    }\n  })();\n\n  const xs = [];\n\n  for (const x of sequence(coll)) {\n    xs.push(x);\n\n    if (xs.length > n) {\n      yield xs[0];\n\n      xs.shift();\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/dropLast.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 81,
+    "kind": "function",
+    "name": "dropLast",
+    "memberof": "src/dropLast.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/dropLast.js~dropLast",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/dropLast.js",
+    "importStyle": "dropLast",
+    "description": "最後のn個の要素を削除したイテレーターを返します。",
+    "examples": [
+      "dropLast(2, range(5));  // [0, 1, 2]のイテレーター\ndropLast(   range(5));  // [0, 1, 2, 3]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[n, coll]もしくは[coll]。collのみが指定された場合、nは1になります。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "最後のn個の要素が削除された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "file",
+    "name": "src/dropWhile.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 先頭から続く条件を満たす要素を削除したイテレーターを返します。\n *\n * @param {function} pred - 削除する条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return 先頭から続く条件を満たす要素が削除されたイテレーター\n *\n * @example\n * dropWhile(x => x < 2, [0, 1, 2, 3, 2, 1, 0]);  // [2, 3, 2, 1, 0]のイテレーター\n */\nexport default function* dropWhile(pred, coll) {\n  let b = false;\n\n  for (const x of sequence(coll)) {\n    if (!b) {\n      if (pred(x)) {\n        continue;\n      }\n\n      b = true;\n    }\n\n    yield x;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/dropWhile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 83,
+    "kind": "function",
+    "name": "dropWhile",
+    "memberof": "src/dropWhile.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/dropWhile.js~dropWhile",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/dropWhile.js",
+    "importStyle": "dropWhile",
+    "description": "先頭から続く条件を満たす要素を削除したイテレーターを返します。",
+    "examples": [
+      "dropWhile(x => x < 2, [0, 1, 2, 3, 2, 1, 0]);  // [2, 3, 2, 1, 0]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "削除する条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "先頭から続く条件を満たす要素が削除されたイテレーター"
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "file",
+    "name": "src/every.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合のすべての要素が条件を満たすか確認します。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null } coll - 集合\n *\n * @return {boolean} すべての要素が条件を満たす場合はtrue、そうでなければfalse\n */\nexport default function every(pred, coll) {\n  for (const x of sequence(coll)) {\n    if (!pred(x)) {\n      return false;\n    }\n  }\n\n  return true;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/every.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 85,
+    "kind": "function",
+    "name": "every",
+    "memberof": "src/every.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/every.js~every",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/every.js",
+    "importStyle": "every",
+    "description": "集合のすべての要素が条件を満たすか確認します。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null "
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "すべての要素が条件を満たす場合はtrue、そうでなければfalse"
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "file",
+    "name": "src/everyPred.js",
+    "content": "import every from './every';\n\n/**\n * 引数で指定されるすべての条件を満たすかを確認する関数を生成します。\n *\n * @param {function[]} fs - 関数\n *\n * @return {function} 生成された関数\n *\n * @example\n * const isFizz = x => x % 3 === 0;\n * const isBuzz = x => x % 5 === 0;\n * const isFizzBuzz = everyPred(isFizz, isBuzz);\n * isFizzBuzz(15);  // true\n */\nexport default function everyPred(...fs) {\n  return (...args) => every(f => f(...args), fs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/everyPred.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 87,
+    "kind": "function",
+    "name": "everyPred",
+    "memberof": "src/everyPred.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/everyPred.js~everyPred",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/everyPred.js",
+    "importStyle": "everyPred",
+    "description": "引数で指定されるすべての条件を満たすかを確認する関数を生成します。",
+    "examples": [
+      "const isFizz = x => x % 3 === 0;\nconst isBuzz = x => x % 5 === 0;\nconst isFizzBuzz = everyPred(isFizz, isBuzz);\nisFizzBuzz(15);  // true"
+    ],
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "生成された関数"
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "file",
+    "name": "src/ffirst.js",
+    "content": "import first from './first';\n\n/**\n * 集合の最初の要素の最初の要素を返します。first(first(xoll))と同じです。\n *\n * @param {*[][] | iterator | null} coll - 集合の集合\n *\n * @return {*} 最初の要素の最初の要素\n */\nexport default function ffirst(coll) {\n  return first(first(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/ffirst.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 89,
+    "kind": "function",
+    "name": "ffirst",
+    "memberof": "src/ffirst.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/ffirst.js~ffirst",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/ffirst.js",
+    "importStyle": "ffirst",
+    "description": "集合の最初の要素の最初の要素を返します。first(first(xoll))と同じです。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[][] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最初の要素の最初の要素"
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/filter.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合から条件を満たす要素を抽出し、その要素の集合のイテレーターを返します。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 抽出された要素の集合のイテレーター\n *\n * @example\n * filter(x => x % 2 === 0, iterate(inc, 1));  // [2, 4, 6, 8, ...]のイテレーター\n */\nexport default function* filter(pred, coll) {\n  for (const x of sequence(coll)) {\n    if (pred(x)) {\n      yield x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/filter.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "filter",
+    "memberof": "src/filter.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/filter.js~filter",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/filter.js",
+    "importStyle": "filter",
+    "description": "集合から条件を満たす要素を抽出し、その要素の集合のイテレーターを返します。",
+    "examples": [
+      "filter(x => x % 2 === 0, iterate(inc, 1));  // [2, 4, 6, 8, ...]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "抽出された要素の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/first.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合の最初の要素を返します。\n *\n * @param {*[] | iterator} coll - 集合\n *\n * @return {*} 最初の要素\n */\nexport default function first(coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return null;\n  }\n\n  return iter.next().value;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/first.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "function",
+    "name": "first",
+    "memberof": "src/first.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/first.js~first",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/first.js",
+    "importStyle": "first",
+    "description": "集合の最初の要素を返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最初の要素"
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/flatten.js",
+    "content": "import isSequencial from './isSequencial';\nimport sequence     from './sequence';\n\n/**\n * 集合の集合を集合に変換し、そのイテレーターを返します。\n *\n * @param {*[][] | iterator | null} coll - 集合の集合\n *\n * @return 集合のイテレーター\n *\n * @example\n * flatten([1, 2, [3, 4, [5, 6], 7], 8]);  // [1, 2, 3, 4, 5, 6, 7, 8]のイテレーター\n */\nexport default function flatten(coll) {\n  if (!isSequencial(coll)) {\n    return sequence(null);\n  }\n\n  const _ = function*(x) {\n    for (const y of x) {\n      if (!isSequencial(y)) {\n        yield y;\n\n      } else {\n        for (const z of _(y)) {\n          yield z;\n        }\n      }\n    }\n  };\n\n  return _(coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/flatten.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "function",
+    "name": "flatten",
+    "memberof": "src/flatten.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/flatten.js~flatten",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/flatten.js",
+    "importStyle": "flatten",
+    "description": "集合の集合を集合に変換し、そのイテレーターを返します。",
+    "examples": [
+      "flatten([1, 2, [3, 4, [5, 6], 7], 8]);  // [1, 2, 3, 4, 5, 6, 7, 8]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[][] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/fnext.js",
+    "content": "import first from './first';\nimport next  from './next';\n\n/**\n * 集合の2番目以降の要素の最初の要素（つまり2番目の要素）を返します。first(next(coll))と同じです。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return 集合の2番目以降の要素の最初の要素（つまり2番目の要素）\n */\nexport default function fnext(coll) {\n  return first(next(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/fnext.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "function",
+    "name": "fnext",
+    "memberof": "src/fnext.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fnext.js~fnext",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/fnext.js",
+    "importStyle": "fnext",
+    "description": "集合の2番目以降の要素の最初の要素（つまり2番目の要素）を返します。first(next(coll))と同じです。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "集合の2番目以降の要素の最初の要素（つまり2番目の要素）"
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/fnil.js",
+    "content": "/**\n * 引数がnullだった場合に、指定されたデフォルト値に置き換えて実行する関数を生成します。\n *\n * @param {function} f - 実行する関数\n * @param {*[]} defaultArgs - 引数のデフォルト値\n *\n * @return {function} 引数がnullの場合に指定されたデフォル値を設定してfを実行する関数\n */\nexport default function fnil(f, ...defaultArgs) {\n  return function(...args) {\n    for (let i = 0; i < args.length; ++i) {\n      if (args[i] === null) {\n        args[i] = defaultArgs[i];\n      }\n    }\n\n    return f(...args);\n  };\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/fnil.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "function",
+    "name": "fnil",
+    "memberof": "src/fnil.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/fnil.js~fnil",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/fnil.js",
+    "importStyle": "fnil",
+    "description": "引数がnullだった場合に、指定されたデフォルト値に置き換えて実行する関数を生成します。",
+    "lineNumber": 9,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "実行する関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "defaultArgs",
+        "description": "引数のデフォルト値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "引数がnullの場合に指定されたデフォル値を設定してfを実行する関数"
+    }
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "src/groupBy.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の要素をグループ単位に分けたマップを返します。\n *\n * @param {function} f - 要素に対する操作\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return f(x)をキー、xの配列を値に持つマップ\n *\n * @example\n * groupBy(x => x % 2 === 0 ? 'even' : 'odd', range(10));  // Map([['even', [0, 2, 4, 6, 8]], ['odd', [1, 3, 5, 7, 9]]]);\n */\nexport default function groupBy(f, coll) {\n  const map = new Map();\n\n  for (const x of sequence(coll)) {\n    const k = f(x);\n\n    if (map.has(k)) {\n      map.get(k).push(x);\n    } else {\n      map.set(k, [x]);\n    }\n  }\n\n  return map;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/groupBy.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "function",
+    "name": "groupBy",
+    "memberof": "src/groupBy.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/groupBy.js~groupBy",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/groupBy.js",
+    "importStyle": "groupBy",
+    "description": "集合の要素をグループ単位に分けたマップを返します。",
+    "examples": [
+      "groupBy(x => x % 2 === 0 ? 'even' : 'odd', range(10));  // Map([['even', [0, 2, 4, 6, 8]], ['odd', [1, 3, 5, 7, 9]]]);"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "要素に対する操作"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "f(x)をキー、xの配列を値に持つマップ"
+    }
+  },
+  {
+    "__docId__": 102,
+    "kind": "file",
+    "name": "src/identity.js",
+    "content": "/**\n * 引数の値をそのまま返します。文法上関数を指定しなければならないのだけどやる処理がない場合に使用してください。\n *\n * @param {*} x - 返したい値\n *\n * @return 引数の値\n *\n * @example\n * juxt(identity, reverse)(range(3)]);  // [[0, 1, 2]のイテレーター, [2, 1, 0]のイテレーター]\n */\nexport default function identity(x) {\n  return x;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/identity.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "identity",
+    "memberof": "src/identity.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/identity.js~identity",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/identity.js",
+    "importStyle": "identity",
+    "description": "引数の値をそのまま返します。文法上関数を指定しなければならないのだけどやる処理がない場合に使用してください。",
+    "examples": [
+      "juxt(identity, reverse)(range(3)]);  // [[0, 1, 2]のイテレーター, [2, 1, 0]のイテレーター]"
+    ],
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "返したい値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "引数の値"
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "name": "src/inc.js",
+    "content": "/**\n * 引数に1を足します。\n *\n * @param {number} n - 数値\n *\n * @return {number} nに1を足した数値\n */\nexport default function inc(n) {\n  return n + 1;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/inc.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 105,
+    "kind": "function",
+    "name": "inc",
+    "memberof": "src/inc.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/inc.js~inc",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/inc.js",
+    "importStyle": "inc",
+    "description": "引数に1を足します。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "数値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": "nに1を足した数値"
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "export {default as apply}        from './apply';\nexport {default as butlast}      from './butlast';\nexport {default as call}         from './call';\nexport {default as complement}   from './complement';\nexport {default as comp}         from './comp';\nexport {default as concat}       from './concat';\nexport {default as condCall}     from './condCall';\nexport {default as conj}         from './conj';\nexport {default as constantly}   from './constantly';\nexport {default as cons}         from './cons';\nexport {default as count}        from './count';\nexport {default as cycle}        from './cycle';\nexport {default as dec}          from './dec';\nexport {default as dedupe}       from './dedupe';\nexport {default as distinct}     from './distinct';\nexport {default as dropLast}     from './dropLast';\nexport {default as dropWhile}    from './dropWhile';\nexport {default as drop}         from './drop';\nexport {default as everyPred}    from './everyPred';\nexport {default as every}        from './every';\nexport {default as ffirst}       from './ffirst';\nexport {default as filter}       from './filter';\nexport {default as first}        from './first';\nexport {default as flatten}      from './flatten';\nexport {default as fnext}        from './fnext';\nexport {default as fnil}         from './fnil';\nexport {default as groupBy}      from './groupBy';\nexport {default as identity}     from './identity';\nexport {default as inc}          from './inc';\nexport {default as interleave}   from './interleave';\nexport {default as interpose}    from './interpose';\nexport {default as isEmpty}      from './isEmpty';\nexport {default as isSequencial} from './isSequencial';\nexport {default as iterate}      from './iterate';\nexport {default as juxt}         from './juxt';\nexport {default as keepIndexed}  from './keepIndexed';\nexport {default as keep}         from './keep';\nexport {default as last}         from './last';\nexport {default as lazySeqFn}    from './lazySeqFn';\nexport {default as mapIndexed}   from './mapIndexed';\nexport {default as mapcat}       from './mapcat';\nexport {default as map}          from './map';\nexport {default as maxKey}       from './maxKey';\nexport {default as max}          from './max';\nexport {default as memoize}      from './memoize';\nexport {default as minKey}       from './minKey';\nexport {default as min}          from './min';\nexport {default as next}         from './next';\nexport {default as nfirst}       from './nfirst';\nexport {default as nnext}        from './nnext';\nexport {default as notAny}       from './notAny';\nexport {default as notEvery}     from './notEvery';\nexport {default as nthnext}      from './nthnext';\nexport {default as nthrest}      from './nthrest';\nexport {default as nth}          from './nth';\nexport {default as partial}      from './partial';\nexport {default as partitionAll} from './partitionAll';\nexport {default as partitionBy}  from './partitionBy';\nexport {default as partition}    from './partition';\nexport {default as pipe}         from './pipe';\nexport {default as randNth}      from './randNth';\nexport {default as randomSample} from './randomSample';\nexport {default as range}        from './range';\nexport {default as reduced}      from './reduced';\nexport {default as reduce}       from './reduce';\nexport {default as reductions}   from './reductions';\nexport {default as remove}       from './remove';\nexport {default as repeatedly}   from './repeatedly';\nexport {default as repeat}       from './repeat';\nexport {default as replace}      from './replace';\nexport {default as rest}         from './rest';\nexport {default as reverse}      from './reverse';\nexport {default as rseq}         from './rseq';\nexport {default as second}       from './second';\nexport {default as sequence}     from './sequence';\nexport {default as seq}          from './seq';\nexport {default as shuffle}      from './shuffle';\nexport {default as someCall}     from './someCall';\nexport {default as someFn}       from './someFn';\nexport {default as some}         from './some';\nexport {default as sortBy}       from './sortBy';\nexport {default as sort}         from './sort';\nexport {default as splitAt}      from './splitAt';\nexport {default as splitWith}    from './splitWith';\nexport {default as takeLast}     from './takeLast';\nexport {default as takeNth}      from './takeNth';\nexport {default as takeWhile}    from './takeWhile';\nexport {default as take}         from './take';\nexport {default as tee}          from './tee';\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 107,
+    "kind": "file",
+    "name": "src/interleave.js",
+    "content": "import sequence from './sequence';\nimport some     from './some';\n\n/**\n * 1つ目の集合の最初の要素、2つ目の集合の最初の要素……、1つ目の要素の2番目の要素、2つ目の要素の2番目の要素……という集合のイテレーターを返します。\n *\n * @param {*[][] | iterator[]} colls - 集合の集合\n *\n * @return 集合のイテレーター\n *\n * @example\n * iterleave([0, 1, 2], [3, 4, 5], [6, 7, 8]);  // [0, 3, 6, 1, 4, 7, 2, 5, 8]のイテレーター\n */\nexport default function* interleave(...colls) {\n  const iters = colls.map(sequence);\n\n  for (;;) {\n    const nexts = iters.map(iter => iter.next());\n    if (nexts.some(next => next.done)) {\n      break;\n    }\n\n    for (const next of nexts) {\n      yield next.value;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/interleave.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 108,
+    "kind": "function",
+    "name": "interleave",
+    "memberof": "src/interleave.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/interleave.js~interleave",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/interleave.js",
+    "importStyle": "interleave",
+    "description": "1つ目の集合の最初の要素、2つ目の集合の最初の要素……、1つ目の要素の2番目の要素、2つ目の要素の2番目の要素……という集合のイテレーターを返します。",
+    "examples": [
+      "iterleave([0, 1, 2], [3, 4, 5], [6, 7, 8]);  // [0, 3, 6, 1, 4, 7, 2, 5, 8]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[][] ",
+          " iterator[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "colls",
+        "description": "集合の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "file",
+    "name": "src/interpose.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合の要素の間にセパレーターを挟み込んだ集合のイテレーターを返します。\n *\n * @param {*} sep - セパレーター\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 集合の要素の間にセパレーターが挟み込まれた集合のイテレーター\n *\n * @example\n * interpose(0, range(1, 5));  // [1, 0, 2, 0, 3, 0, 4]のイテレーター\n */\nexport default function* interpose(sep, coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return;\n  }\n\n  yield iter.next().value;\n\n  for (const x of iter) {\n    yield sep;\n    yield x;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/interpose.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 110,
+    "kind": "function",
+    "name": "interpose",
+    "memberof": "src/interpose.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/interpose.js~interpose",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/interpose.js",
+    "importStyle": "interpose",
+    "description": "集合の要素の間にセパレーターを挟み込んだ集合のイテレーターを返します。",
+    "examples": [
+      "interpose(0, range(1, 5));  // [1, 0, 2, 0, 3, 0, 4]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sep",
+        "description": "セパレーター"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "集合の要素の間にセパレーターが挟み込まれた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "file",
+    "name": "src/isEmpty.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合が空か調べます。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {boolean} 集合が空ならtrue、そうでなければfalse\n */\nexport default function isEmpty(coll) {\n  if (!seq(coll)) {\n    return true;\n  }\n\n  return false;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/isEmpty.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 112,
+    "kind": "function",
+    "name": "isEmpty",
+    "memberof": "src/isEmpty.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/isEmpty.js~isEmpty",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/isEmpty.js",
+    "importStyle": "isEmpty",
+    "description": "集合が空か調べます。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "集合が空ならtrue、そうでなければfalse"
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "file",
+    "name": "src/isSequencial.js",
+    "content": "/**\n * イテレーターを取得できるか（イテラブルか）確認します。\n *\n * @param {*} x - イテレーターを取得できるか確認する対象\n *\n * @return {boolean} イテレーターを取得できるならtrue、そうでなければfalse\n */\nexport default function isSequencial(x) {\n  return x && x[Symbol.iterator];\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/isSequencial.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "isSequencial",
+    "memberof": "src/isSequencial.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/isSequencial.js~isSequencial",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/isSequencial.js",
+    "importStyle": "isSequencial",
+    "description": "イテレーターを取得できるか（イテラブルか）確認します。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "イテレーターを取得できるか確認する対象"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "イテレーターを取得できるならtrue、そうでなければfalse"
+    }
+  },
+  {
+    "__docId__": 115,
+    "kind": "file",
+    "name": "src/iterate.js",
+    "content": "/**\n * 初期値、初期値を引数に関数を呼び出した戻り値、その戻り値を引数に関数を呼び出した戻り値……のイテレーターを返します。\n *\n * @param {function} f - 関数\n * @param {*} x - 初期値\n *\n * @return [x, f(x), f(f(x)), f(f(f(x)))...]のイテレーター\n *\n * @example\n * iterate(inc, 1);  // すべての自然数\n */\nexport default function* iterate(f, x) {\n  yield x;\n\n  for (;;) {\n    x = f(x);\n\n    yield x;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/iterate.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 116,
+    "kind": "function",
+    "name": "iterate",
+    "memberof": "src/iterate.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/iterate.js~iterate",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/iterate.js",
+    "importStyle": "iterate",
+    "description": "初期値、初期値を引数に関数を呼び出した戻り値、その戻り値を引数に関数を呼び出した戻り値……のイテレーターを返します。",
+    "examples": [
+      "iterate(inc, 1);  // すべての自然数"
+    ],
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "初期値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "[x, f(x), f(f(x)), f(f(f(x)))...]のイテレーター"
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "file",
+    "name": "src/juxt.js",
+    "content": "import isSequencial from './isSequencial';\nimport map          from './map';\nimport tee          from './tee';\n\n/**\n * 引数で指定した関数群の戻り値の集合へのイテレーターを返す関数を生成します。\n *\n * @param {function[]} fs - 関数\n *\n * @return {function} fsの関数を実行した結果へのイテレーターを返す関数\n *\n * @example\n * const [x, iter] = juxt(first, next)([1, 2, 3]);\n * // x    == 1\n * // iter == [2, 3]のイテレーター\n */\nexport default function juxt(...fs) {\n  return function(...args) {\n    if (args.length === 1 && isSequencial(args[0])) {\n      return map((f, coll) => f(coll), fs, tee(fs.length, args[0]));\n    }\n\n    return map(f => f(...args), fs);\n  };\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/juxt.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 118,
+    "kind": "function",
+    "name": "juxt",
+    "memberof": "src/juxt.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/juxt.js~juxt",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/juxt.js",
+    "importStyle": "juxt",
+    "description": "引数で指定した関数群の戻り値の集合へのイテレーターを返す関数を生成します。",
+    "examples": [
+      "const [x, iter] = juxt(first, next)([1, 2, 3]);\n// x    == 1\n// iter == [2, 3]のイテレーター"
+    ],
+    "lineNumber": 17,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "fsの関数を実行した結果へのイテレーターを返す関数"
+    }
+  },
+  {
+    "__docId__": 119,
+    "kind": "file",
+    "name": "src/keep.js",
+    "content": "/**\n * 集合の要素を引数に取る関数を実行した結果がnullでない場合の集合のイテレーターを返します。\n *\n * @param {function} f - 集合の要素を引数に取る関数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 関数の実行結果がnullでない場合の集合のイテレーター\n *\n * @example\n * keep(x => x > 0 ? x * 2 : null, [-9 0 29 -7 45 3 -8]);  // [58, 90, 6]のイテレーター\n */\nexport default function* keep(f, coll) {\n  for (const x of coll) {\n    const fx = f(x);\n\n    if (fx !== null && fx !== undefined) {\n      yield fx;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/keep.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "keep",
+    "memberof": "src/keep.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/keep.js~keep",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/keep.js",
+    "importStyle": "keep",
+    "description": "集合の要素を引数に取る関数を実行した結果がnullでない場合の集合のイテレーターを返します。",
+    "examples": [
+      "keep(x => x > 0 ? x * 2 : null, [-9 0 29 -7 45 3 -8]);  // [58, 90, 6]のイテレーター"
+    ],
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "集合の要素を引数に取る関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "関数の実行結果がnullでない場合の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "name": "src/keepIndexed.js",
+    "content": "import apply   from './apply';\nimport keep    from './keep';\nimport map     from './map';\nimport partial from './partial';\nimport range   from './range';\n\n/**\n * インデックスと集合の要素を引数に取る関数を実行した結果がnullでない場合の集合のイテレーターを返します。\n *\n * @param {function} f - インデックスと集合の要素を引数に取る関数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 関数の実行結果がnullでない場合の集合のイテレーター\n *\n * @example\n * keepIndexed((i, x) => x > 0 ? i : null, [-9 0 29 -7 45 3 -8]);  // [2, 4, 5]のイテレーター\n */\nexport default function keepIndexed(f, coll) {\n  return keep(partial(apply, f), map((i, x) => [i, x], range(), coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/keepIndexed.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 122,
+    "kind": "function",
+    "name": "keepIndexed",
+    "memberof": "src/keepIndexed.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/keepIndexed.js~keepIndexed",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/keepIndexed.js",
+    "importStyle": "keepIndexed",
+    "description": "インデックスと集合の要素を引数に取る関数を実行した結果がnullでない場合の集合のイテレーターを返します。",
+    "examples": [
+      "keepIndexed((i, x) => x > 0 ? i : null, [-9 0 29 -7 45 3 -8]);  // [2, 4, 5]のイテレーター"
+    ],
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "インデックスと集合の要素を引数に取る関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "関数の実行結果がnullでない場合の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 123,
+    "kind": "file",
+    "name": "src/last.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合の最後の要素を返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {*} 集合の最後の要素\n */\nexport default function last(coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return null;\n  }\n\n  let prev = iter.next().value;\n  for (const x of iter) {\n    prev = x;\n  }\n\n  return prev;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/last.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "last",
+    "memberof": "src/last.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/last.js~last",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/last.js",
+    "importStyle": "last",
+    "description": "集合の最後の要素を返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "集合の最後の要素"
+    }
+  },
+  {
+    "__docId__": 125,
+    "kind": "file",
+    "name": "src/lazySeqFn.js",
+    "content": "import comp     from './comp';\nimport sequence from './sequence';\n\n/**\n * イテレーターが必要となったときまで、関数の実行を遅延します。lazySeqマクロを使用すれば、関数呼び出しをそのまま記述できます。\n *\n * @param {function} f - イテレーターまたはnullを返す関数\n *\n * @return 関数を遅延実行するイテラブル\n *\n * @example\n * // 無限に続くフィボナッチ数列\n * functon getFibonacciNumbers(x, y) {\n *   return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n *   // = return cons(x, lazySeqFn(() => getFibonacciNumbers(y, x + y)));\n * }\n */\nexport default function lazySeqFn(f) {\n  return {[Symbol.iterator]: comp(sequence, f)};\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/lazySeqFn.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 126,
+    "kind": "function",
+    "name": "lazySeqFn",
+    "memberof": "src/lazySeqFn.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/lazySeqFn.js~lazySeqFn",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/lazySeqFn.js",
+    "importStyle": "lazySeqFn",
+    "description": "イテレーターが必要となったときまで、関数の実行を遅延します。lazySeqマクロを使用すれば、関数呼び出しをそのまま記述できます。",
+    "examples": [
+      "// 無限に続くフィボナッチ数列\nfuncton getFibonacciNumbers(x, y) {\n  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n  // = return cons(x, lazySeqFn(() => getFibonacciNumbers(y, x + y)));\n}"
+    ],
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "イテレーターまたはnullを返す関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "関数を遅延実行するイテラブル"
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "name": "src/map.js",
+    "content": "import sequence from './sequence';\nimport some     from './some';\n\nexport default function* map(f, ...colls) {\n  if (colls.length === 1) {\n    for (const x of colls[0]) {\n      yield f(x);\n    }\n\n  } else {\n    const iters = colls.map(sequence);\n\n    for (;;) {\n      const nexts = iters.map(iter => iter.next());\n      if (nexts.some(next => next.done)) {\n        break;\n      }\n\n      yield (f(...nexts.map(next => next.value)));\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/map.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 128,
+    "kind": "function",
+    "name": "map",
+    "memberof": "src/map.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/map.js~map",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/map.js",
+    "importStyle": "map",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "f",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "colls",
+        "types": [
+          "...*"
+        ],
+        "spread": true
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 129,
+    "kind": "file",
+    "name": "src/mapIndexed.js",
+    "content": "import map   from './map';\nimport range from './range';\n\n/**\n * インデックスと集合の要素を引数に取る関数を実行した結果の集合のイテレーターを返します。map(f, range(), coll)と同じです。\n *\n * @param {function} f - インデックスと集合の要素を引数に取る関数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 関数の実行結果の集合のイテレーター\n *\n * @example\n * map((i, e) => [i, e.favoriteLanguage()], getEmployees());  // インデックスと好きな言語の配列のシーケンス\n */\nexport default function mapIndexed(f, coll) {\n  return map(f, range(), coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/mapIndexed.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 130,
+    "kind": "function",
+    "name": "mapIndexed",
+    "memberof": "src/mapIndexed.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/mapIndexed.js~mapIndexed",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/mapIndexed.js",
+    "importStyle": "mapIndexed",
+    "description": "インデックスと集合の要素を引数に取る関数を実行した結果の集合のイテレーターを返します。map(f, range(), coll)と同じです。",
+    "examples": [
+      "map((i, e) => [i, e.favoriteLanguage()], getEmployees());  // インデックスと好きな言語の配列のシーケンス"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "インデックスと集合の要素を引数に取る関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "関数の実行結果の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 131,
+    "kind": "file",
+    "name": "src/mapcat.js",
+    "content": "import apply  from './apply';\nimport concat from './concat';\nimport map    from './map';\n\n/**\n * mapした結果をconcatします。apply(concat, map(f, coll))と同じです。\n *\n * @param {function} f - 集合の要素に対して実行する関数\n * @param {*[][] | iterator[]} colls - 集合\n *\n * @return {iterator} 関数の戻り値をconcatした集合のイテレーター\n *\n * @example\n * mapcat(e => e.canUseLanguages(), getEmployees());  // 社員が使用できる言語の集合。イテレーターのイテレーターにならずに、イテレーターになります\n */\nexport default function mapcat(f, ...colls) {\n  return apply(concat, map(f, ...colls));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/mapcat.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 132,
+    "kind": "function",
+    "name": "mapcat",
+    "memberof": "src/mapcat.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/mapcat.js~mapcat",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/mapcat.js",
+    "importStyle": "mapcat",
+    "description": "mapした結果をconcatします。apply(concat, map(f, coll))と同じです。",
+    "examples": [
+      "mapcat(e => e.canUseLanguages(), getEmployees());  // 社員が使用できる言語の集合。イテレーターのイテレーターにならずに、イテレーターになります"
+    ],
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "集合の要素に対して実行する関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[][] ",
+          " iterator[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "colls",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "関数の戻り値をconcatした集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 133,
+    "kind": "file",
+    "name": "src/max.js",
+    "content": "import rest from './rest';\n\n/**\n * 引数の中で最大の値を返します。\n *\n * @param {*[]} xs - 値の集合\n *\n * @return {*} 最大の値\n */\nexport default function max(...xs) {\n  if (xs.length === 0) {\n    throw 'Invalid arguments';\n  }\n\n  let max = xs[0];\n\n  for (const x of rest(xs)) {\n    if (x > max) {\n      max = x;\n    }\n  }\n\n  return max;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/max.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 134,
+    "kind": "function",
+    "name": "max",
+    "memberof": "src/max.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/max.js~max",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/max.js",
+    "importStyle": "max",
+    "description": "引数の中で最大の値を返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xs",
+        "description": "値の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最大の値"
+    }
+  },
+  {
+    "__docId__": 135,
+    "kind": "file",
+    "name": "src/maxKey.js",
+    "content": "import reduce from './reduce';\nimport rest   from './rest';\n\n/**\n * k(x)が最大のxを返します。\n *\n * @param {funciton} k - 比較対象のキーを取得する関数\n * @param {*[]} xs - 値の集合\n *\n * @return {*} k(x)が最大のx\n *\n * @example\n * maxKey(e => e.getSalary(), a, b, c);  // 最も給料が高い社員\n */\nexport default function maxKey(k, ...xs) {\n  if (xs.length === 0) {\n    throw 'Invalid arguments';\n  }\n\n  return reduce((acc, x) => {\n    if (k(x) > acc[0]) {\n      return [k(x), x];\n    }\n\n    return acc;\n  }, [k(xs[0]), xs[0]], rest(xs))[1];\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/maxKey.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 136,
+    "kind": "function",
+    "name": "maxKey",
+    "memberof": "src/maxKey.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/maxKey.js~maxKey",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/maxKey.js",
+    "importStyle": "maxKey",
+    "description": "k(x)が最大のxを返します。",
+    "examples": [
+      "maxKey(e => e.getSalary(), a, b, c);  // 最も給料が高い社員"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "funciton"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "比較対象のキーを取得する関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xs",
+        "description": "値の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "k(x)が最大のx"
+    }
+  },
+  {
+    "__docId__": 137,
+    "kind": "file",
+    "name": "src/memoize.js",
+    "content": "/**\n * 関数をメモ化します。\n *\n * @param {function} f - 関数\n *\n * @return {function} メモ化した関数\n */\nexport default function memoize(f) {\n  const memo = new Map();\n\n  return (...args) => {\n    const argsString = args.toString();\n\n    if (!memo.has(argsString)) {\n      memo.set(argsString, f(...args));\n    }\n\n    return memo.get(argsString);\n\n    // ECMAScriptではArrayの比較ができなくて（実は今日まで知らなかった）、今調べたらtoStringすればよいとWebに書いてあった。\n    // というわけでこんなコードなんだけど、これで正しいの？　……正しくない気がする。\n  };\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/memoize.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 138,
+    "kind": "function",
+    "name": "memoize",
+    "memberof": "src/memoize.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/memoize.js~memoize",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/memoize.js",
+    "importStyle": "memoize",
+    "description": "関数をメモ化します。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "メモ化した関数"
+    }
+  },
+  {
+    "__docId__": 139,
+    "kind": "file",
+    "name": "src/min.js",
+    "content": "import rest from './rest';\n\n/**\n * 引数の中で最小の値を返します。\n *\n * @param {*[]} xs - 値の集合\n *\n * @return {*} 最小の値\n */\nexport default function min(...xs) {\n  if (xs.length === 0) {\n    throw 'Invalid arguments';\n  }\n\n  let min = xs[0];\n\n  for (const x of rest(xs)) {\n    if (x < min) {\n      min = x;\n    }\n  }\n\n  return min;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/min.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 140,
+    "kind": "function",
+    "name": "min",
+    "memberof": "src/min.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/min.js~min",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/min.js",
+    "importStyle": "min",
+    "description": "引数の中で最小の値を返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xs",
+        "description": "値の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最小の値"
+    }
+  },
+  {
+    "__docId__": 141,
+    "kind": "file",
+    "name": "src/minKey.js",
+    "content": "import reduce from './reduce';\nimport rest   from './rest';\n\n/**\n * k(x)が最小のxを返します。\n *\n * @param {funciton} k - 比較対象のキーを取得する関数\n * @param {*[]} xs - 値の集合\n *\n * @return {*} k(x)が最小のx\n *\n * @example\n * minKey(e => e.getSalary(), a, b, c);  // 最も給料が低い社員\n */\nexport default function maxKey(k, ...xs) {\n  if (xs.length === 0) {\n    throw 'Invalid arguments';\n  }\n\n  return reduce((acc, x) => {\n    if (k(x) < acc[0]) {\n      return [k(x), x];\n    }\n\n    return acc;\n  }, [k(xs[0]), xs[0]], rest(xs))[1];\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/minKey.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 142,
+    "kind": "function",
+    "name": "maxKey",
+    "memberof": "src/minKey.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/minKey.js~maxKey",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/minKey.js",
+    "importStyle": "maxKey",
+    "description": "k(x)が最小のxを返します。",
+    "examples": [
+      "minKey(e => e.getSalary(), a, b, c);  // 最も給料が低い社員"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "funciton"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "k",
+        "description": "比較対象のキーを取得する関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "xs",
+        "description": "値の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "k(x)が最小のx"
+    }
+  },
+  {
+    "__docId__": 143,
+    "kind": "file",
+    "name": "src/next.js",
+    "content": "import seq      from './seq';\nimport sequence from './sequence';\n\n/**\n * 集合の2番目の要素から最後の要素までのイテレーターを返します。集合の要素数が2未満の場合は、nullを返します。空集合のイテレーターが必要な場合は、restを使用してください。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator | null} 集合の2番目の要素から最後の要素までのイテレーター、またはnull\n */\nexport default function next(coll) {\n  const iter = sequence(coll);\n\n  iter.next();\n\n  return seq(iter);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/next.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 144,
+    "kind": "function",
+    "name": "next",
+    "memberof": "src/next.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/next.js~next",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/next.js",
+    "importStyle": "next",
+    "description": "集合の2番目の要素から最後の要素までのイテレーターを返します。集合の要素数が2未満の場合は、nullを返します。空集合のイテレーターが必要な場合は、restを使用してください。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "集合の2番目の要素から最後の要素までのイテレーター、またはnull"
+    }
+  },
+  {
+    "__docId__": 145,
+    "kind": "file",
+    "name": "src/nfirst.js",
+    "content": "import first from './first';\nimport next  from './next';\n\n/**\n * 集合の最初の要素の2番目の要素から最後の要素までのイテレーターを返します。next(first(coll))と同じです。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator | null} 集合の最初の要素の2番目の要素から最後の要素までのイテレーター\n */\nexport default function nfirst(coll) {\n  return next(first(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/nfirst.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 146,
+    "kind": "function",
+    "name": "nfirst",
+    "memberof": "src/nfirst.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nfirst.js~nfirst",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/nfirst.js",
+    "importStyle": "nfirst",
+    "description": "集合の最初の要素の2番目の要素から最後の要素までのイテレーターを返します。next(first(coll))と同じです。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "集合の最初の要素の2番目の要素から最後の要素までのイテレーター"
+    }
+  },
+  {
+    "__docId__": 147,
+    "kind": "file",
+    "name": "src/nnext.js",
+    "content": "import next from './next';\n\n/**\n * 集合の2番目以降の要素の2番目以降の要素（つまり3番目以降の要素）を返します。next(next(coll))と同じです。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator | null} 集合の最初の要素の2番目の要素から最後の要素までのイテレーター\n */\nexport default function nnext(coll) {\n  return next(next(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/nnext.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 148,
+    "kind": "function",
+    "name": "nnext",
+    "memberof": "src/nnext.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nnext.js~nnext",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/nnext.js",
+    "importStyle": "nnext",
+    "description": "集合の2番目以降の要素の2番目以降の要素（つまり3番目以降の要素）を返します。next(next(coll))と同じです。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "集合の最初の要素の2番目の要素から最後の要素までのイテレーター"
+    }
+  },
+  {
+    "__docId__": 149,
+    "kind": "file",
+    "name": "src/notAny.js",
+    "content": "import some from './some';\n\n/**\n * 集合の要素の中に、条件を満たすものが1つもないことを確認します。someの反対です。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {boolean} 条件を満たす要素が1つもなければtrue、そうでなければfalse\n */\nexport default function notAny(pred, coll) {\n  return !some(pred, coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/notAny.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 150,
+    "kind": "function",
+    "name": "notAny",
+    "memberof": "src/notAny.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/notAny.js~notAny",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/notAny.js",
+    "importStyle": "notAny",
+    "description": "集合の要素の中に、条件を満たすものが1つもないことを確認します。someの反対です。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "条件を満たす要素が1つもなければtrue、そうでなければfalse"
+    }
+  },
+  {
+    "__docId__": 151,
+    "kind": "file",
+    "name": "src/notEvery.js",
+    "content": "import every from './every';\n\n/**\n * 集合の要素の中に、条件を満たさないものがあるか確認します。everyの反対です。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {boolean} 条件を満たさないものがあればtrue、そうでなければfalse\n */\nexport default function notEvery(pred, coll) {\n  return !every(pred, coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/notEvery.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 152,
+    "kind": "function",
+    "name": "notEvery",
+    "memberof": "src/notEvery.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/notEvery.js~notEvery",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/notEvery.js",
+    "importStyle": "notEvery",
+    "description": "集合の要素の中に、条件を満たさないものがあるか確認します。everyの反対です。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "boolean"
+      ],
+      "spread": false,
+      "description": "条件を満たさないものがあればtrue、そうでなければfalse"
+    }
+  },
+  {
+    "__docId__": 153,
+    "kind": "file",
+    "name": "src/nth.js",
+    "content": "import seq from './seq';\n\n/**\n * 集合のn番目の要素を取得します。\n *\n * @param {*[] | iterator | null} coll - 集合\n * @param {number} n - 何番目の要素を取得したいか\n *\n * @return {* | null} n番目の要素。要素が存在しない場合はnull\n */\nexport default function nth(coll, n) {\n  const iter = seq(coll);\n  if (!iter) {\n    return null;\n  }\n\n  let next = undefined;\n  for (let i = 0; i <= n; ++i) {\n    next = iter.next();\n    if (next.done) {\n      return null;\n    }\n  }\n\n  return next.value;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/nth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 154,
+    "kind": "function",
+    "name": "nth",
+    "memberof": "src/nth.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nth.js~nth",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/nth.js",
+    "importStyle": "nth",
+    "description": "集合のn番目の要素を取得します。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "何番目の要素を取得したいか"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "* ",
+        " null"
+      ],
+      "spread": false,
+      "description": "n番目の要素。要素が存在しない場合はnull"
+    }
+  },
+  {
+    "__docId__": 155,
+    "kind": "file",
+    "name": "src/nthnext.js",
+    "content": "import seq      from './seq';\nimport sequence from './sequence';\n\n/**\n * 集合のn番目以降のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n * @param {number} n - 何番目以降のデータを取得するか\n *\n * @return {iterator | null} 集合のn番目以降のイテレーター。集合の要素数がnよりも小さい場合はnull\n */\nexport default function nthnext(coll, n) {\n  const iter = sequence(coll);\n\n  for (let i = 0; i < n; ++i) {\n    const next = iter.next();\n    if (next.done) {\n      return null;\n    }\n  }\n\n  return seq(iter);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/nthnext.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 156,
+    "kind": "function",
+    "name": "nthnext",
+    "memberof": "src/nthnext.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nthnext.js~nthnext",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/nthnext.js",
+    "importStyle": "nthnext",
+    "description": "集合のn番目以降のイテレーターを返します。",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "何番目以降のデータを取得するか"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "集合のn番目以降のイテレーター。集合の要素数がnよりも小さい場合はnull"
+    }
+  },
+  {
+    "__docId__": 157,
+    "kind": "file",
+    "name": "src/nthrest.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合のn番目以降のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n * @param {number} n - 何番目以降のデータを取得するか\n *\n * @return {iterator | null} 集合のn番目以降のイテレーター\n */\nexport default function nthrest(coll, n) {\n  const iter = sequence(coll);\n\n  for (let i = 0; i < n; ++i) {\n    const next = iter.next();\n    if (next.done) {\n      return sequence(null);\n    }\n  }\n\n  return iter;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/nthrest.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 158,
+    "kind": "function",
+    "name": "nthrest",
+    "memberof": "src/nthrest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/nthrest.js~nthrest",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/nthrest.js",
+    "importStyle": "nthrest",
+    "description": "集合のn番目以降のイテレーターを返します。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "何番目以降のデータを取得するか"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "集合のn番目以降のイテレーター"
+    }
+  },
+  {
+    "__docId__": 159,
+    "kind": "file",
+    "name": "src/partial.js",
+    "content": "/**\n * 関数に引数を部分適用します。\n *\n * @param {function} f - 関数\n * @param {*[]} args - 引数\n *\n * @return {function} 引数が部分適用された関数\n *\n * @example\n * const multiples = (x) => iterate(y => y + x, x);  // xの倍数のイテレーターを返す関数\n * const multiplesOf5 = partial(multiples, 5);       // [5, 10, 15, 20, 25...]のイテレーターを返す関数\n */\nexport default function partial(f, ...args) {\n  return (...moreArgs) => f(...args, ...moreArgs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/partial.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 160,
+    "kind": "function",
+    "name": "partial",
+    "memberof": "src/partial.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/partial.js~partial",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/partial.js",
+    "importStyle": "partial",
+    "description": "関数に引数を部分適用します。",
+    "examples": [
+      "const multiples = (x) => iterate(y => y + x, x);  // xの倍数のイテレーターを返す関数\nconst multiplesOf5 = partial(multiples, 5);       // [5, 10, 15, 20, 25...]のイテレーターを返す関数"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "引数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "引数が部分適用された関数"
+    }
+  },
+  {
+    "__docId__": 161,
+    "kind": "file",
+    "name": "src/partition.js",
+    "content": "import mapIndexed from './mapIndexed';\n\n/**\n * 集合を分割します。分割した余りは返されません。\n *\n * @param {*[]} args - [n、step、pad、coll]。nは要素数、stepは分割する位置（省略した場合はnと同じ）、padは要素が不足した場合に追加する値（省略した場合はnull）、collは集合。\n *\n * @return {iterator} 分割された集合のイテレーター\n *\n * @example\n * partition(3,               [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5]]のイテレーター\n * partition(3, 4,            [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [4, 5, 6]]のイテレーター\n * partition(3, 2,            [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [2, 3, 4], [4, 5, 6]]のイテレーター\n * partition(3, 3, [0, 0, 0], [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5], [6, 7, 0]]のイテレーター\n */\nexport default function* partition(...args) {\n  const [n, step, pad, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      throw 'Invalid arguments';\n\n    case 2:\n      return [args[0], args[0], null, args[1]];\n\n    case 3:\n      return [args[0], args[1], null, args[2]];\n\n    default:\n      return args;\n    }\n  })();\n\n  const xss = [];\n\n  for (const [i, x] of mapIndexed(Array.of, coll)) {\n    if (i % step === 0) {\n      xss.push([]);\n    }\n\n    if (xss.length > 0) {\n      for (const xs of xss) {\n        xs.push(x);\n      }\n\n      if (xss[0].length === n) {\n        yield xss[0];\n\n        xss.shift();\n      }\n    }\n  }\n\n  if (pad && xss.length > 0) {\n    yield xss[0].concat(pad).slice(0, n);\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/partition.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 162,
+    "kind": "function",
+    "name": "partition",
+    "memberof": "src/partition.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/partition.js~partition",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/partition.js",
+    "importStyle": "partition",
+    "description": "集合を分割します。分割した余りは返されません。",
+    "examples": [
+      "partition(3,               [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5]]のイテレーター\npartition(3, 4,            [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [4, 5, 6]]のイテレーター\npartition(3, 2,            [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [2, 3, 4], [4, 5, 6]]のイテレーター\npartition(3, 3, [0, 0, 0], [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5], [6, 7, 0]]のイテレーター"
+    ],
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[n、step、pad、coll]。nは要素数、stepは分割する位置（省略した場合はnと同じ）、padは要素が不足した場合に追加する値（省略した場合はnull）、collは集合。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "分割された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 163,
+    "kind": "file",
+    "name": "src/partitionAll.js",
+    "content": "import mapIndexed from './mapIndexed';\n\n/**\n * 集合を分割します。partitionとは異なり、分割した余りも返します。\n *\n * @param {*[]} args - [n、step、coll]。nは要素数、stepは分割する位置（省略した場合はnと同じ）、collは集合。\n *\n * @return {iterator} 分割された集合のイテレーター\n *\n * @example\n * partition(3,    [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5], [7]]のイテレーター\n * partition(3, 4, [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [4, 5, 6]]のイテレーター\n * partition(3, 2, [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [2, 3, 4], [4, 5, 6], [6, 7]]のイテレーター\n */\nexport default function* partitionAll(...args) {\n  const [n, step, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      throw 'Invalid arguments';\n\n    case 2:\n      return [args[0], args[0], args[1]];\n\n    default:\n      return args;\n    }\n  })();\n\n  const xss = [];\n\n  for (const [i, x] of mapIndexed(Array.of, coll)) {\n    if (i % step === 0) {\n      xss.push([]);\n    }\n\n    if (xss.length > 0) {\n      for (const xs of xss) {\n        xs.push(x);\n      }\n\n      if (xss[0].length === n) {\n        yield xss[0];\n\n        xss.shift();\n      }\n    }\n  }\n\n  if (xss.length > 0) {\n    yield xss[0];\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/partitionAll.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 164,
+    "kind": "function",
+    "name": "partitionAll",
+    "memberof": "src/partitionAll.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/partitionAll.js~partitionAll",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/partitionAll.js",
+    "importStyle": "partitionAll",
+    "description": "集合を分割します。partitionとは異なり、分割した余りも返します。",
+    "examples": [
+      "partition(3,    [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [3, 4, 5], [7]]のイテレーター\npartition(3, 4, [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [4, 5, 6]]のイテレーター\npartition(3, 2, [0, 1, 2, 3, 4, 5, 6, 7]);  // [[0, 1, 2], [2, 3, 4], [4, 5, 6], [6, 7]]のイテレーター"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[n、step、coll]。nは要素数、stepは分割する位置（省略した場合はnと同じ）、collは集合。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "分割された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 165,
+    "kind": "file",
+    "name": "src/partitionBy.js",
+    "content": "import seq      from './seq';\nimport sequence from './sequence';\n\n/**\n * 指定した関数の戻り値が変更になるたびに、集合を分割します。\n *\n * @param {function} f - 関数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 分割された集合のイテレーター\n *\n * @example\n * partitionBy(x => x % 2 === 0, [1, 1, 1, 2, 2, 3, 3, 4]);  // [[1, 1, 1], [2, 2], [3, 3], [4]]のイテレーター\n */\nexport default function* partitionBy(f, coll) {\n  const iter = seq(coll);\n  if (!iter) {\n    return sequence(null);\n  }\n\n  const next = iter.next();\n\n  let xs   = [next.value];\n  let prev = f(next.value);\n\n  for (const x of iter) {\n    const r = f(x);\n    if (r != prev) {\n      yield xs;\n\n      xs = [];\n      prev = r;\n    }\n\n    xs.push(x);\n  }\n\n  yield xs;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/partitionBy.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 166,
+    "kind": "function",
+    "name": "partitionBy",
+    "memberof": "src/partitionBy.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/partitionBy.js~partitionBy",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/partitionBy.js",
+    "importStyle": "partitionBy",
+    "description": "指定した関数の戻り値が変更になるたびに、集合を分割します。",
+    "examples": [
+      "partitionBy(x => x % 2 === 0, [1, 1, 1, 2, 2, 3, 3, 4]);  // [[1, 1, 1], [2, 2], [3, 3], [4]]のイテレーター"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "f",
+        "description": "関数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "分割された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 167,
+    "kind": "file",
+    "name": "src/pipe.js",
+    "content": "import reduce from './reduce';\n\n/**\n * 最初の関数の戻り値を入力にして次の関数を実行、その戻り値を入力にしてその次の関数を実行……のように、関数をパイプで接続して実行する関数を生成します。\n *\n * @param {function[]} fs - 関数\n *\n * @return {function} 生成された関数\n */\nexport default function pipe(...fs) {\n  return (x) => reduce((acc, f) => f(acc), x, fs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/pipe.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 168,
+    "kind": "function",
+    "name": "pipe",
+    "memberof": "src/pipe.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/pipe.js~pipe",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/pipe.js",
+    "importStyle": "pipe",
+    "description": "最初の関数の戻り値を入力にして次の関数を実行、その戻り値を入力にしてその次の関数を実行……のように、関数をパイプで接続して実行する関数を生成します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "生成された関数"
+    }
+  },
+  {
+    "__docId__": 169,
+    "kind": "file",
+    "name": "src/randNth.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 要素を1つランダムに抽出します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {*} ランダムに抽出された要素\n */\nexport default function randNth(coll) {\n  const xs = Array.from(sequence(coll));\n\n  return xs[Math.floor(Math.random() * xs.length)];\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/randNth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 170,
+    "kind": "function",
+    "name": "randNth",
+    "memberof": "src/randNth.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/randNth.js~randNth",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/randNth.js",
+    "importStyle": "randNth",
+    "description": "要素を1つランダムに抽出します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "ランダムに抽出された要素"
+    }
+  },
+  {
+    "__docId__": 171,
+    "kind": "file",
+    "name": "src/randomSample.js",
+    "content": "import filter from './filter';\n\n/**\n * 各要素を確率probで抽出します。一般に、抽出される要素の数がcount(coll) * probと一致するとは限りません。\n * n個必要で順序が安定でなくても良い場合は、take(n, shuffle(coll))を使用してください。\n *\n * @param {number} prob - 要素を抽出する確率\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 抽出された集合のイテレーター\n *\n * @example\n * randomSample(0.5, [1, 2, 3, 4, 5]);  // [1, 3, 5]や[1, 2]や[4]などのイテレーター\n */\nexport default function randomSample(prob, coll) {\n  return filter(_ => Math.random() <= prob, coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/randomSample.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 172,
+    "kind": "function",
+    "name": "randomSample",
+    "memberof": "src/randomSample.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/randomSample.js~randomSample",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/randomSample.js",
+    "importStyle": "randomSample",
+    "description": "各要素を確率probで抽出します。一般に、抽出される要素の数がcount(coll) * probと一致するとは限りません。\nn個必要で順序が安定でなくても良い場合は、take(n, shuffle(coll))を使用してください。",
+    "examples": [
+      "randomSample(0.5, [1, 2, 3, 4, 5]);  // [1, 3, 5]や[1, 2]や[4]などのイテレーター"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "prob",
+        "description": "要素を抽出する確率"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "抽出された集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 173,
+    "kind": "file",
+    "name": "src/range.js",
+    "content": "/**\n * 範囲を表現するイテレーターを返します。\n *\n * @param {number[]} args - []か[end]、[start, end]、[start, end step]のどれか。startのデフォルト値は0、stepのデフォルト値は1、endのデフォルト値は無限\n *\n * @return {iterator} 範囲のイテレーター\n *\n * @example\n * range();         // [0, 1, 2, 3, ...]のイテレーター\n * range(5);        // [0, 1, 2, 3, 4]のイテレーター\n * range(1, 5);     // [1, 2, 3, 4]のイテレーター\n * range(1, 5, 2);  // [1, 3]のイテレーター\n */\nexport default function* range(...args) {\n  const [start, end, step] = (() => {\n    switch (args.length) {\n    case 0:\n      return [0, Infinity, 1];\n\n    case 1:\n      return [0, args[0], 1];\n\n    case 2:\n      return [args[0], args[1], 1];\n\n    default:\n      return args;\n    }\n  })();\n\n  for (let x = start; x < end; x += step) {\n    yield x;\n  }\n};\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/range.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 174,
+    "kind": "function",
+    "name": "range",
+    "memberof": "src/range.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/range.js~range",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/range.js",
+    "importStyle": "range",
+    "description": "範囲を表現するイテレーターを返します。",
+    "examples": [
+      "range();         // [0, 1, 2, 3, ...]のイテレーター\nrange(5);        // [0, 1, 2, 3, 4]のイテレーター\nrange(1, 5);     // [1, 2, 3, 4]のイテレーター\nrange(1, 5, 2);  // [1, 3]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[]か[end]、[start, end]、[start, end step]のどれか。startのデフォルト値は0、stepのデフォルト値は1、endのデフォルト値は無限"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "範囲のイテレーター"
+    }
+  },
+  {
+    "__docId__": 175,
+    "kind": "file",
+    "name": "src/reduce.js",
+    "content": "import cons from './cons';\nimport seq  from './seq';\n\n/**\n * reduced向けのシンボルです。使用しないでください。\n */\nexport const reducedSymbol = Symbol('reduced');\n\n/**\n * 畳み込みます。f(f(f(init, coll[0]), coll[1]), coll[2])...の結果を返します。\n *\n * @param {*[]} args - [f, init, coll]か[f, coll]のどちらか。\n *\n * @return {*} 畳み込まれた値\n *\n * @example\n * reduce((acc, x) => acc + x, xs);  // xsの合計\n */\nexport default function reduce(...args) {\n  const [f, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      throw 'Invalid arguments';\n\n    case 2:\n      return args;\n\n    default:\n      return [args[0], cons(args[1], args[2])];\n    }\n  })();\n\n  const iter = seq(coll);\n  if (!iter) {\n    return null;\n  }\n\n  let acc = iter.next().value;\n\n  for (const x of iter) {\n    acc = f(acc, x);\n\n    if (acc && acc.hasOwnProperty(reducedSymbol)) {\n      acc = acc[reducedSymbol];\n      break;\n    }\n  }\n\n  return acc;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/reduce.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 176,
+    "kind": "variable",
+    "name": "reducedSymbol",
+    "memberof": "src/reduce.js",
+    "static": true,
+    "longname": "src/reduce.js~reducedSymbol",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/reduce.js",
+    "importStyle": "{reducedSymbol}",
+    "description": "reduced向けのシンボルです。使用しないでください。",
+    "lineNumber": 7,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 177,
+    "kind": "function",
+    "name": "reduce",
+    "memberof": "src/reduce.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduce.js~reduce",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/reduce.js",
+    "importStyle": "reduce",
+    "description": "畳み込みます。f(f(f(init, coll[0]), coll[1]), coll[2])...の結果を返します。",
+    "examples": [
+      "reduce((acc, x) => acc + x, xs);  // xsの合計"
+    ],
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[f, init, coll]か[f, coll]のどちらか。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "畳み込まれた値"
+    }
+  },
+  {
+    "__docId__": 178,
+    "kind": "file",
+    "name": "src/reduced.js",
+    "content": "import {reducedSymbol} from './reduce';\n\n/**\n * reduceを途中で終了させます。\n *\n * @param {*} x - reduceの戻り値となる値\n *\n * @return {object} reduceを途中で終了させるための内部データ\n *\n * @example\n * reduce((acc, x) => x > 10 ? acc : acc + x, range(1, 101));  // 55\n * reduce((acc, x) =>                acc + x, range(1, 101));  // 5050;\n */\nexport default function reduced(x) {\n  return {[reducedSymbol]: x};\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/reduced.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 179,
+    "kind": "function",
+    "name": "reduced",
+    "memberof": "src/reduced.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reduced.js~reduced",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/reduced.js",
+    "importStyle": "reduced",
+    "description": "reduceを途中で終了させます。",
+    "examples": [
+      "reduce((acc, x) => x > 10 ? acc : acc + x, range(1, 101));  // 55\nreduce((acc, x) =>                acc + x, range(1, 101));  // 5050;"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "reduceの戻り値となる値"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": "reduceを途中で終了させるための内部データ"
+    }
+  },
+  {
+    "__docId__": 180,
+    "kind": "file",
+    "name": "src/reductions.js",
+    "content": "import cons          from './cons';\nimport seq           from './seq';\nimport reducedSymbol from './reduce';\n\n/**\n * reduceの途中経過も含めて、イテレーターで返します。\n *\n * @param {*[]} args - [f, init, coll]か[f, coll]のどちらか。\n *\n * @return {iterator} 途中経過も含めたreduceの結果のイテレーター\n *\n * @example\n * reduce((acc, x) => acc + x, [1, 2, 3]);  // [1, 3, 6]のイテレーター\n */\nexport default function* reductions(...args) {\n  const [f, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      throw 'Invalid arguments';\n\n    case 2:\n      return args;\n\n    default:\n      return [args[0], cons(args[1], args[2])];\n    }\n  })();\n\n  const iter = seq(coll);\n  if (!iter) {\n    return;\n  }\n\n  let acc = iter.next().value;\n\n  for (const x of iter) {\n    yield acc;\n\n    acc = f(acc, x);\n\n    if (acc && acc.hasOwnProperty(reducedSymbol)) {\n      acc = acc[reducedSymbol];\n      break;\n    }\n  }\n\n  yield acc;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/reductions.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 181,
+    "kind": "function",
+    "name": "reductions",
+    "memberof": "src/reductions.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/reductions.js~reductions",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/reductions.js",
+    "importStyle": "reductions",
+    "description": "reduceの途中経過も含めて、イテレーターで返します。",
+    "examples": [
+      "reduce((acc, x) => acc + x, [1, 2, 3]);  // [1, 3, 6]のイテレーター"
+    ],
+    "lineNumber": 15,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[f, init, coll]か[f, coll]のどちらか。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "途中経過も含めたreduceの結果のイテレーター"
+    }
+  },
+  {
+    "__docId__": 182,
+    "kind": "file",
+    "name": "src/remove.js",
+    "content": "import complement from './complement';\nimport filter     from './filter';\n\n/**\n * 条件を満たす要素を除いた集合のイテレーターを返します。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 条件を満たす要素が覗かれた集合のイテレーター\n */\nexport default function remove(pred, coll) {\n  return filter(complement(pred), coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/remove.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 183,
+    "kind": "function",
+    "name": "remove",
+    "memberof": "src/remove.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/remove.js~remove",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/remove.js",
+    "importStyle": "remove",
+    "description": "条件を満たす要素を除いた集合のイテレーターを返します。",
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "条件を満たす要素が覗かれた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 184,
+    "kind": "file",
+    "name": "src/repeat.js",
+    "content": "/**\n * 値を繰り返す集合のイテレーターを返します。\n *\n * @param {*[]} args - [n, x]か[x]\n *\n * @return {iterator} 集合のイテレーター\n *\n * @example\n * repeat(   0);  // [0, 0, 0...]のイテレーター\n * repeat(3, 0);  // [0, 0, 0]のイテレーター\n */\nexport default function* repeat(...args) {\n  const [n, x] = (() => {\n    switch (args.length) {\n    case 0:\n      throw \"Invalid arguments\";\n\n    case 1:\n      return [Infinity, args[0]];\n\n    default:\n      return args;\n    }\n  })();\n\n  for (let i = 0; i < n; ++i) {\n    yield x;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/repeat.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 185,
+    "kind": "function",
+    "name": "repeat",
+    "memberof": "src/repeat.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/repeat.js~repeat",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/repeat.js",
+    "importStyle": "repeat",
+    "description": "値を繰り返す集合のイテレーターを返します。",
+    "examples": [
+      "repeat(   0);  // [0, 0, 0...]のイテレーター\nrepeat(3, 0);  // [0, 0, 0]のイテレーター"
+    ],
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[n, x]か[x]"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 186,
+    "kind": "file",
+    "name": "src/repeatedly.js",
+    "content": "/**\n * 関数を繰り返して実行し、その結果を返します。\n *\n * @param {*[]} args - [n, f]か[f]\n *\n * @return {iterator} 集合のイテレーター\n *\n * @example\n * repeatedly(   constantly(0));  // [0, 0, 0...]のイテレーター\n * repeatedly(3, constantly(0));  // [0, 0, 0]のイテレーター\n */\nexport default function* repeatedly(...args) {\n  const [n, f] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      return [Infinity, args[0]];\n\n    default:\n      return args;\n    }\n  })();\n\n  for (let i = 0; i < n; ++i) {\n    yield f();\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/repeatedly.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 187,
+    "kind": "function",
+    "name": "repeatedly",
+    "memberof": "src/repeatedly.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/repeatedly.js~repeatedly",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/repeatedly.js",
+    "importStyle": "repeatedly",
+    "description": "関数を繰り返して実行し、その結果を返します。",
+    "examples": [
+      "repeatedly(   constantly(0));  // [0, 0, 0...]のイテレーター\nrepeatedly(3, constantly(0));  // [0, 0, 0]のイテレーター"
+    ],
+    "lineNumber": 12,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[n, f]か[f]"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 188,
+    "kind": "file",
+    "name": "src/replace.js",
+    "content": "import map from './map';\n\n/**\n * 集合の要素をマップの値で置き換えます。\n *\n * @param {Map} smap - 要素の置き換え規則のマップ\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 置き換えられた集合のイテレーター\n *\n * @example\n * replace(new Map([[0, 'zero'], [1, 'one'], [2, 'two']]), range(3));  // ['zero', 'one', 'two']のイテレーター\n */\nexport default function replace(smap, coll) {\n  return map(x => smap.get(x), coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/replace.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 189,
+    "kind": "function",
+    "name": "replace",
+    "memberof": "src/replace.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/replace.js~replace",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/replace.js",
+    "importStyle": "replace",
+    "description": "集合の要素をマップの値で置き換えます。",
+    "examples": [
+      "replace(new Map([[0, 'zero'], [1, 'one'], [2, 'two']]), range(3));  // ['zero', 'one', 'two']のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Map"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "smap",
+        "description": "要素の置き換え規則のマップ"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "置き換えられた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 190,
+    "kind": "file",
+    "name": "src/rest.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の2番目の要素から最後の要素までのイテレーターを返します。集合の要素数が2未満の場合は、空集合のイテレーターを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 集合の2番目の要素から最後の要素までのイテレーター\n */\nexport default function rest(coll) {\n  const iter = sequence(coll);\n\n  iter.next();\n\n  return iter;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/rest.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 191,
+    "kind": "function",
+    "name": "rest",
+    "memberof": "src/rest.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/rest.js~rest",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/rest.js",
+    "importStyle": "rest",
+    "description": "集合の2番目の要素から最後の要素までのイテレーターを返します。集合の要素数が2未満の場合は、空集合のイテレーターを返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "集合の2番目の要素から最後の要素までのイテレーター"
+    }
+  },
+  {
+    "__docId__": 192,
+    "kind": "file",
+    "name": "src/reverse.js",
+    "content": "import rseq     from './rseq';\nimport sequence from './sequence';\n\n/**\n * 集合の要素を逆順にします。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 逆順の集合のイテレーター\n */\nexport default function reverse(coll) {\n  return sequence(rseq(Array.from(sequence(coll))));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/reverse.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 193,
+    "kind": "function",
+    "name": "reverse",
+    "memberof": "src/reverse.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reverse.js~reverse",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/reverse.js",
+    "importStyle": "reverse",
+    "description": "集合の要素を逆順にします。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "逆順の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 194,
+    "kind": "file",
+    "name": "src/rseq.js",
+    "content": "import seq from './seq';\n\n/**\n * 配列を逆順に辿るイテレーターを返します。\n *\n * @param {*[]} coll - 配列\n *\n * @return {iterator | null} イテレーター。配列が空の場合はnull\n */\nexport default function rseq(coll) {\n  if (!Array.isArray(coll)) {\n    throw 'Invalid arguments';\n  }\n\n  return seq(function*() {\n    for (let i = coll.length - 1; i >= 0; --i) {\n      yield coll[i];\n    }\n  }());\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/rseq.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 195,
+    "kind": "function",
+    "name": "rseq",
+    "memberof": "src/rseq.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/rseq.js~rseq",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/rseq.js",
+    "importStyle": "rseq",
+    "description": "配列を逆順に辿るイテレーターを返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "配列"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "イテレーター。配列が空の場合はnull"
+    }
+  },
+  {
+    "__docId__": 196,
+    "kind": "file",
+    "name": "src/second.js",
+    "content": "import nth from './nth';\n\n/**\n * 2番目の要素を抽出します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {*} 2番目の要素\n */\nexport default function second(coll) {\n  return nth(coll, 1);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/second.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 197,
+    "kind": "function",
+    "name": "second",
+    "memberof": "src/second.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/second.js~second",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/second.js",
+    "importStyle": "second",
+    "description": "2番目の要素を抽出します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "2番目の要素"
+    }
+  },
+  {
+    "__docId__": 198,
+    "kind": "file",
+    "name": "src/seq.js",
+    "content": "import cons from './cons';\n\n/**\n * 集合からイテレーターを取得します。集合が空の場合はnullを返します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator | null} イテレーター\n */\nexport default function seq(coll) {\n  if (coll === null) {\n    return null;\n  }\n\n  const iter = coll[Symbol.iterator]();\n\n  const next = iter.next();\n  if (next.done) {\n    return null;\n  }\n\n  return cons(next.value, iter);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/seq.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 199,
+    "kind": "function",
+    "name": "seq",
+    "memberof": "src/seq.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/seq.js~seq",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/seq.js",
+    "importStyle": "seq",
+    "description": "集合からイテレーターを取得します。集合が空の場合はnullを返します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator ",
+        " null"
+      ],
+      "spread": false,
+      "description": "イテレーター"
+    }
+  },
+  {
+    "__docId__": 200,
+    "kind": "file",
+    "name": "src/sequence.js",
+    "content": "/**\n * 集合からイテレーターを取得します。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} イテレーター\n */\nexport default function sequence(coll) {\n  if (coll === null) {\n    return [][Symbol.iterator]();\n  }\n\n  return coll[Symbol.iterator]();\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/sequence.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 201,
+    "kind": "function",
+    "name": "sequence",
+    "memberof": "src/sequence.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sequence.js~sequence",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/sequence.js",
+    "importStyle": "sequence",
+    "description": "集合からイテレーターを取得します。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "イテレーター"
+    }
+  },
+  {
+    "__docId__": 202,
+    "kind": "file",
+    "name": "src/shuffle.js",
+    "content": "/**\n * 集合をシャッフルします。\n *\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} シャッフルされた集合のイテレーター\n */\nexport default function* shuffle(coll) {\n  const xs = Array.from(coll);\n\n  while (xs.length > 0) {\n    const r = Math.floor(Math.random() * xs.length);\n\n    yield xs[r];\n\n    xs[r] = xs[xs.length - 1];\n    xs.pop();\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/shuffle.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 203,
+    "kind": "function",
+    "name": "shuffle",
+    "memberof": "src/shuffle.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/shuffle.js~shuffle",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/shuffle.js",
+    "importStyle": "shuffle",
+    "description": "集合をシャッフルします。",
+    "lineNumber": 8,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "シャッフルされた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 204,
+    "kind": "file",
+    "name": "src/some.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の中に条件を満たすものがあるか確認します。条件は関数で指定し、最初に真になった関数の戻り値を返します。最後まで真にならなかった場合は、nullを返します。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {* | null} 最初に真となった関数の戻り値。すべてが偽だった場合はnull。\n */\nexport default function some(pred, coll) {\n  for (const x of sequence(coll)) {\n    const x_ = pred(x);\n    if (x_) {\n      return x_;\n    }\n  }\n\n  return null;\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/some.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 205,
+    "kind": "function",
+    "name": "some",
+    "memberof": "src/some.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/some.js~some",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/some.js",
+    "importStyle": "some",
+    "description": "集合の中に条件を満たすものがあるか確認します。条件は関数で指定し、最初に真になった関数の戻り値を返します。最後まで真にならなかった場合は、nullを返します。",
+    "lineNumber": 11,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "* ",
+        " null"
+      ],
+      "spread": false,
+      "description": "最初に真となった関数の戻り値。すべてが偽だった場合はnull。"
+    }
+  },
+  {
+    "__docId__": 206,
+    "kind": "file",
+    "name": "src/someCall.js",
+    "content": "import reduce  from './reduce';\nimport reduced from './reduced';\n\n/**\n * 指定された引数を使用して最初の関数を呼び出し、その結果を引数に次の関数を呼び出します。関数がnullを返した場合は、そこで処理を完了します。\n * 引数にコードの一部を使用したい場合は、tSomeCallマクロを使用してください。\n *\n * @param {*} x - 最初の関数の引数\n * @param {function[] | iterator} fs - 順番に呼び出す関数の集合\n *\n * @return {*} 最後、もくくはnullを返した関数の戻り値\n *\n * @example\n * someCall(employee,                                             // 社員の\n *          employee => employee.getComputer(),                   // 所有するコンピューターの\n *          computer => computer.getSoftwareVersion('Node.js'));  // Node.jsのバージョンを調べます。\n * // computerがnullなら、3行目は実行されないでnullが戻ります。\n */\nexport default function someCall(x, ...fs) {\n  return reduce((acc, f) => {\n    const nextAcc = f(acc);\n\n    if (nextAcc === null || nextAcc === undefined) {\n      return reduced(nextAcc);\n    }\n\n    return acc;\n  }, x, fs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/someCall.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 207,
+    "kind": "function",
+    "name": "someCall",
+    "memberof": "src/someCall.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/someCall.js~someCall",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/someCall.js",
+    "importStyle": "someCall",
+    "description": "指定された引数を使用して最初の関数を呼び出し、その結果を引数に次の関数を呼び出します。関数がnullを返した場合は、そこで処理を完了します。\n引数にコードの一部を使用したい場合は、tSomeCallマクロを使用してください。",
+    "examples": [
+      "someCall(employee,                                             // 社員の\n         employee => employee.getComputer(),                   // 所有するコンピューターの\n         computer => computer.getSoftwareVersion('Node.js'));  // Node.jsのバージョンを調べます。\n// computerがnullなら、3行目は実行されないでnullが戻ります。"
+    ],
+    "lineNumber": 19,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "x",
+        "description": "最初の関数の引数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function[] ",
+          " iterator"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "順番に呼び出す関数の集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "*"
+      ],
+      "spread": false,
+      "description": "最後、もくくはnullを返した関数の戻り値"
+    }
+  },
+  {
+    "__docId__": 208,
+    "kind": "file",
+    "name": "src/someFn.js",
+    "content": "import some from './some';\n\n/**\n * 引数で指定される条件を一つでも満たすかを確認する関数を生成します。\n *\n * @param {function[]} fs - 関数\n *\n * @return {function} 生成された関数\n */\nexport default function someFn(...fs) {\n  return (...args) => some(f => f(...args), fs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/someFn.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 209,
+    "kind": "function",
+    "name": "someFn",
+    "memberof": "src/someFn.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/someFn.js~someFn",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/someFn.js",
+    "importStyle": "someFn",
+    "description": "引数で指定される条件を一つでも満たすかを確認する関数を生成します。",
+    "lineNumber": 10,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "fs",
+        "description": "関数"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "function"
+      ],
+      "spread": false,
+      "description": "生成された関数"
+    }
+  },
+  {
+    "__docId__": 210,
+    "kind": "file",
+    "name": "src/sort.js",
+    "content": "import sequence from './sequence';\n\n/**\n * ソートします。\n *\n * @param {*[]} args - [comp, coll]か[coll]。compが省略された場合は<演算子。\n *\n * @return {iterator} ソートされた集合のイテレーター\n *\n * @example\n * sort(                 [2, 3, 1]);  // [1, 2, 3]のイテレーター\n * sort((x, y) => x > y, [2, 3, 1]);  // [3, 2, 1]のイテレーター\n */\nexport default function sort(...args) {\n  const [comp, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      return [(x, y) => x < y, args[0]];\n\n    default:\n      return args;\n    }\n  })();\n\n  const _ = function(xs, l, r) {\n    if (l < r) {\n      let i = l;\n      let j = r;\n\n      let pivot = comp(xs[i], xs[j]) ? xs[j] : xs[i];\n\n      for (;;) {\n        while (comp(xs[i], pivot)) {\n          i++;\n        }\n        while (comp(pivot, xs[j])) {\n          j--;\n        }\n\n        if (i >= j) {\n          break;\n        }\n\n        const temp = xs[i]; xs[i] = xs[j]; xs[j] = temp;\n\n        i++;\n        j--;\n      }\n\n      _(xs, l, i - 1);\n      _(xs, j + 1, r);\n    }\n  };\n\n  const xs = Array.from(coll);\n\n  _(xs, 0, xs.length - 1);\n\n  return sequence(xs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/sort.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 211,
+    "kind": "function",
+    "name": "sort",
+    "memberof": "src/sort.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sort.js~sort",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/sort.js",
+    "importStyle": "sort",
+    "description": "ソートします。",
+    "examples": [
+      "sort(                 [2, 3, 1]);  // [1, 2, 3]のイテレーター\nsort((x, y) => x > y, [2, 3, 1]);  // [3, 2, 1]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[comp, coll]か[coll]。compが省略された場合は<演算子。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "ソートされた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 212,
+    "kind": "file",
+    "name": "src/sortBy.js",
+    "content": "import sort from './sort';\n\n/**\n * 関数の戻り値でソートします。\n *\n * @param {*[]} args - [keyfn, comp, coll]か[keyfn, coll]。compが省略された場合は<演算子。\n *\n * @return {iterator} ソートされた集合のイテレーター\n *\n * @example\n * sortBy(x => x.getAge(), xs);  // 年齢順でソート\n */\nexport default function sortBy(...args) {\n  const [keyfn, comp, coll] = (() => {\n    switch (args.length) {\n    case 0:\n      throw 'Invalid arguments';\n\n    case 1:\n      throw 'Invalid arguments';\n\n    case 2:\n      return [args[0], (x, y) => x < y, args[1]];\n\n    default:\n      return args;\n    }\n  })();\n\n  return sort((x, y) => comp(keyfn(x), keyfn(y)), coll);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/sortBy.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 213,
+    "kind": "function",
+    "name": "sortBy",
+    "memberof": "src/sortBy.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sortBy.js~sortBy",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/sortBy.js",
+    "importStyle": "sortBy",
+    "description": "関数の戻り値でソートします。",
+    "examples": [
+      "sortBy(x => x.getAge(), xs);  // 年齢順でソート"
+    ],
+    "lineNumber": 13,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "args",
+        "description": "[keyfn, comp, coll]か[keyfn, coll]。compが省略された場合は<演算子。"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "ソートされた集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 214,
+    "kind": "file",
+    "name": "src/splitAt.js",
+    "content": "import drop     from './drop';\nimport juxt     from './juxt';\nimport partial  from './partial';\nimport sequence from './sequence';\nimport take     from './take';\n\n/**\n * 指定した箇所で集合を分割します。\n *\n * @param {number} n - 分割する場所\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator[]} 分割された集合のイテレーターの配列\n *\n * @example\n * splitAt(2, [1, 2, 3, 4, 5]);  // [[1, 2]のイテレーター, [3, 4, 5]のイテレーター]\n */\nexport default function splitAt(n, coll) {\n  return juxt(partial(take, n), partial(drop, n))(sequence(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/splitAt.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 215,
+    "kind": "function",
+    "name": "splitAt",
+    "memberof": "src/splitAt.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/splitAt.js~splitAt",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/splitAt.js",
+    "importStyle": "splitAt",
+    "description": "指定した箇所で集合を分割します。",
+    "examples": [
+      "splitAt(2, [1, 2, 3, 4, 5]);  // [[1, 2]のイテレーター, [3, 4, 5]のイテレーター]"
+    ],
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "分割する場所"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator[]"
+      ],
+      "spread": false,
+      "description": "分割された集合のイテレーターの配列"
+    }
+  },
+  {
+    "__docId__": 216,
+    "kind": "file",
+    "name": "src/splitWith.js",
+    "content": "import dropWhile from './dropWhile';\nimport juxt      from './juxt';\nimport partial   from './partial';\nimport sequence  from './sequence';\nimport takeWhile from './takeWhile';\n\n/**\n * 先頭から続く指定した条件を満たす要素の集合tと、そうでない要素の集合に分割します。[takeWhile(pred, coll), dropWhile(pred, coll)]です。\n *\n * @param {function} pred - 条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator[]} 分割された集合のイテレーターの配列\n *\n * @example\n * splitWith(x => x < 3, [1, 2, 3, 2, 1]);  // [[1, 2]のイテレーター, [3, 2, 1]のイテレーター]\n */\nexport default function splitWith(pred, coll) {\n  return juxt(partial(takeWhile, pred), partial(dropWhile, pred))(sequence(coll));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/splitWith.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 217,
+    "kind": "function",
+    "name": "splitWith",
+    "memberof": "src/splitWith.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/splitWith.js~splitWith",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/splitWith.js",
+    "importStyle": "splitWith",
+    "description": "先頭から続く指定した条件を満たす要素の集合tと、そうでない要素の集合に分割します。[takeWhile(pred, coll), dropWhile(pred, coll)]です。",
+    "examples": [
+      "splitWith(x => x < 3, [1, 2, 3, 2, 1]);  // [[1, 2]のイテレーター, [3, 2, 1]のイテレーター]"
+    ],
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator[]"
+      ],
+      "spread": false,
+      "description": "分割された集合のイテレーターの配列"
+    }
+  },
+  {
+    "__docId__": 218,
+    "kind": "file",
+    "name": "src/take.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の先頭n個の要素のイテレーターを返します。\n *\n * @param {number} n - 取得する要素の数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 先頭n個の要素の集合のイテレーター\n *\n * @example\n * take(3, range());  // [0, 1, 2]のイテレーター\n */\nexport default function* take(n, coll) {\n  const iter = sequence(coll);\n\n  for (let i = 0; i < n; ++i) {\n    const next = iter.next();\n    if (next.done) {\n      break;\n    }\n\n    yield next.value;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/take.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 219,
+    "kind": "function",
+    "name": "take",
+    "memberof": "src/take.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/take.js~take",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/take.js",
+    "importStyle": "take",
+    "description": "集合の先頭n個の要素のイテレーターを返します。",
+    "examples": [
+      "take(3, range());  // [0, 1, 2]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "取得する要素の数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "先頭n個の要素の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 220,
+    "kind": "file",
+    "name": "src/takeLast.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 集合の末尾n個の要素のイテレーターを返します。\n *\n * @param {number} n - 取得する要素の数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 末尾n個の要素の集合のイテレーター\n *\n * @example\n * takeLast(3, range(10));  // [7, 8, 9]のイテレーター\n */\nexport default function takeLast(n, coll) {\n  const xs = [];\n\n  for (const x of sequence(coll)) {\n    xs.push(x);\n\n    if (xs.length > n) {\n      xs.shift();\n    }\n  }\n\n  return sequence(xs);\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/takeLast.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 221,
+    "kind": "function",
+    "name": "takeLast",
+    "memberof": "src/takeLast.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/takeLast.js~takeLast",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/takeLast.js",
+    "importStyle": "takeLast",
+    "description": "集合の末尾n個の要素のイテレーターを返します。",
+    "examples": [
+      "takeLast(3, range(10));  // [7, 8, 9]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "取得する要素の数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "末尾n個の要素の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 222,
+    "kind": "file",
+    "name": "src/takeNth.js",
+    "content": "import sequence from './sequence';\n\n/**\n * n個単位に要素を抽出した集合のイテレーターを返します。\n *\n * @param {number} n - 取得する要素の場所\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} n番目の要素、n * 2番目の要素、n * 3番目の要素...の集合のイテレーター\n *\n * @example\n * takeNth(2, range());  [0, 2, 4, 6, 8, 10...]のイテレーター\n */\nexport default function* takeNth(n, coll) {\n  let i = 0;\n\n  for (const x of sequence(coll)) {\n    if (i++ % n === 0) {\n      yield x;\n    }\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/takeNth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 223,
+    "kind": "function",
+    "name": "takeNth",
+    "memberof": "src/takeNth.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/takeNth.js~takeNth",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/takeNth.js",
+    "importStyle": "takeNth",
+    "description": "n個単位に要素を抽出した集合のイテレーターを返します。",
+    "examples": [
+      "takeNth(2, range());  [0, 2, 4, 6, 8, 10...]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "取得する要素の場所"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "n番目の要素、n * 2番目の要素、n * 3番目の要素...の集合のイテレーター"
+    }
+  },
+  {
+    "__docId__": 224,
+    "kind": "file",
+    "name": "src/takeWhile.js",
+    "content": "import sequence from './sequence';\n\n/**\n * 先頭から続く、条件を満たす要素を抽出したイテレーターを返します。\n *\n * @param {function} pred - 抽出する条件\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} 先頭から続く条件を満たす要素が抽出されたイテレーター\n *\n * @example\n * takeWhile(x => x < 2, [0, 1, 2, 3, 2, 1, 0]);  // [0, 1]のイテレーター\n */\nexport default function* takeWhile(pred, coll) {\n  for (const x of sequence(coll)) {\n    if (!pred(x)) {\n      return;\n    }\n\n    yield x;\n  }\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/takeWhile.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 225,
+    "kind": "function",
+    "name": "takeWhile",
+    "memberof": "src/takeWhile.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/takeWhile.js~takeWhile",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/takeWhile.js",
+    "importStyle": "takeWhile",
+    "description": "先頭から続く、条件を満たす要素を抽出したイテレーターを返します。",
+    "examples": [
+      "takeWhile(x => x < 2, [0, 1, 2, 3, 2, 1, 0]);  // [0, 1]のイテレーター"
+    ],
+    "lineNumber": 14,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "function"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "pred",
+        "description": "抽出する条件"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "先頭から続く条件を満たす要素が抽出されたイテレーター"
+    }
+  },
+  {
+    "__docId__": 226,
+    "kind": "file",
+    "name": "src/tee.js",
+    "content": "import count    from './count';\nimport filter   from './filter';\nimport map      from './map';\nimport range    from './range';\nimport repeat   from './repeat';\nimport sequence from './sequence';\n\n/**\n * イテレーターを複数に分けます。\n *\n * @param {number} n - イテレーターの個数\n * @param {*[] | iterator | null} coll - 集合\n *\n * @return {iterator} イテレーターの集合\n */\nexport default function tee(n, coll) {\n  const iter = sequence(coll);\n\n  const queue = [];\n  const cupPositions = Array.from(repeat(n, 0));\n\n  return map(function*(i) {\n    for (;;) {\n      const maxPosition = Math.max(...cupPositions);\n      const minPosition = Math.min(...cupPositions);\n\n      if (cupPositions[i] === maxPosition) {\n        queue.push(iter.next());\n      }\n\n      const next = queue[cupPositions[i] - minPosition];\n      if (next.done) {\n        break;\n      }\n\n      if (cupPositions[i] === minPosition && count(filter(position => position === minPosition, cupPositions)) == 1) {\n        queue.shift();\n      }\n\n      cupPositions[i]++;\n\n      yield next.value;\n    }\n  }, range(n));\n}\n",
+    "static": true,
+    "longname": "/home/ryo/Documents/Projects/lajure/src/tee.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 227,
+    "kind": "function",
+    "name": "tee",
+    "memberof": "src/tee.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/tee.js~tee",
+    "access": "public",
+    "export": true,
+    "importPath": "lajure/src/tee.js",
+    "importStyle": "tee",
+    "description": "イテレーターを複数に分けます。",
+    "lineNumber": 16,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "n",
+        "description": "イテレーターの個数"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*[] ",
+          " iterator ",
+          " null"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "coll",
+        "description": "集合"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "iterator"
+      ],
+      "spread": false,
+      "description": "イテレーターの集合"
+    }
+  },
+  {
+    "kind": "index",
+    "content": "# lajure\n\nECMAScriptの`iterator`を活用した、Clojureの標準ライブラリ風の関数型プログラミング・ライブラリです。\n\n## Usage\n\nlajureは、Node.jsバージョン8.0以降をサポートしています。皆様のパッケージに、以下のコマンドでインストールしてください。\n\n~~~shell\n$ npm install lajure\n$ npm install -D babel-plugin-lajure\n~~~\n\nまた、lajureはBabelによるトランスパイルを前提としています。以下のコマンドで、Babelをインストールしておいてください。\n\n~~~shell\n$ npm install -D babel-cli babel-preset-env babel-register\n~~~\n\nその上で、BabelとlajureのBabelプラグインを呼び出すように、package.jsonを編集してください。\n\n~~~json\n{\n  \"name\": \"...\",\n  \"version\": \"...\",\n  \"description\": \"...\",\n  \"author\": \"...\",\n  \"license\": \"...\",\n  \"private\": true,\n  \"babel\": {\n    \"presets\": [\n      [\n        \"env\",\n        {\n          \"targets\": {\n            \"node\": 8\n          }\n        }\n      ]\n    ],\n    \"plugins\": [\n      \"babel-plugin-lajure\"\n    ]\n  },\n  \"scripts\": {\n    \"start\": \"node -r babel-register src/app.js\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"...\",\n    \"babel-plugin-lajure\": \"...\",\n    \"babel-preset-env\": \"...\",\n    \"babel-register\": \"...\"\n  },\n  \"dependencies\": {\n    \"lajure\": \"...\"\n  }\n}\n~~~\n\npackage.jsonに追加しなければならないのは、`\"babel\"`の部分と`\"scripts\"`の中の`\"start\"`の部分です（`\"start\"`の内容は、皆様のプロジェクトに合わせて適宜変更してください）。\n\nこれで、`src/app.js`にコードを書けば、`npm start`で実行できます。\n\n## Why iterator and lajure?\n\nどうして`iterator`とlajureを使用するのか、`iterator`とlajureを使用するとどのような良いことがあるのかを、具体的に見ていきましょう。題材は、[Project Euler](https://projecteuler.net/)です。\n\n### 問題1「3か5の倍数」\n\nProject Eulerの問題1は、「10未満の自然数で、3か5の倍数は3と5、6、9。その合計は23。では、1,000未満の場合は？」です。いきなり全部は難しいので、順を追って実装していきましょう。まずは、「自然数」をやります。\n\n自然数は、1, 2, 3...と無限に続く集合です。無限の大きさなので、もちろん`Array`では表現できません。だから、別のやり方で表現します。こんな感じ。\n\n~~~javascript\nfunction* getNaturalNumbers() {\n  let i = 1;\n\n  for (;;) {\n    yield i;\n\n    i++;\n  }\n}\n~~~\n\n`function`の後ろに`*`がついていますので、`getNaturalNumbers`は普通の関数ではなくて、ジェネレーターです。ジェネレーターは`iterator`を返し、`iterator`の`next`メソッドが呼ばれるたびに`yield`までの処理をを実行して制御を呼び出し側に戻します。上のコードには無限を表現するための無限ループがありますけど、`yield`するたびに呼び出し側に制御が戻るのだから何も問題はありません。\n\n試してみましょう。\n\n~~~javascript\nconst naturalNumbers = getNatualNumbaers();\n\nconsole.log(naturalNumbers.next().value);  // 1\nconsole.log(naturalNumbers.next().value);  // 2\nconsole.log(naturalNumbers.next().value);  // 3\n~~~\n\nほら、プログラムがきちんと止まります。ただ、`iterator`を裸で使うのは少し面倒ですから、lajureが提供する関数を使用しましょう。条件を満たす場合だけ`iterator`を`next`する、`takeWhile`関数を使います。\n\n~~~javascript\nimport {takeWhile} from 'lajure';\n\nconst targetNaturalNumbers = takeWhile(x => x < 10, naturalNumbers);\n\nfor (const x of targetNaturalNumbers) {  // `for...of`（`in`ではないことに注意）は、`iterator`の要素を使用してループします。\n  console.log(x);  // 1, 2, 3...9\n}\n~~~\n\n上のコードの`x < 10`を`x < 1000`にすれば要求である「1000未満の自然数」を表現できる……のですけど、少しだけ戻って`getNaturalNumbers()`を修正しておきましょう。今のままだと長すぎて、そして順に処理を追っていかないと理解できなくて、つまりは保守性が低すぎるためです。ある値に処理を繰り返した値の集合を返す`iterate`関数を使用しましょう。\n\n~~~javascript\nimport {inc, iterate} from 'lajure';  // incは引数に1を足す関数です。\n\nfunction getNaturalNumbers() {\n  return iterate(inc, 1);\n}\n~~~\n\n`iterate(f, x)`というコードは、`x, f(x), f(f(x)), f(f(f(x)))...`を表現する`iterator`を返します。`iterate`を知っていれば、この短いコードで、1から始まる1づつ増えていく数値の集合だということがすぐに分かって便利で保守性が高くて素敵。\n\nこれでコードがきれいになりましたから、続きをやりましょう。「3か5の倍数」の部分です。この部分は、集合の中から指定した条件を満たす要素を抜き出す`filter`関数を使用すれば実装できます。こんな感じ。\n\n~~~javascript\nimport {filter} from 'lajure';\n\nconst multiples = filter(x => x % 3 === 0 || x % 5 === 0, targetNaturalNumbers);\n~~~\n\n「3で割った余りが0、または、5で割った余りが0」なら、その数値は3か5の倍数ですよね？\n\n最後、「合計」の部分です。これは、要素を畳み込む`reduce`関数を使用します。\n\n~~~javascript\nimport {reduce} from 'lajure';\n\nconst anser = reduce((acc, x) => acc + x, multiples);\n~~~\n\n`reduce(f, [1, 2, 3, 4, 5])`は、`f(f(f(f(1, 2), 3), 4), 5)`を実行して、集合ではなく値を返します。一つ前の要素の処理結果が`acc`として渡ってくるというわけ。\n\nというわけで、これで完成かな？　ここまでをまとめてみましょう。一時変数は状態をもたらして副作用を引き起こす危険性があるので削除します。その結果は、こんな感じ。\n\n~~~javascript\nimport {filter, inc, iterate, reduce, takeWhile} from 'lajure';\n\nfunction getNaturalNumbers() {\n  return iterate(inc, 1);\n}\n\nconst answer = reduce((acc, x) => acc + x,\n                      filter(x => x % 3 === 0 || x % 5 === 0,\n                             takeWhile(x => x < 1000,\n                                       getNaturalNumbers())));\n~~~\n\nあらら、なんだかキョーレツに分かりづらい……。処理の順序と記述順序が逆な上に、無駄にインデントしちゃっています。これでは保守性が低すぎますから、lajureが提供する`tCall`マクロで分かりやすく書き直しましょう。\n\n~~~javascript\nconst answer1 = tCall(getNaturalNumbers(),\n                      takeWhile(x => x < 1000),\n                      filter(x => x % 3 === 0 || x % 5 === 0),\n                      reduce((acc, x) => acc + x)));\n~~~\n\n`tCall`マクロは、関数の実行結果を、次の関数の最後の引数に設定するコードを生成します。`tCall(x, foo(1), bar(2))`なら、`bar(2, foo(1, x))`に相当するコードが生成されるというわけ。\n\nというわけで、これがProject Eulerの問題1を解くプログラムの完成形です。\n\n~~~javascript\nimport {filter, inc, iterate, reduce, takeWhile} from 'lajure';\n\nfunction getNaturalNumbers() {\n  return iterate(inc, 1);\n}\n\nconst answer1 = tCall(getNaturalNumbers(),                      // 自然数で\n                      takeWhile(x => x < 1000),                 // 1000未満で\n                      filter(x => x % 3 === 0 || x % 5 === 0),  // 3と5の倍数の数を\n                      reduce((acc, x) => acc + x));             // 合計する\n~~~\n\n問題文がそのままコードになっていますね。`iterator`とlajureは便利な感じがしてきませんか？\n\n## 問題2「偶数のフィボナッチ数列」\n\n本当に便利なのかを確認するために、Project Eulerの問題2の、「4百万未満のフィボナッチ数列の偶数だけを合計したらいくつになるか？」をやりましょう。フィボナッチ数列というのは、1, 2, 3, 5, 8, 13, 21, 34, 55, 89...みたいに、前の2つ要素を足し合わせた値が次に続く数列です。1 + 2 = 3、2 + 3 = 5、3 + 5 = 8と続いているでしょ？\n\nこのフィボナッチ数列を`iterator`とlajureで実装したのが、以下のコードです。\n\n~~~javascript\nimport {cons} from 'lajure';\n\nfuncton getFibonacciNumbers(x, y) {\n  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n}\n~~~\n\n`cons`は`iterator`を作る関数です。`cons(１つめの要素、残りの要素)`と使用します。残りの要素を作るには再帰呼出ししなければならないのですけど、普通に再帰呼び出しすると無限に呼び出されてスタック・オーバーフローしてしまいますから、`lazySeq`マクロを入れて`next()`されるまでは再帰呼び出しが実行されないようなコードを生成します。\n\nこのコードはlajureを作るときに参考にしたClojureでは頻出するイディオムなのですけど、Clojureに馴染みがないと分かりづらいかもしれませんね……。そんな場合向けに素のJavaScriptで書いたバージョンもあげておきましょう。\n\n~~~javascript\nfunction* getFibonacciNumbers(x, y) {\n  yield  x;\n  yield* getFibonacciNumbers(y, x + y);\n}\n~~~\n\n`yield*`は、集合の残りを別の`iterator`に委任する命令です。とりあえず1つ返して、残りは再帰呼出しした先に任せて、で、再帰呼出しした先でも同様に順送りするから、無限に続くフィボナッチ数列を表現できるというわけ。ともあれ、これでフィボナッチ数列はできましたから、あとは問題を解くだけです。問題1と同じやり方でいけます。\n\n~~~javascript\nimport {cons, filter, reduce, takeWhile} from 'lajure';\n\nfunction getFibonacciNumbers(x, y) {\n  return cons(x, lazySeq(getFibonacciNumbers(y, x + y)));\n}\n\nconst answer2 = tCall(getFibonacciNumbers(1, 2),     // フィボナッチ数列で\n                      takeWhile(x => x < 4000000),   // 4百万未満で\n                      filter(x => x % 2 === 0),      // 偶数の数を\n                      reduce((acc, x) => acc + x));  // 合計する\n~~~\n\nはい、完了。とてもかんたんですね。ここまでかんたんにプログラミングできた理由は、関数型プログラミングをしているためです。関数型プログラミングでは、どのようにやるのかではなく、定義そのものを書いていきます。普通のコンピューターで実行する以上、どこかで`for`文や`if`などの、コンピューターが実行可能な範囲でどのようにやるかを書かなければならないのですけど、それらの処理はパターン化できます。このパターンをライブラリ化してしまえば、ほら、上のコードのように定義だけを書くかんたんプログラミングができるのです。\n\nでも、裏を返せばパターンの知識がないとコードを書けないわけで、もしそのパターンを覚えるのが大変だったら全然かんたんじゃあないことにもなりますけど、どうかご安心ください。lajureはClojureのライブラリを参考にして作っていて、そのClojureはとても優れたライブラリを持っています。どれくらい優れているかというと、[Clojure - Cheatsheet](https://clojure.org/api/cheatsheet)にあるとても少数の関数だけで大抵のプログラムを組めちゃうくらいにコンパクトで表現力が高いんです。覚えなければならないパターンはとても少ないのですから、やはりとってもかんたんです。\n\n## 問題3「最大の素因数」\n\n`iterator`についてもやりましょう。無限の集合を扱える`iterator`の便利さを知るために、もう1問やります。問題3の「600851475143の最大の素因数は？」です。\n\nさて、素因数分解をするには、まずは素数の集合が欲しい。素数ってのは、「1より大きく、1と自分自身でしか割り切れない数」です。単純に実装してみると、以下になるでしょうか？\n\n~~~javascript\nimport {every, filter, inc, iterate, takeWhile} from 'lajure';\n\nfunction getPrimeNumbers() {\n  return tCall(iterate(inc, 2),\n               filter(x => tCall(iterate(inc, 2),\n                                 takeWhile(y => y < x),\n                                 every(y => x % y !== 0))));\n}\n~~~\n\n`every`関数は、集合のすべての要素が条件を満たすかを調べます。2以上の整数すべてで割った余りが0ではないなら、それは素数ですよね？\n\nでも、このコードはもう少し効率化できます。まず、2以外の偶数は2で割り切れるので素数じゃありません。だから、奇数だけを調べればよい。あと、2以上の数ではなくて、「平方根以下」の「素数」で割り切れない場合は、素数なんだそうです。でも、「平方根以下」はともかくとして、「素数」の集合を取得する関数の中で「素数」の集合を使用してもよいのでしょうか？\n\n結論から言えば、大丈夫です。必要な素数は対象の平方根以下で、たとえば25が素数かどうかを調べるときには25の平方根である5以下の素数までしか必要ありません。問題になるのは最初の1つですけど、これは2に決まっているので決め打ちで2を返してしまえばよい。というわけで、コードは以下になります。コード中の`dropWhile`は、`takeWhile`の逆です。\n\n~~~javascript\nimport {dropWhile, every, filter, iterate, takeWhile} from 'lajure';\n\nfunction getOddNumbers() {\n  return iterate(x => x + 2, 1);  // 奇数\n}\n\nfunction getPrimeNumbers() {\n  return cons(2,                                                    // 2と、\n              tCall(getOddNumbers(),                                // 奇数で\n                    dropWhile(x => x < 3),                          // 3未満ではなくて、\n                    filter(x => tCall(getPrimeNumbers(),            // 素数の\n                                      takeWhile(p => p ** 2 <= x),  // 平方根以下で\n                                      every(p => x % p !== 0)))));  // 割り切れない数\n}\n~~~\n\n試してみましょう。\n\n~~~javascript\nconsole.log(Array.from(drop(990, take(1000, getPrimeNumbers()))));\n~~~\n\n991番目から1000番目の素数は、7841, 7853, 7867, 7873, 7877, 7879, 7883, 7901, 7907, 7919みたいですね。\n\nここまでできれば、素因数分解は割り切れる素数を探していくだけなので、とてもかんたん。以下のようなコードになります。\n\n~~~javascript\nfunction getPrimeFactors(n) {\n  if (n === 1) {  // 1は素因数分解できないので、\n    return null;  // 空集合。\n  }\n\n  const p = (tCall(getPrimeNumbers(),                     // 素数の\n                   takeWhile(p => p ** 2 <= n),           // 平方根以下で\n                   some(p => n % p === 0 ? p : null)) ||  // 割り切れた数。または、\n             n);                                          // 素数であるnそのもの\n\n  return cons(p, lazySeq(getPrimeFactors(n / p)));\n}\n~~~\n\nlajureでは`null`を空集合として扱うので、素因数分解が完了したら（`n === 1`になったら）、`null`を返します。今回は素数を探す場合とは違って「割り切れる数があったら」なので、`every`ではなく`some`を使用します。`every`はすべて真かを聞かれているので真か偽で答えるしかないですけど、`some`の場合は一つでも真があったら「こいつが真だったから真」と答えます。だから`p => n % p === 0 ? p : null`としておけば、最初に割り切れた素数そのものを取得できるというわけ。あと、最後まで真が見つからない場合は偽の値であるnullが返りますので、`||`で続けて`n`そのものを返します。あとはいつもの`cons`と`lazySeq`で終わり。\n\nというわけで、問題3を解答するコードは以下の通り。\n\n~~~javascript\nimport {cons, dropWhile, every, filter, iterate, last, some, takeWhile} from 'lajure';\n\nfunction getOddNumbers() {\n  return iterate(x => x + 2, 1);  // 奇数\n}\n\nfunction getPrimeNumbers() {\n  return cons(2,                                                    // 2と、\n              tCall(getOddNumbers(),                                // 奇数で\n                    dropWhile(x => x < 3),                          // 3未満ではなくて、\n                    filter(x => tCall(getPrimeNumbers(),            // 素数の\n                                      takeWhile(p => p ** 2 <= x),  // 平方根以下で\n                                      every(p => x % p !== 0)))));  // 割り切れない数\n}\n\nfunction getPrimeFactors(n) {\n  if (n === 1) {  // 1は素因数分解できないので、\n    return null;  // 空集合。\n  }\n\n  const p = (tCall(getPrimeNumbers(),                     // 素数の\n                   takeWhile(p => p ** 2 <= n),           // 平方根以下で\n                   some(p => n % p === 0 ? p : null)) ||  // 割り切れた数。または、\n             n);                                          // 素数であるnそのもの\n\n  return cons(p, lazySeq(getPrimeFactors(n / p)));\n}\n\nconst answer3 = last(getPrimeFactors(600851475143));  // lastは最後の要素を返す関数です。\n~~~\n\nほら、`iterator`便利でしょ？　ぜひ使いましょう。今すぐ使いましょう。その際に、もしよろしければ、lajureも。\n\n\n# For Clojurian\n\nClojure使いの皆様は、以下にご注意ください。\n\n## tee\n\nClojureはコンス・セルに基づくリストを使用していて、JavaScriptの`iterator`は反復処理です。よって、Clojureとはいろいろと使い方が異なります。一番の違いは、`iterator`は消費するとなくなってしまうことです。\n\n~~~javascript\nconst xs = take(5, iterate(inc, 1));\n\nconst array1 = Array.from(xs);  // [1, 2, 3, 4, 5]\nconst array2 = Array.from(xs);  // []。xsは上の行で消費されたので、空集合になります。\n~~~\n\nこの影響で、先程の素数を取得する関数では、それまでの処理で見つけた素数群を利用するのではなく、再度処理を実行して素数を見つけています。それまでの処理で見つけた素数群を利用しちゃうと、せっかく見つけた素数がなくなっちゃいますからね（だから、ごめんなさい。実は先程のコードはそんなに速くないです）。\n\nJavaScriptと同様の`iterator`を使用する言語としてはPythonがあって、Pythonでは`iterator`を複数回使用する場合向けに`tee`という関数を用意しています。lajureにも`tee`関数がありますので、必要に応じて使ってみてください。\n\n~~~javascript\nimport {inc, iterate, take, tee} from 'lajure';\n\nconst [xs1, xs2] = tee(2, take(5, iterate(inc, 1)));\n\nconst array1 = Array.from(xs1);  // [1, 2, 3, 4, 5]\nconst array2 = Array.from(xs2);  // [1, 2, 3, 4, 5]\n~~~\n\n## juxt\n\nコンス・セルと`iterator`問題は、`juxt`に大きく影響します。`juxt(foo, bar)(iter)`とした場合、`foo(iter)`を実行した段階で`iterator`が消費されるので、続く`bar(iter)`が予想外の動作をしてしまいます。そこで、lajureの`juxt`では、`juxt`で生成した関数の引数が`iterator`一つだけだった場合は、`tee`するようにしました。\n\n~~~javascript\nimport {first, juxt, range, rest} from 'lajure';\n\nconst [item, iter] = juxt(first, rest)(range(5));\n\nconsole.log(item);               // 0\nconsole.log(Array.from(iter));   // [ 1, 2, 3, 4 ]\n~~~\n\n## lazySeq\n\nClojureの`lazy-seq`は複数の文を受け取れますが、lajureの`lazySeq`マクロは関数呼び出し一つしか受け取れません。BabelはECMAScriptの文法に含まれるコードしかパースできないためです。\n\nこの制限は、匿名関数を使用し、`lazySeq`マクロの代わりに`lazySeqFn`関数を使用すれば回避できます（実は、`lazySeq`マクロは引数を匿名関数でくるんで、`lazySeqFn`関数を呼び出しているだけなんです。Babelが難しくて、その程度しかできませんでした……）。\n\n~~~javascript\nimport {cons, lazySeqFn} from 'lajure';\n\ncons(x, lazySeqFn(() => {\n  ...\n  ...\n  ...\n\n  return ...\n}));\n~~~\n",
+    "longname": "/home/ryo/Documents/Projects/lajure/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"lajure\",\n  \"version\": \"0.0.2\",\n  \"description\": \"Clojure like Functional Programming library using ES6 iterable/iterator.\",\n  \"author\": \"OJIMA Ryoji\",\n  \"license\": \"EPL-1.0\",\n  \"main\": \"lib/index.js\",\n  \"files\": [\n    \"lib\"\n  ],\n  \"engines\": {\n    \"node\": \">= 8\"\n  },\n  \"babel\": {\n    \"presets\": [\n      [\n        \"env\",\n        {\n          \"targets\": {\n            \"node\": 8\n          }\n        }\n      ]\n    ]\n  },\n  \"scripts\": {\n    \"test\": \"mocha --require babel-register test/**/*.js\",\n    \"build\": \"babel src --out-dir lib\",\n    \"prepare\": \"npm run build\",\n    \"esdoc\": \"esdoc\"\n  },\n  \"devDependencies\": {\n    \"babel-cli\": \"^6.26.0\",\n    \"babel-preset-env\": \"^1.7.0\",\n    \"babel-register\": \"^6.26.0\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"mocha\": \"^5.2.0\"\n  }\n}\n",
+    "longname": "/home/ryo/Documents/Projects/lajure/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]
