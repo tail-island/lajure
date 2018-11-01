@@ -5,6 +5,14 @@ import range    from './range';
 import repeat   from './repeat';
 import sequence from './sequence';
 
+/**
+ * イテレーターを複数に分けます。
+ *
+ * @param {number} n - イテレーターの個数
+ * @param {*[] | iterator | null} coll - 集合
+ *
+ * @return {iterator} イテレーターの集合
+ */
 export default function tee(n, coll) {
   const iter = sequence(coll);
 

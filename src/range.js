@@ -1,3 +1,16 @@
+/**
+ * 範囲を表現するイテレーターを返します。
+ *
+ * @param {number[]} args - []か[end]、[start, end]、[start, end step]のどれか。startのデフォルト値は0、stepのデフォルト値は1、endのデフォルト値は無限
+ *
+ * @return {iterator} 範囲のイテレーター
+ *
+ * @example
+ * range();         // [0, 1, 2, 3, ...]のイテレーター
+ * range(5);        // [0, 1, 2, 3, 4]のイテレーター
+ * range(1, 5);     // [1, 2, 3, 4]のイテレーター
+ * range(1, 5, 2);  // [1, 3]のイテレーター
+ */
 export default function* range(...args) {
   const [start, end, step] = (() => {
     switch (args.length) {

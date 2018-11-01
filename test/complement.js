@@ -9,4 +9,8 @@ describe('test complement', () => {
     assert.strictEqual(complement((a, b) => a == b)(1, 1), false);
     assert.strictEqual(complement((a, b) => a != b)(1, 1), true);
   });
+
+  it('null', () => {
+    assert.strictEqual(complement(() => null)(), true);
+  });
 });

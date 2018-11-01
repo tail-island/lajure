@@ -1,3 +1,10 @@
+/**
+ * 関数をメモ化します。
+ *
+ * @param {function} f - 関数
+ *
+ * @return {function} メモ化した関数
+ */
 export default function memoize(f) {
   const memo = new Map();
 

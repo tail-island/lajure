@@ -1,5 +1,15 @@
 import sort from './sort';
 
+/**
+ * 関数の戻り値でソートします。
+ *
+ * @param {*[]} args - [keyfn, comp, coll]か[keyfn, coll]。compが省略された場合は<演算子。
+ *
+ * @return {iterator} ソートされた集合のイテレーター
+ *
+ * @example
+ * sortBy(x => x.getAge(), xs);  // 年齢順でソート
+ */
 export default function sortBy(...args) {
   const [keyfn, comp, coll] = (() => {
     switch (args.length) {

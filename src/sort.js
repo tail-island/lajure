@@ -1,5 +1,16 @@
 import sequence from './sequence';
 
+/**
+ * ソートします。
+ *
+ * @param {*[]} args - [comp, coll]か[coll]。compが省略された場合は<演算子。
+ *
+ * @return {iterator} ソートされた集合のイテレーター
+ *
+ * @example
+ * sort(                 [2, 3, 1]);  // [1, 2, 3]のイテレーター
+ * sort((x, y) => x > y, [2, 3, 1]);  // [3, 2, 1]のイテレーター
+ */
 export default function sort(...args) {
   const [comp, coll] = (() => {
     switch (args.length) {

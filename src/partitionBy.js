@@ -1,6 +1,17 @@
 import seq      from './seq';
 import sequence from './sequence';
 
+/**
+ * 指定した関数の戻り値が変更になるたびに、集合を分割します。
+ *
+ * @param {function} f - 関数
+ * @param {*[] | iterator | null} coll - 集合
+ *
+ * @return {iterator} 分割された集合のイテレーター
+ *
+ * @example
+ * partitionBy(x => x % 2 === 0, [1, 1, 1, 2, 2, 3, 3, 4]);  // [[1, 1, 1], [2, 2], [3, 3], [4]]のイテレーター
+ */
 export default function* partitionBy(f, coll) {
   const iter = seq(coll);
   if (!iter) {
@@ -24,7 +35,5 @@ export default function* partitionBy(f, coll) {
     xs.push(x);
   }
 
-  if (xs.length > 0) {
-    yield xs;
-  }
+  yield xs;
 }
