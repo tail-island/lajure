@@ -61,6 +61,10 @@ package.jsonに追加しなければならないのは、`"babel"`の部分と`"
 
 これで、`src/app.js`にコードを書けば、`npm start`で実行できます。
 
+## Reference
+
+* [APIドキュメント](https://tail-island.github.io/lajure/)
+
 ## Why iterator and lajure?
 
 どうして`iterator`とlajureを使用するのか、`iterator`とlajureを使用するとどのような良いことがあるのかを、具体的に見ていきましょう。題材は、[Project Euler](https://projecteuler.net/)です。
